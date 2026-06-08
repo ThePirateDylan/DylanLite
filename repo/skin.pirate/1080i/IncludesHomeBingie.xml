@@ -826,7 +826,7 @@
 			<control type="image">
 				<width>9</width>
 				<height>40</height>
-				<texture background="true" colordiffuse="ffE50914">bingie/line.png</texture>
+				<texture background="true" colordiffuse="ff3fa9ff">bingie/line.png</texture>
 			</control>
 			<control type="label">
 				<width>auto</width>

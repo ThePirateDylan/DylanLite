@@ -75,8 +75,8 @@
 						<height>54</height>
 						<font>Reg24</font>
 						<textcolor>a6ffffff</textcolor>
-						<focusedcolor>ff000000</focusedcolor>
-						<selectedcolor>ff000000</selectedcolor>
+						<focusedcolor>ff091420</focusedcolor>
+						<selectedcolor>ff091420</selectedcolor>
 						<textoffsetx>20</textoffsetx>
 						<aligny>center</aligny>
 						<align>center</align>
@@ -101,8 +101,8 @@
 						<height>54</height>
 						<font>Reg24</font>
 						<textcolor>a6ffffff</textcolor>
-						<focusedcolor>ff000000</focusedcolor>
-						<selectedcolor>ff000000</selectedcolor>
+						<focusedcolor>ff091420</focusedcolor>
+						<selectedcolor>ff091420</selectedcolor>
 						<textoffsetx>20</textoffsetx>
 						<aligny>center</aligny>
 						<align>center</align>
@@ -130,7 +130,7 @@
 					<control type="image">
 						<width>1%</width>
 						<height>100%</height>
-						<texture colordiffuse="ffe50914" border="4">diffuse/panel2.png</texture>
+						<texture colordiffuse="ff3fa9ff" border="4">diffuse/panel2.png</texture>
 						<animation effect="zoom" end="5000,100" easing="in" tween="cubic" time="600" condition="!String.IsEmpty(Window(Home).Property(finishBingieStartup1))">Conditional</animation>
 					</control>
 				</control>
