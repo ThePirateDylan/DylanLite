@@ -111,7 +111,7 @@
 					<control type="image">
 						<width>100%</width>
 						<height>100%</height>
-						<texture colordiffuse="ff414141" border="2">colors/color_white.png</texture>
+						<texture colordiffuse="ff16263a" border="2">colors/color_white.png</texture>
 					</control>
 					<control type="image">
 						<width>50%</width>

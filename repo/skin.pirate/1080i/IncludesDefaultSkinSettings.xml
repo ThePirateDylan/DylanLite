@@ -137,7 +137,7 @@
         <onload condition="!Skin.String(ViewDetailsFocusColor.name)">Skin.SetString(ViewDetailsFocusColor.name,$LOCALIZE[766])</onload>
         <onload condition="!Skin.String(ViewDetailsBorderFocusColor)">Skin.SetString(ViewDetailsBorderFocusColor,ffffffff)</onload>
         <onload condition="!Skin.String(ViewDetailsBorderFocusColor.name)">Skin.SetString(ViewDetailsBorderFocusColor.name,$LOCALIZE[742])</onload>
-		<onload condition="!Skin.String(ViewDetailsBorderUnfocusColor)">Skin.SetString(ViewDetailsBorderUnfocusColor,ff414141)</onload>
+		<onload condition="!Skin.String(ViewDetailsBorderUnfocusColor)">Skin.SetString(ViewDetailsBorderUnfocusColor,ff16263a)</onload>
         <onload condition="!Skin.String(ViewDetailsBorderUnfocusColor.name)">Skin.SetString(ViewDetailsBorderUnfocusColor.name,$LOCALIZE[31279])</onload>
         <onload condition="!Skin.String(ButtonFocusColor)">Skin.SetString(ButtonFocusColor,ffd4af37)</onload>
         <onload condition="!Skin.String(ButtonFocusColor.name)">Skin.SetString(ButtonFocusColor.name,$LOCALIZE[766])</onload>
@@ -163,7 +163,7 @@
         <onload condition="!Skin.String(MainMenuButtonColor.name)">Skin.SetString(MainMenuButtonColor.name,$LOCALIZE[767])</onload>
         <onload condition="!Skin.String(MainMenuFocusButtonColor)">Skin.SetString(MainMenuFocusButtonColor,ffd4af37)</onload>
         <onload condition="!Skin.String(MainMenuFocusButtonColor.name)">Skin.SetString(MainMenuFocusButtonColor.name,$LOCALIZE[742])</onload>
-        <onload condition="!Skin.String(BingieDetailsFlagColor)">Skin.SetString(BingieDetailsFlagColor,ff414141)</onload>
+        <onload condition="!Skin.String(BingieDetailsFlagColor)">Skin.SetString(BingieDetailsFlagColor,ff16263a)</onload>
         <onload condition="!Skin.String(BingieDetailsFlagColor.name)">Skin.SetString(BingieDetailsFlagColor.name,$LOCALIZE[31279])</onload>
 		<onload condition="!Skin.String(BingieDetailsFlagTextColor)">Skin.SetString(BingieDetailsFlagTextColor,b3ffffff)</onload>
         <onload condition="!Skin.String(BingieDetailsFlagTextColor.name)">Skin.SetString(BingieDetailsFlagTextColor.name,$LOCALIZE[766])</onload>
