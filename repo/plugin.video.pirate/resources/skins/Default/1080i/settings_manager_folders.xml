@@ -81,7 +81,7 @@
                         <height>85</height>
                         <label>[UPPERCASE]$INFO[ListItem.Property(setting_label)][/UPPERCASE]</label>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FF1F2020</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <aligny>center</aligny>
                         <scroll>Control.HasFocus(2001)</scroll>
                         <align>center</align>
@@ -156,7 +156,7 @@
                             <height>85</height>
                             <label>[UPPERCASE]$INFO[ListItem.Property(setting_label)][/UPPERCASE]</label>
                             <font>font12</font> <!-- FENLIGHT_26 -->
-                            <textcolor>FF1F2020</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <aligny>center</aligny>
                             <scroll>Control.HasFocus(2101)</scroll>
                         </control>
@@ -181,7 +181,7 @@
                             <height>85</height>
                             <label>[UPPERCASE][B]$INFO[ListItem.Property(setting_value)][/B][/UPPERCASE]</label>
                             <font>font12</font> <!-- FENLIGHT_26 -->
-                            <textcolor>FF1F2020</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <align>right</align>
                             <aligny>center</aligny>
                             <scroll>Control.HasFocus(2101)</scroll>

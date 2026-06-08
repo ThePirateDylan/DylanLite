@@ -70,8 +70,8 @@
                     <top>110</top>
                     <width>10</width>
                     <height>820</height>
-                    <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
-                    <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
+                    <texturesliderbackground colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbackground>
+                    <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
                     <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                     <onleft>2060</onleft>
                     <onright>2060</onright>
@@ -84,8 +84,8 @@
                     <top>110</top>
                     <width>10</width>
                     <height>820</height>
-                    <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
-                    <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
+                    <texturesliderbackground colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbackground>
+                    <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
                     <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                     <onleft>2061</onleft>
                     <onright>2061</onright>

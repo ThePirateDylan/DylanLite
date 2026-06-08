@@ -430,7 +430,7 @@
                         <top>25</top>
                         <height>5</height>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FF1F2020</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <aligny>center</aligny>
                         <scroll>false</scroll>
                         <label>[UPPERCASE][B]$INFO[ListItem.Property(name)][/B][/UPPERCASE]</label>

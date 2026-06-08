@@ -8,7 +8,7 @@
             <top>0</top>
             <width>1920</width>
             <height>1080</height>
-            <texture colordiffuse="FF0F1420">fenlight_common/white.png</texture>
+            <texture colordiffuse="CC0F1420">fenlight_common/white.png</texture>
             <animation effect="fade" end="85" time="120">WindowOpen</animation>
         </control>
         <control type="group">
@@ -76,7 +76,7 @@
                         <animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(2000)">Conditional</animation>
                         <height>85</height>
                         <width>470</width>
-                        <texture colordiffuse="FF0F1420" border="30">fenlight_common/circle.png</texture>
+                        <texture colordiffuse="CC0F1420" border="30">fenlight_common/circle.png</texture>
                     </control>
                     <control type="label">
                         <left>40</left>
@@ -84,7 +84,7 @@
                         <height>85</height>
                         <label>[UPPERCASE]$INFO[ListItem.Property(setting_label)][/UPPERCASE]</label>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FF1F2020</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <aligny>center</aligny>
                         <scroll>Control.HasFocus(2000)</scroll>
                     </control>
@@ -267,7 +267,7 @@
                         <left>5</left>
                         <width>30</width>
                         <height>30</height>
-                        <texture colordiffuse="FF1F2020">fenlight_common/info.png</texture>
+                        <texture colordiffuse="FF3FA9FF">fenlight_common/info.png</texture>
                     </control>
                     <!-- LABEL -->
                     <control type="group">
@@ -279,7 +279,7 @@
                             <height>85</height>
                             <label>[UPPERCASE]$INFO[ListItem.Property(setting_label)][/UPPERCASE]</label>
                             <font>font12</font> <!-- FENLIGHT_26 -->
-                            <textcolor>FF1F2020</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <aligny>center</aligny>
                             <scroll>Control.HasFocus(2100)</scroll>
                         </control>
@@ -331,7 +331,7 @@
                                 <align>right</align>
                                 <aligny>center</aligny>
                                 <aspectratio>keep</aspectratio>
-                                <texture colordiffuse="FF1F2020">fenlight_buttons/radio_button_off.png</texture>
+                                <texture colordiffuse="FF3FA9FF">fenlight_buttons/radio_button_off.png</texture>
                             </control>
                             <control type="image">
                                 <visible>String.IsEqual(ListItem.Property(setting_value),true)</visible>
@@ -341,7 +341,7 @@
                                 <align>right</align>
                                 <aligny>center</aligny>
                                 <aspectratio>keep</aspectratio>
-                                <texture colordiffuse="FF1F2020">fenlight_buttons/radio_button_on.png</texture>
+                                <texture colordiffuse="FF3FA9FF">fenlight_buttons/radio_button_on.png</texture>
                             </control>
                         </control>
                     </control>
@@ -358,7 +358,7 @@
                                 <height>85</height>
                                 <label>[B]...[/B]</label>
                                 <font>font12</font> <!-- FENLIGHT_26 -->
-                                <textcolor>FF1F2020</textcolor>
+                                <textcolor>FF3FA9FF</textcolor>
                                 <align>right</align>
                                 <aligny>center</aligny>
                                 <scroll>Control.HasFocus(2100)</scroll>
@@ -386,7 +386,7 @@
                                 <height>85</height>
                                 <label>[UPPERCASE][B]$INFO[ListItem.Property(setting_value)][/B][/UPPERCASE]</label>
                                 <font>font12</font> <!-- FENLIGHT_26 -->
-                                <textcolor>FF1F2020</textcolor>
+                                <textcolor>FF3FA9FF</textcolor>
                                 <align>right</align>
                                 <aligny>center</aligny>
                                 <scroll>Control.HasFocus(2100)</scroll>
@@ -2969,8 +2969,8 @@
                 <left>1700</left>
                 <width>10</width>
                 <height>760</height>
-                <texturesliderbackground colordiffuse="FF302F2F">fenlight_common/white.png</texturesliderbackground>
-                <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
+                <texturesliderbackground colordiffuse="FF14263A">fenlight_common/white.png</texturesliderbackground>
+                <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
                 <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                 <onleft>2100</onleft>
                 <onright>2000</onright>

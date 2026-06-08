@@ -6,7 +6,7 @@ from urllib.parse import urlencode, unquote
 
 def addon_themes():
 	return [{'name': 'Light', 'value': ('FF434343', 'FF2E2E2E'), 'icon': 'light'}, {'name': 'Medium', 'value': ('FF373737', 'FF4a4347'), 'icon': 'medium'},
-			{'name': 'Dark', 'value': ('FF1F2020', 'FF4F4F4F'), 'icon': 'dark'}]
+			{'name': 'Dark', 'value': ('FF3FA9FF', 'FF4F4F4F'), 'icon': 'dark'}]
 
 def addon_themes_opacity():
 	return [{'name': '100%', 'value': 'FF'}, {'name': '95%', 'value': 'F2'}, {'name': '90%', 'value': 'E6'}, {'name': '85%', 'value': 'D9'}, {'name': '80%', 'value': 'CC'},

@@ -490,8 +490,8 @@ class ExtrasUtils:
 				            <height>15</height>
 				            <onup>{container_no}</onup>
 				            <ondown>{n_container_no}</ondown>
-				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
-				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
+				            <texturesliderbackground colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbackground>
+				            <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
 				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
@@ -574,7 +574,7 @@ class ExtrasUtils:
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF1F2020</textcolor>
+				                    <textcolor>FF3FA9FF</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -586,8 +586,8 @@ class ExtrasUtils:
 				            <height>15</height>
 				            <onup>{container_no}</onup>
 				            <ondown>{n_container_no}</ondown>
-				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
-				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
+				            <texturesliderbackground colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbackground>
+				            <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
 				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
@@ -658,7 +658,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <align>center</align>
                             <aligny>center</aligny>
-                            <textcolor>FF1F2020</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <label>$INFO[Window.Property(plot)]</label>
                             <autoscroll>false</autoscroll>
                             <visible>Control.HasFocus({container_no})</visible>
@@ -962,7 +962,7 @@ class ExtrasUtils:
                             <label>$INFO[Window.Property(button10.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF1F2020</focusedcolor>
+                            <focusedcolor>FF3FA9FF</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
@@ -979,7 +979,7 @@ class ExtrasUtils:
                             <label>$INFO[Window.Property(button11.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF1F2020</focusedcolor>
+                            <focusedcolor>FF3FA9FF</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
@@ -996,7 +996,7 @@ class ExtrasUtils:
                             <label>$INFO[Window.Property(button12.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF1F2020</focusedcolor>
+                            <focusedcolor>FF3FA9FF</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
@@ -1013,7 +1013,7 @@ class ExtrasUtils:
                             <label>$INFO[Window.Property(button13.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF1F2020</focusedcolor>
+                            <focusedcolor>FF3FA9FF</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
@@ -1032,7 +1032,7 @@ class ExtrasUtils:
                             <label>$INFO[Window.Property(button14.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF1F2020</focusedcolor>
+                            <focusedcolor>FF3FA9FF</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus> 
                             <align>center</align>
@@ -1049,7 +1049,7 @@ class ExtrasUtils:
                             <label>$INFO[Window.Property(button15.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF1F2020</focusedcolor>
+                            <focusedcolor>FF3FA9FF</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>                         <align>center</align>
                             <aligny>center</aligny>
@@ -1065,7 +1065,7 @@ class ExtrasUtils:
                             <label>$INFO[Window.Property(button16.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF1F2020</focusedcolor>
+                            <focusedcolor>FF3FA9FF</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
@@ -1082,7 +1082,7 @@ class ExtrasUtils:
                             <label>$INFO[Window.Property(button17.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF1F2020</focusedcolor>
+                            <focusedcolor>FF3FA9FF</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
@@ -1212,8 +1212,8 @@ class ExtrasUtils:
                             <height>15</height>
                             <onup>{container_no}</onup>
                             <ondown>{n_container_no}</ondown>
-                            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
-                            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
+                            <texturesliderbackground colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbackground>
+                            <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
                             <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                             <showonepage>false</showonepage>
                             <orientation>Horizontal</orientation>
@@ -1314,8 +1314,8 @@ class ExtrasUtils:
                             <height>15</height>
                             <onup>{container_no}</onup>
                             <ondown>{n_container_no}</ondown>
-                            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
-                            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
+                            <texturesliderbackground colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbackground>
+                            <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
                             <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                             <showonepage>false</showonepage>
                             <orientation>Horizontal</orientation>
@@ -1438,7 +1438,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF1F2020</textcolor>
+                                    <textcolor>FF3FA9FF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                     <visible>Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})</visible>
@@ -1473,8 +1473,8 @@ class ExtrasUtils:
                             <height>15</height>
                             <onup>{container_no}</onup>
                             <ondown>{n_container_no}</ondown>
-                            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
-                            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
+                            <texturesliderbackground colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbackground>
+                            <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
                             <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                             <showonepage>false</showonepage>
                             <orientation>Horizontal</orientation>
@@ -1574,7 +1574,7 @@ class ExtrasUtils:
                                     <width>224</width>
                                     <height>320</height>
                                     <aspectratio>scale</aspectratio>
-                                    <texture colordiffuse="FF1F2020" border="30">$INFO[ListItem.Property(thumbnail)]</texture>
+                                    <texture colordiffuse="FF3FA9FF" border="30">$INFO[ListItem.Property(thumbnail)]</texture>
                                 </control>
                                 <control type="textbox">
                                     <left>6</left>
@@ -1584,7 +1584,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF1F2020</textcolor>
+                                    <textcolor>FF3FA9FF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1596,7 +1596,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF1F2020</textcolor>
+                                    <textcolor>FF3FA9FF</textcolor>
                                     <label>$INFO[ListItem.Property(ranking)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>

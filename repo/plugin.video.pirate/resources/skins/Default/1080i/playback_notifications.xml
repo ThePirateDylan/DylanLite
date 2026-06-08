@@ -149,7 +149,7 @@
                         <label>Close</label>
                         <font>font10</font> <!-- FENLIGHT_21 -->
                         <textcolor>FF3FA9FF</textcolor>
-                        <focusedcolor>FF1F2020</focusedcolor>
+                        <focusedcolor>FF3FA9FF</focusedcolor>
                         <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                         <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
@@ -164,7 +164,7 @@
                         <label>Play</label>
                         <font>font10</font> <!-- FENLIGHT_21 -->
                         <textcolor>FF3FA9FF</textcolor>
-                        <focusedcolor>FF1F2020</focusedcolor>
+                        <focusedcolor>FF3FA9FF</focusedcolor>
                         <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                         <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
@@ -179,7 +179,7 @@
                         <label>Cancel</label>
                         <font>font10</font> <!-- FENLIGHT_21 -->
                         <textcolor>FF3FA9FF</textcolor>
-                        <focusedcolor>FF1F2020</focusedcolor>
+                        <focusedcolor>FF3FA9FF</focusedcolor>
                         <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                         <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
@@ -220,7 +220,7 @@
                         <label>Yes</label>
                         <font>font10</font> <!-- FENLIGHT_21 -->
                         <textcolor>FF3FA9FF</textcolor>
-                        <focusedcolor>FF1F2020</focusedcolor>
+                        <focusedcolor>FF3FA9FF</focusedcolor>
                         <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                         <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
@@ -235,7 +235,7 @@
                         <label>No</label>
                         <font>font10</font> <!-- FENLIGHT_21 -->
                         <textcolor>FF3FA9FF</textcolor>
-                        <focusedcolor>FF1F2020</focusedcolor>
+                        <focusedcolor>FF3FA9FF</focusedcolor>
                         <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                         <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
