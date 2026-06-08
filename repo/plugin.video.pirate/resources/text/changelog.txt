@@ -44,7 +44,7 @@
 - You may need to clear your metacache as well.
 
 [COLOR dodgerblue][B]Version 2.1.99[/B][/COLOR]
-- Stopped defaulting to sort by title when no sort order specified for TMDb Lists. Items will be presented as given by TMDb when no sort order has been set within Fen Light.
+- Stopped defaulting to sort by title when no sort order specified for TMDb Lists. Items will be presented as given by TMDb when no sort order has been set within The Pirate.
 - Couple of quick fixes.
 
 [COLOR dodgerblue][B]Version 2.1.98[/B][/COLOR]
@@ -88,7 +88,7 @@
 
 [COLOR dodgerblue][B]Version 2.1.89[/B][/COLOR]
 - Moved "RPDb Ratings Posters" settings to "Features" tab.
-- Added Settings->Features->Extras->"Enable Poster Ratings (RPDb) for Extras Lists". Enable this and Fen Light will use rating posters for all the lists within the Extras window. This is seperate from the ratings displayed at the top of the window, which are supplied by OMDb.
+- Added Settings->Features->Extras->"Enable Poster Ratings (RPDb) for Extras Lists". Enable this and The Pirate will use rating posters for all the lists within the Extras window. This is seperate from the ratings displayed at the top of the window, which are supplied by OMDb.
 - Added this year's Oscar winner to Oscar Winners.
 - Other changes/fixes.
 
@@ -99,7 +99,7 @@
 
 [COLOR dodgerblue][B]Version 2.1.87[/B][/COLOR]
 - Fixes for Trakt API changes. You may need to Clear Trakt Cache (Tools->Database & Cache Maintenance).I will not be relying on Trakt to perform the pagination, so your lists will display a maximum of 999 items. If you have a list/s with more than 999 items, reach out to me and I can get you some needed help.
-- Added Settings->General->Window Theme->"Assign Window Theme". Here you can choose between Light, Medium and Dark for the grey of custom Fen Light dialogs and windows.
+- Added Settings->General->Window Theme->"Assign Window Theme". Here you can choose between Light, Medium and Dark for the grey of custom The Pirate dialogs and windows.
 - Added Settings->General->Window Theme->"Assign Window Theme Opacity". Here you can choose the Opacity of the window theme. Extras, Person & Scrape Result Windows are affected). Choose between 50% - 100% in 5% increments.
 - Added Settings->Features->Extras->->Enable Extra Ratings->"Enabled Ratings" submenu. Here you can enable/disable the ratings displayed on the Extras window. If you only select one rating to display, it will show within the top lines below the clearlogo/title.
 - Added ability to prioritize (for order of use) the 5 rescrape settings in Results->Rescrape (formerly titled "General"). Also, the rescrape settings here wil need to be re-set. Apologies.
@@ -119,7 +119,7 @@
 - Other changes/fixes.
 
 [COLOR dodgerblue][B]Version 2.1.84[/B][/COLOR]
-- Added "Check Still Watching After?" to Settings->Playback->Autoplay Next Episode. Set here how many consecutively auto played episodes before Fen Light checks that you are still watching. Defaults to 3 episodes. Choose 0 episodes to disable.
+- Added "Check Still Watching After?" to Settings->Playback->Autoplay Next Episode. Set here how many consecutively auto played episodes before The Pirate checks that you are still watching. Defaults to 3 episodes. Choose 0 episodes to disable.
 - Other changes/fixes.
 
 [COLOR dodgerblue][B]Version 2.1.83[/B][/COLOR]
@@ -240,7 +240,7 @@
 
 [COLOR dodgerblue][B]Version 2.1.42/43/44[/B][/COLOR]
 - Fixed art from TMDb.
-- Added "Auto Enable Subtitles" to Settings->Playback-?Playback Utilities. If subtitles are included in the file, Fen Light will enable them.
+- Added "Auto Enable Subtitles" to Settings->Playback-?Playback Utilities. If subtitles are included in the file, The Pirate will enable them.
 - Quick fix for search.
 - Other changes/fixes.
 
@@ -248,13 +248,13 @@
 - Added "Anime" as a Search menu. Only anime results will appear. Similarly, the regular "TV Show" search menu will now exclude anime results.
 - Added "Anime" as a Favorites menu. Only anime results will appear. Similarly, the regular "TV Show" favorites menu will now exclude anime results.
 - Added Vietnamese to language options.
-- Added "Use Weighted Value for Size Sorting" to Settings->Results->Sorting and Filtering. Enable this and Fen Light will weight HEVC file sizes as being equal to 2x a non-HEVC file size for purposes of sorting (not filtering).
+- Added "Use Weighted Value for Size Sorting" to Settings->Results->Sorting and Filtering. Enable this and The Pirate will weight HEVC file sizes as being equal to 2x a non-HEVC file size for purposes of sorting (not filtering).
 - Other changes/fixes.
 
 [COLOR dodgerblue][B]Version 2.1.40[/B][/COLOR]
 - Added Anime Watched, Anime Recently Watched, Anime In Progress, Anime Recently Watched Episodes, Anime In Progress Episodes & Anime Next Episodes' to the Anime section. From now, Anime will be more sectioned off into the 'Anime' section of the addon. This means watched status lists for anime will only appear in this new menu, not the 'TV Shows' instance of watched status lists. To access these new menu items, navigate to the Anime section and, from the context menu, select 'Restore Menu', which will restore the menu to default and add the new menu items.
-- Added "Limit Results Per Quality" to Settings->Results->Sorting & Filtering. Set a value on this, and Fen Light will limit the results shown for each quality (4K, 1080p etc) to that value.
-- Added "Limit Results Total" to Settings->Results->Sorting & Filtering. Set a value on this, and Fen Light will limit the total results shown.
+- Added "Limit Results Per Quality" to Settings->Results->Sorting & Filtering. Set a value on this, and The Pirate will limit the results shown for each quality (4K, 1080p etc) to that value.
+- Added "Limit Results Total" to Settings->Results->Sorting & Filtering. Set a value on this, and The Pirate will limit the total results shown.
 - Added "Language" to Discover menu for Movies and TV Shows. Set the original language for the content you want.
 - Added Custom Poster and Custom Fanart for Trakt My User Lists and Trakt Liked User Lists. Options found in the context menu.
 - Fix for "finish watching at..." time reporting to show accurate data when there is a resume point on the media. For skins that show this info.
@@ -293,7 +293,7 @@ BOTH: Will use NO SEEK, and will also allow for RETRY. Probably not needed for m
 
 [COLOR dodgerblue][B]Version 2.1.32[/B][/COLOR]
 - Added support for importing lists from external sources to Personal Lists.
-- Added Settings->Playback->Movies->Show Credits Stinger Alert. Enable this and Fen Light will alert you, towards the end of playback, as to whether there are During and/or After Credit Stingers to watch.
+- Added Settings->Playback->Movies->Show Credits Stinger Alert. Enable this and The Pirate will alert you, towards the end of playback, as to whether there are During and/or After Credit Stingers to watch.
 - Added Settings->Contents->General->Ignore Articles when Sorting Lists.
 - Added ability to delete RD Cloud files directly from results (in context menu).
 - Other changes/fixes.
@@ -307,9 +307,9 @@ BOTH: Will use NO SEEK, and will also allow for RETRY. Probably not needed for m
 - Other quick fixes.
 
 [COLOR dodgerblue][B]Version 2.1.29[/B][/COLOR]
-- Added "Check for cached status of Results (RD & AD)" to Settings->Accounts->External Scrapers. Enabled by default. Enable this and Fen Light will attempt to determine the cached status of external results for Real Debrid and all Debrid. This is by no means fully accurate, and you will likely often receive less overall results than with this disabled. But if using it, all results shown are likely cached on their servers and can be played immediately (removes the "Unchecked" parameter for RD and AD results).
+- Added "Check for cached status of Results (RD & AD)" to Settings->Accounts->External Scrapers. Enabled by default. Enable this and The Pirate will attempt to determine the cached status of external results for Real Debrid and all Debrid. This is by no means fully accurate, and you will likely often receive less overall results than with this disabled. But if using it, all results shown are likely cached on their servers and can be played immediately (removes the "Unchecked" parameter for RD and AD results).
 - Added "Toggle External Cache Check" to Playback Options so you can more easily enable or disable the new cache check.
-- Added "Assign Addon Icon Image" to Settings->General->General. Use this to choose from the available addon icons shipped with Fen Light AM.
+- Added "Assign Addon Icon Image" to Settings->General->General. Use this to choose from the available addon icons shipped with The Pirate AM.
 [COLOR darkgoldenrod]Big thanks to user [B]"mgudarzi"[/B] for providing some great icons.[/COLOR] Hop on to my github if you want to have icons included. Please make them 512x512, and small in filesize (50kb or less).
 - Added sort ability to TMDb List content (content within your personal lists from TMDb). Access through Context Menu->Edit Properties->Change Sort Order when in the TMDb Lists menu.
 - Added sort ability to TMDb Lists (your personal lists from TMDb). Access in Settings->Accounts->TMDb Lists->Lists Display Sort Order.

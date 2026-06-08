@@ -1,5 +1,5 @@
 
-Fen Light enables you to "Randomize" the contents of your Shortcut Folders.
+The Pirate enables you to "Randomize" the contents of your Shortcut Folders.
 
 First, follow the Tip for Shortcut Folders to make and populate a shortcut folder. Afterwards, if you enact the context menu on the folder, you can select "Make Random". This will change the folder's name to include "[RANDOM]" in red so you know it is now a random folder.
 

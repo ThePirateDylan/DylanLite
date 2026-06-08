@@ -1,6 +1,6 @@
 
-Fen Light includes 5 'Local Media Folder' scrapers.
-Choose a Movie and TV Show directory for any of these scrapers, and Fen Light will scan those directories for results. There is a small amount of leeway for how folder structures must be set out, but to assure best chances of a relevant file being found, it is best to have the following structure:
+The Pirate includes 5 'Local Media Folder' scrapers.
+Choose a Movie and TV Show directory for any of these scrapers, and The Pirate will scan those directories for results. There is a small amount of leeway for how folder structures must be set out, but to assure best chances of a relevant file being found, it is best to have the following structure:
         - Movies Folder    <----Enter this into the scraper setting.
                 - Movie 1 Folder
                         - movie1.file

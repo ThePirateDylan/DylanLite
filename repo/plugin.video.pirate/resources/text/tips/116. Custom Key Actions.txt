@@ -1,5 +1,5 @@
 
-With Fen Light, you can assign a button on your remote/keyboard, via Kodi's keymap, to enact a context menu item from Fen Light automatically.
+With The Pirate, you can assign a button on your remote/keyboard, via Kodi's keymap, to enact a context menu item from The Pirate automatically.
 
 Your choices for the mode parameter are:
 
