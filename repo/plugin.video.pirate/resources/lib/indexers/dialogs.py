@@ -21,7 +21,7 @@ def window_theme_choice(params):
 		choice = kodi_utils.select_dialog(choices, **kwargs)
 		if choice == None: return
 		window_theme_opacity, window_theme_opacity_name = choice['value'], choice['name']
-		window_theme = get_setting('fenlight.window_theme', 'FF1F2020')[2:]
+		window_theme = get_setting('fenlight.window_theme', '3FA9FF')[2:]
 		window_theme_contrast = get_setting('fenlight.window_theme_contrast', 'FF4a4347')
 		set_setting('window_theme_opacity', window_theme_opacity)
 		set_setting('window_theme_opacity_name', window_theme_opacity_name)
