@@ -33,3 +33,7 @@ Special Thank You to kittmaster for creating the Kodi Texture Tool.
 
 Special Thank You to Team Kodi for the AndroidTV GUI sounds
 
+Special Thank You to BetterRedUK for creating RedLight which helps me fork FenLightAM.
+
+Special Thank You to kodifitzwell for creating POV which helps me fork FenLightAM.
+
