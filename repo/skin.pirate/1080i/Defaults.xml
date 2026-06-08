@@ -195,7 +195,7 @@
         <info/>
         <texturebg border="10" colordiffuse="$INFO[Skin.String(BingieDetailsFlagColor)]">diffuse/osd_panel.png</texturebg>
 		<lefttexture/>
-		<midtexture border="10" colordiffuse="$INFO[Skin.String(BingieProgressBarColor)]">diffuse/osd_panel.png</midtexture>
+		<midtexture border="10" colordiffuse="ff3fa9ff">diffuse/osd_panel.png</midtexture>
         <righttexture/>
         <overlaytexture/>
     </default>

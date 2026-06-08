@@ -137,7 +137,7 @@
                 <height>6</height>
                 <texturebg colordiffuse="$INFO[Skin.String(BingieProgressBarBackgroundColor)]">diffuse/panel2.png</texturebg>
                 <lefttexture/>
-                <midtexture colordiffuse="$INFO[Skin.String(BingieProgressBarColor)]">diffuse/panel2.png</midtexture>
+                <midtexture colordiffuse="ff3fa9ff">diffuse/panel2.png</midtexture>
                 <righttexture/>
                 <info>ListItem.PercentPlayed</info>
             </control>
@@ -149,9 +149,9 @@
                 <description>progress bar</description>
                 <width>410</width>
                 <height>6</height>
-                <texturebg colordiffuse="$INFO[Skin.String(BingieProgressBarColor)]">diffuse/panel2.png</texturebg>
+                <texturebg colordiffuse="ff3fa9ff">diffuse/panel2.png</texturebg>
                 <lefttexture/>
-                <midtexture colordiffuse="$INFO[Skin.String(BingieProgressBarColor)]">diffuse/panel2.png</midtexture>
+                <midtexture colordiffuse="ff3fa9ff">diffuse/panel2.png</midtexture>
                 <righttexture/>
                 <info>ListItem.PercentPlayed</info>
             </control>
