@@ -12,7 +12,7 @@
 				<animation effect="fade" end="100" time="200">Visible</animation>
 				<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
 				<include>FullscreenDimensions</include>
-				<texture background="true" colordiffuse="$VAR[BingiePanelColor]">colors/color_white.png</texture>
+				<texture background="true" colordiffuse="cc091420">colors/color_white.png</texture>
 			</control>
 			<control type="scrollbar" id="3000">
 				<include>HiddenObject</include>

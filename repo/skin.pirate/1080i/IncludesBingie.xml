@@ -2455,7 +2455,7 @@
                 <width>$PARAM[width]</width>
                 <height>$PARAM[height]</height>
 				<texture background="true">overlays/gradient_videoinfo.png</texture>
-				<colordiffuse>$VAR[BingiePanelColor]</colordiffuse>
+				<colordiffuse>cc091420</colordiffuse>
 				<animation effect="fade" start="100" end="70" time="300" condition="String.IsEmpty(Window(Home).Property(CloseInfoDialog)) + !String.IsEmpty(Window(Home).Property(FullImage))">WindowClose</animation>
 			</control>
 	    </definition>
@@ -2541,7 +2541,7 @@
                 </control>
                 <control type="image">
                     <visible>!$PARAM[isFullscreen] + !$EXP[IsCurrentWidgetSpotlight]</visible>
-                    <texture background="true" colordiffuse="$VAR[BingiePanelColor]" border="20">overlays/bingie_corner.png</texture>
+                    <texture background="true" colordiffuse="cc091420" border="20">overlays/bingie_corner.png</texture>
                 </control>
             </control>
             <control type="image">
@@ -2552,7 +2552,7 @@
                 <height>$PARAM[overlayheight]</height>
                 <aligny>top</aligny>
                 <aspectratio>scale</aspectratio>
-                <colordiffuse>$VAR[BingiePanelColor]</colordiffuse>
+                <colordiffuse>cc091420</colordiffuse>
                 <texture background="true">diffuse/panel2.png</texture>
                 <animation effect="fade" start="100" end="0" time="1200" delay="500" condition="Player.HasVideo">Conditioanl</animation>
             </control>
@@ -2648,7 +2648,7 @@
         <control type="image">
             <visible>$PARAM[visibility]</visible>
             <include>FullscreenDimensions</include>
-            <texture background="true" colordiffuse="$VAR[BingiePanelColor]">diffuse/panel2.png</texture>
+            <texture background="true" colordiffuse="cc091420">diffuse/panel2.png</texture>
         </control>
     </include>
 

@@ -45,7 +45,7 @@
 			<control type="image">
 				<visible>$EXP[IsCurrentWidgetSpotlight]</visible>
                 <include>FullscreenDimensions</include>
-                <colordiffuse>$VAR[BingiePanelColor]</colordiffuse>
+                <colordiffuse>cc091420</colordiffuse>
                 <texture background="true">bingie/diffuse.png</texture>
 			</control>
 			<control type="group">
@@ -66,7 +66,7 @@
                 <control type="image">
                     <visible>!$EXP[IsPlayingRecognizedContent]</visible>
                     <include>FullscreenDimensions</include>
-                    <texture background="true" colordiffuse="$VAR[BingiePanelColor]">colors/color_white.png</texture>
+                    <texture background="true" colordiffuse="cc091420">colors/color_white.png</texture>
                     <animation effect="fade" start="100" end="90" delay="0" time="400">Visible</animation>
                     <animation effect="fade" start="90" end="0" delay="0" time="1200">Hidden</animation>
                 </control>
@@ -798,7 +798,7 @@
 				<height>223</height>
 				<align>right</align>
 				<aspectratio align="right">keep</aspectratio>
-				<colordiffuse>80000000</colordiffuse>
+				<colordiffuse>80091420</colordiffuse>
                 <texture background="true">home/bingie_diffuse.png</texture>
 			</control>
 			<!--Bingie Logo-->

@@ -7,7 +7,7 @@
 				<control type="group">
 					<control type="image">
 						<include>FullscreenDimensions</include>
-						<texture background="true" colordiffuse="$VAR[BingiePanelColor]">diffuse/panel2.png</texture>
+						<texture background="true" colordiffuse="cc091420">diffuse/panel2.png</texture>
 					</control>
 					<control type="image">
 						<width>1920</width>
@@ -1200,7 +1200,7 @@
 			<!-- base bg -->
 			<control type="image">
 				<include>FullscreenDimensions</include>
-				<texture background="true" colordiffuse="$VAR[BingiePanelColor]">diffuse/panel2.png</texture>
+				<texture background="true" colordiffuse="cc091420">diffuse/panel2.png</texture>
 				<visible>!Player.HasVideo</visible>
 			</control>
 			<control type="image">
@@ -1277,7 +1277,7 @@
 					<control type="image">
 						<visible>!Control.HasFocus(70011)</visible>
 						<texture background="true">overlays/gradient_videoinfo.png</texture>
-						<colordiffuse>$VAR[BingiePanelColor]</colordiffuse>
+						<colordiffuse>cc091420</colordiffuse>
 					</control>
 					<include content="DialogInfo_VideoTrailerControl">
 						<param name="onback">8000</param>
@@ -1303,7 +1303,7 @@
 					<visible>!String.IsEmpty(Window.Property(AdditionalInfo)) + !String.IsEqual(Window.Property(AdditionalInfo),set)</visible>
 					<width>100%</width>
 					<height>100%</height>
-					<texture background="true" colordiffuse="$VAR[BingiePanelColor]">colors/color_white.png</texture>
+					<texture background="true" colordiffuse="cc091420">colors/color_white.png</texture>
 					<animation effect="fade" start="0" end="60" time="300">Visible</animation>
 					<animation effect="fade" start="60" end="0" time="300">Hidden</animation>
 				</control>
@@ -3118,7 +3118,7 @@
 		<control type="group">
 			<control type="image">
 				<include>FullscreenDimensions</include>
-				<texture background="true" colordiffuse="$VAR[BingiePanelColor]">diffuse/panel2.png</texture>
+				<texture background="true" colordiffuse="cc091420">diffuse/panel2.png</texture>
 			</control>
 			<control type="image">
 				<visible>String.IsEqual(ListItem.Property(tmdb_type),person) + !Player.HasVideo</visible>

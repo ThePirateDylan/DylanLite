@@ -8,7 +8,7 @@
 	<onunload condition="!String.IsEmpty(Window(Home).Property(BaseWindow)) + String.IsEmpty(Window(Home).Property(ListItem.TVShowID)) + !Player.HasVideo">AlarmClock(loadinfo,Action(Info),00:00,silent)</onunload>
 	<onunload condition="!ControlGroup(77777).HasFocus()">SetFocus(101)</onunload>
 	<onunload>ClearProperty(KeepSuggestions)</onunload>
-    <backgroundcolor>$VAR[BingiePanelColor]</backgroundcolor>
+    <backgroundcolor>cc091420</backgroundcolor>
     <include>CustomBingieWinProps</include>
     <onload condition="String.IsEmpty(Skin.String(CustomSearchTerm))">SetProperty(CustomSearch,1,home)</onload>
 	<onload condition="String.IsEmpty(Window.Property(SearchPosterAnimation))">SetProperty(SearchPosterAnimation,1)</onload>
