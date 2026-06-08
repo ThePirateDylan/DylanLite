@@ -200,8 +200,8 @@ def default_settings():
 {'setting_id': 'limit_concurrent_threads', 'setting_type': 'boolean', 'setting_default': 'false'},
 {'setting_id': 'max_threads', 'setting_type': 'action', 'setting_default': '60', 'min_value': '10', 'max_value': '250'},
 #==================== Window Theme
-{'setting_id': 'window_theme', 'setting_type': 'string', 'setting_default': 'CC1F2020'},
-{'setting_id': 'window_theme_opacity', 'setting_type': 'string', 'setting_default': 'CC'},
+{'setting_id': 'window_theme', 'setting_type': 'string', 'setting_default': '16263A'},
+{'setting_id': 'window_theme_opacity', 'setting_type': 'string', 'setting_default': '60'},
 #==================== Manage Updates
 {'setting_id': 'update.action', 'setting_type': 'action', 'setting_default': '3', 'settings_options': {'0': 'Prompt', '1': 'Automatic', '2': 'Notification', '3': 'Off'}},
 {'setting_id': 'update.delay', 'setting_type': 'action', 'setting_default': '10', 'min_value': '10', 'max_value': '300'},
