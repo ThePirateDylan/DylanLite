@@ -271,7 +271,7 @@
 		<onload condition="!Skin.String(WidgetSpinnerTexture.name)">Skin.SetString(WidgetSpinnerTextureColor.name,$LOCALIZE[742])</onload>
 		<onload condition="!Skin.String(defaultcolorpalette.label)">Skin.SetString(defaultcolorpalette.label,$ADDON[script.skin.helper.colorpicker 32142])</onload>
         <onload condition="!Skin.String(defaultcolorpalette)">Skin.SetString(defaultcolorpalette,basic)</onload>
-        <onload condition="!Skin.String(SideBladePanelColor)">Skin.SetString(SideBladePanelColor,fa0f1828)</onload>
+        <onload condition="!Skin.String(SideBladePanelColor)">Skin.SetString(SideBladePanelColor,803fa9ff)</onload>
         <onload condition="!Skin.String(SideBladePanelColor.name)">Skin.SetString(SideBladePanelColor.name,$LOCALIZE[353])</onload>
         <onload condition="!Skin.String(TagOverlaysPanelColor)">Skin.SetString(TagOverlaysPanelColor,dd000000)</onload>
         <onload condition="!Skin.String(TagOverlaysPanelColor.name)">Skin.SetString(TagOverlaysPanelColor.name,$LOCALIZE[353])</onload>
