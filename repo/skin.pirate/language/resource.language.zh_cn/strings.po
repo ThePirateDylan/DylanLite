@@ -772,7 +772,7 @@ msgid "Spotlight"
 msgstr "精选推荐"
 
 msgctxt "#31186"
-msgid "Search by TMDb Movies, Shows or People"
+msgid "Search by Movies, Shows or People"
 msgstr "可以通过 TMDb 电影、节目或演员来进行搜索"
 
 msgctxt "#31187"

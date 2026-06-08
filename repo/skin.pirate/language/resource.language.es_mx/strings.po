@@ -773,7 +773,7 @@ msgid "Spotlight"
 msgstr "Spotlight"
 
 msgctxt "#31186"
-msgid "Search by TMDb Movies, Shows or People"
+msgid "Search by Movies, Shows or People"
 msgstr "Buscar por películas, programas o personas de TMDb"
 
 msgctxt "#31187"
@@ -1618,7 +1618,7 @@ msgstr "Colores de letras"
 msgctxt "#31395"
 msgid "With The Pirate Streaming you can have all of your Kodi and library content in one place, through the use of widgets.[CR][CR]"
 "Home widgets and hubs can be configured from:[CR]"
-"[COLOR white]    - Skin settings -> Configure shortcuts[CR][CR]"
+"- Skin settings -> Configure shortcuts[CR][CR]"
 "The skin is pre-packed with widgets for movies & TV shows.[CR]"
 "If you haven't added files to your video library yet, now is a good time.[CR]"
 "Otherwise, you will start with The Pirate TMDb Helper widgets.[/COLOR][CR][CR]"The Pirate 

@@ -773,7 +773,7 @@ msgid "Spotlight"
 msgstr "Spotlight"
 
 msgctxt "#31186"
-msgid "Search by TMDb Movies, Shows or People"
+msgid "Search by Movies, Shows or People"
 msgstr "Buscar por películas, programas o personas de TMDb"
 
 msgctxt "#31187"
