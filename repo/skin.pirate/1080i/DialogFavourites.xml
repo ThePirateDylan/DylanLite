@@ -153,7 +153,7 @@
                             <width>644</width>
                             <height>60</height>
                             <texture border="10">diffuse/panel.png</texture>
-							<colordiffuse>$INFO[Skin.String(ButtonFocusColor)]</colordiffuse>
+							<colordiffuse>ff3fa9ff</colordiffuse>
                         </control>
                         <control type="label">
                             <posx>80</posx>

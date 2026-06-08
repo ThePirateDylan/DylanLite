@@ -90,7 +90,7 @@
 							<width>571</width>
 							<height>79</height>
 							<aligny>center</aligny>
-							<texture border="10" colordiffuse="$INFO[Skin.String(ButtonFocusColor)]">diffuse/panel.png</texture>
+							<texture border="10" colordiffuse="ff3fa9ff">diffuse/panel.png</texture>
 							<visible>Control.HasFocus(211)</visible>
 						</control>
 						<control type="image">
@@ -104,7 +104,7 @@
 							<width>571</width>
 							<height>79</height>
 							<aligny>center</aligny>
-							<texture border="10" colordiffuse="$INFO[Skin.String(ButtonFocusColor)]">diffuse/panel_trans.png</texture>
+							<texture border="10" colordiffuse="ff3fa9ff">diffuse/panel_trans.png</texture>
 							<visible>!Control.HasFocus(211)</visible>
 						</control>
 						<!-- thumb -->

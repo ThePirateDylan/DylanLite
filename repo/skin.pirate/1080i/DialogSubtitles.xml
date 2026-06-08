@@ -157,7 +157,7 @@
                                 <posy>0</posy>
                                 <width>1048</width>
                                 <height>100</height>
-                                <texture border="10" colordiffuse="$INFO[Skin.String(ButtonFocusColor)]">diffuse/panel.png</texture>
+                                <texture border="10" colordiffuse="ff3fa9ff">diffuse/panel.png</texture>
                             </control>
                             <!--Language Flag -->
                            <control type="image">
@@ -416,7 +416,7 @@
                             <width>330</width>
                             <height>60</height>
                             <texture border="10">diffuse/panel.png</texture>
-							<colordiffuse>$INFO[Skin.String(ButtonFocusColor)]</colordiffuse>
+							<colordiffuse>ff3fa9ff</colordiffuse>
                             <visible>Control.HasFocus(150)</visible>
                         </control>
                         <control type="label">
