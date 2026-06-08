@@ -101,7 +101,21 @@
 	<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(bingie_osd_buttons_lyrics)</onload>
 	<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableTop250)</onload>
 	<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableSpotlightTop250)</onload>
-			
+
+        <!-- Enable Ratings on Default -->
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableRatings)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_IMDB)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_Top250)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_RT)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_RTAudience)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_TMdb)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_Trakt)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_Letterboxd)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_Metacritic)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_Oscar)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_GoldenGlobe)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_Emmy)</onload>
+
 		<!-- default splash resolution -->
         <onload condition="String.IsEmpty(Skin.String(SplashAnimationResolution))">Skin.SetString(SplashAnimationResolution,1080p)</onload>
         <!-- default color settings -->
@@ -191,7 +205,7 @@
         <onload condition="!Skin.String(OSDProgressBarBorderColor.name)">Skin.SetString(OSDProgressBarBorderColor.name,$LOCALIZE[31279])</onload>
         <onload condition="!Skin.String(OSDButtonsFocusColor)">Skin.SetString(OSDButtonsFocusColor,ffffffff)</onload>
         <onload condition="!Skin.String(OSDButtonsFocusColor.name)">Skin.SetString(OSDButtonsFocusColor.name,$LOCALIZE[742])</onload>
-        <onload condition="!Skin.String(OSDButtonsColor)">Skin.SetString(OSDButtonsColor,d9afafaf)</onload>
+        <onload condition="!Skin.String(OSDButtonsColor)">Skin.SetString(OSDButtonsColor,ff58c4ff)</onload>
         <onload condition="!Skin.String(OSDButtonsColor.name)">Skin.SetString(OSDButtonsColor.name,$LOCALIZE[767])</onload>
 		<onload condition="!Skin.String(OSDBingieButtonsFocusColor)">Skin.SetString(OSDBingieButtonsFocusColor,ffffffff)</onload>
         <onload condition="!Skin.String(OSDBingieButtonsFocusColor.name)">Skin.SetString(OSDBingieButtonsFocusColor.name,$LOCALIZE[742])</onload>
