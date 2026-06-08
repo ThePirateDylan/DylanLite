@@ -2124,7 +2124,7 @@
 								<height>8</height>
 								<texturebg colordiffuse="$INFO[Skin.String(BingieProgressBarBackgroundColor)]" border="0">diffuse/panel2.png</texturebg>
 								<lefttexture/>
-								<midtexture colordiffuse="ff3fa9ff" border="4">diffuse/panel2.png</midtexture>
+								<midtexture colordiffuse="ffd4af37" border="4">diffuse/panel2.png</midtexture>
 								<righttexture/>
 								<info>ListItem.PercentPlayed</info>
 							</control>
@@ -2138,7 +2138,7 @@
 								<height>8</height>
 								<texturebg colordiffuse="$INFO[Skin.String(BingieProgressBarBackgroundColor)]" border="0">diffuse/panel2.png</texturebg>
 								<lefttexture/>
-								<midtexture colordiffuse="ff3fa9ff" border="4">diffuse/panel2.png</midtexture>
+								<midtexture colordiffuse="ffd4af37" border="4">diffuse/panel2.png</midtexture>
 								<righttexture/>
 								<info>Container(5050).ListItem.PercentPlayed</info>
 							</control>
@@ -2152,7 +2152,7 @@
 								<height>8</height>
 								<texturebg colordiffuse="$INFO[Skin.String(BingieProgressBarBackgroundColor)]" border="0">diffuse/panel2.png</texturebg>
 								<lefttexture/>
-								<midtexture colordiffuse="ff3fa9ff" border="4">diffuse/panel2.png</midtexture>
+								<midtexture colordiffuse="ffd4af37" border="4">diffuse/panel2.png</midtexture>
 								<righttexture/>
 								<info>Container(1234).ListItem.PercentPlayed</info>
 							</control>

@@ -627,7 +627,7 @@
                                 <height>8</height>
                                 <texturebg colordiffuse="$INFO[Skin.String(BingieDetailsFlagColor)]" border="0">diffuse/panel2.png</texturebg>
                                 <lefttexture/>
-                                <midtexture colordiffuse="ff3fa9ff" border="4">diffuse/panel2.png</midtexture>
+                                <midtexture colordiffuse="ffd4af37" border="4">diffuse/panel2.png</midtexture>
                                 <righttexture/>
                                 <info>ListItem.PercentPlayed</info>
                             </control>
@@ -826,7 +826,7 @@
 			<control type="image">
 				<width>9</width>
 				<height>40</height>
-				<texture background="true" colordiffuse="ff3fa9ff">bingie/line.png</texture>
+				<texture background="true" colordiffuse="ffd4af37">bingie/line.png</texture>
 			</control>
 			<control type="label">
 				<width>auto</width>

@@ -63,7 +63,7 @@
 				<control type="togglebutton" id="4">
 					<description>Sort asc</description>
 					<include>SideBladeMenuButton</include>
-					<alttexturefocus border="10" colordiffuse="ff3fa9ff">diffuse/panel.png</alttexturefocus>
+					<alttexturefocus border="10" colordiffuse="ffd4af37">diffuse/panel.png</alttexturefocus>
 					<alttexturenofocus/>
 					<label>$LOCALIZE[584]</label>
 					<altlabel>$LOCALIZE[585]</altlabel>
@@ -93,7 +93,7 @@
 					<include>SideBladeMenuButton</include>
 					<label>$LOCALIZE[653]</label>
 					<altlabel>$LOCALIZE[13353]</altlabel>
-					<alttexturefocus border="5" colordiffuse="ff3fa9ff">colors/color_white.png</alttexturefocus>
+					<alttexturefocus border="5" colordiffuse="ffd4af37">colors/color_white.png</alttexturefocus>
 					<alttexturenofocus/>
 					<usealttexture>library.isscanningvideo</usealttexture>
 					<visible>!String.Contains(Container.FolderPath,plugin://plugin.video)</visible>
