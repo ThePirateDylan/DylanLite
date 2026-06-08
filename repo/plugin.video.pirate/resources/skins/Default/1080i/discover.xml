@@ -7,7 +7,7 @@
             <top>0</top>
             <width>1920</width>
             <height>1080</height>
-            <texture colordiffuse="FF000000">fenlight_common/white.png</texture>
+            <texture colordiffuse="FF0F1828">fenlight_common/white.png</texture>
             <animation effect="fade" end="85" time="120">WindowOpen</animation>
         </control>
         <!-- Filter Window -->
@@ -35,8 +35,8 @@
                 <left>30</left>
                 <height>20</height>
                 <font>font12</font> <!-- FENLIGHT_26 -->
-                <textcolor>FFCCCCCC</textcolor>
-                <shadowcolor>FF000000</shadowcolor>
+                <textcolor>FF3FA9FF</textcolor>
+                <shadowcolor>FF0F1828</shadowcolor>
                 <align>center</align>
                 <label>[UPPERCASE][B]DISCOVER[/B][/UPPERCASE]</label>
             </control>
@@ -72,7 +72,7 @@
                         <top>45</top>
                         <height>5</height>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FFCCCCCC</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <align>left</align>
                         <aligny>center</aligny>
                         <label>[UPPERCASE]$INFO[ListItem.Property(label1)][/UPPERCASE]</label>
@@ -131,7 +131,7 @@
                 <onright condition="!String.IsEqual(Window.Property(active_attributes),true)">11</onright>
                 <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
                 <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-                <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+                <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                 <showonepage>false</showonepage>
                 <orientation>vertical</orientation>
             </control>
@@ -144,7 +144,7 @@
                     <width>1635</width>
                     <height>20</height>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <label>[UPPERCASE]$INFO[Window.Property(list_label)][/UPPERCASE]</label>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -156,7 +156,7 @@
                     <width>1635</width>
                     <height>20</height>
                     <font>font10</font> <!-- FENLIGHT_21 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <label>[UPPERCASE][I]$INFO[Window.Property(url_label)][/I][/UPPERCASE]</label>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -176,7 +176,7 @@
                     <onright>2100</onright>
                     <label>Save and Exit</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <focusedcolor>FF1F2020</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
@@ -196,7 +196,7 @@
                     <onright>2100</onright>
                     <label>Exit</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <focusedcolor>FF1F2020</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>

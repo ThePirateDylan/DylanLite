@@ -6,7 +6,7 @@
             <top>0</top>
             <width>1920</width>
             <height>1080</height>
-            <texture colordiffuse="FF000000">fenlight_common/white.png</texture>
+            <texture colordiffuse="FF0F1828">fenlight_common/white.png</texture>
             <animation effect="fade" end="85" time="120">WindowOpen</animation>
         </control>
         <control type="group">
@@ -55,7 +55,7 @@
                     <height>20</height>
                     <align>center</align>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                 </control>
                 <control type="textbox" id="2001">
                     <top>100</top>
@@ -65,7 +65,7 @@
                     <font>font13</font> <!-- FENLIGHT_30 -->
                     <align>center</align>
                     <aligny>center</aligny>
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                 </control>
                 <control type="progress" id="5000">
                     <description>Progressbar</description>

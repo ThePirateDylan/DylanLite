@@ -7,7 +7,7 @@
             <top>0</top>
             <width>1920</width>
             <height>1080</height>
-            <texture colordiffuse="FF000000">fenlight_common/white.png</texture>
+            <texture colordiffuse="FF0F1828">fenlight_common/white.png</texture>
             <animation effect="fade" end="85" time="120">WindowOpen</animation>
         </control>
         <!-- Colors Panel -->
@@ -36,7 +36,7 @@
                     <width max="1650">auto</width>
                     <height>20</height>
                     <font>font14</font> <!-- FENLIGHT_33 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <align>center</align>
                     <aligny>center</aligny>
                     <label>[B]Choose Highlight Color[/B]</label>
@@ -94,7 +94,7 @@
                     <onright>2000</onright>
                     <label>OK</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <focusedcolor>FF1F2020</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
@@ -112,7 +112,7 @@
                     <onright>2000</onright>
                     <label>Cancel</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <focusedcolor>FF1F2020</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
@@ -141,7 +141,7 @@
                     <onright>2000</onright>
                     <label>$INFO[Container(2000).ListItem.Property(highlight)]</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <focusedcolor>FF1F2020</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>

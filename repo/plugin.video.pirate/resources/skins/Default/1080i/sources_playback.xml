@@ -6,7 +6,7 @@
             <width>1920</width>
             <height>1080</height>
             <control type="image">
-                <texture colordiffuse="FF000000">fenlight_common/white.png</texture>
+                <texture colordiffuse="FF0F1828">fenlight_common/white.png</texture>
             </control>
             <control type="image">
                 <texture>$INFO[Window.Property(fanart)]</texture>
@@ -70,7 +70,7 @@
                     <width>1920</width>
                     <height>30</height>
                     <font>font60</font> <!-- FENLIGHT_60_BOLD -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <align>center</align>
                     <aligny>bottom</aligny>
                     <label>[B]$INFO[Window.Property(title)][/B]</label>
@@ -81,7 +81,7 @@
                     <width>1920</width>
                     <height>25</height>
                     <font>font14</font> <!-- FENLIGHT_33 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <align>center</align>
                     <aligny>bottom</aligny>
                     <label>[I]$INFO[Window.Property(genre)][/I]</label>
@@ -576,7 +576,7 @@
                     <onright>11</onright>
                     <label>Resume $INFO[Window.Property(resume_percent)]%</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <focusedcolor>FF1F2020</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
@@ -591,7 +591,7 @@
                     <onright>12</onright>
                     <label>Start Over</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <focusedcolor>FF1F2020</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
@@ -606,7 +606,7 @@
                     <onright>10</onright>
                     <label>Cancel</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FFCCCCCC</textcolor>
+                    <textcolor>FF3FA9FF</textcolor>
                     <focusedcolor>FF1F2020</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>

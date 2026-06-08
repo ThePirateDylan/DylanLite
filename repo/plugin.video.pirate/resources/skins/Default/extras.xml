@@ -7,7 +7,7 @@
             <width>1920</width>
             <height>1080</height>
             <control type="image">
-                <texture colordiffuse="FF000000">fenlight_common/white.png</texture>
+                <texture colordiffuse="FF0F1828">fenlight_common/white.png</texture>
             </control>
             <control type="image" id="202">
                 <aspectratio>scale</aspectratio>
@@ -33,7 +33,7 @@
                         <width max="300">auto</width>
                         <height>20</height>
                         <font>font37</font> <!-- FENLIGHT_38 -->
-                        <textcolor>FFCCCCCC</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <align>right</align>
                         <aligny>center</aligny>
                         <label>[B]$INFO[System.Time][/B]</label>
@@ -44,7 +44,7 @@
                         <width max="350">auto</width>
                         <height>20</height>
                         <font>font10</font> <!-- FENLIGHT_21 -->
-                        <textcolor>FFCCCCCC</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <align>right</align>
                         <aligny>center</aligny>
                         <label>$INFO[System.Date]</label>
@@ -66,7 +66,7 @@
                         <width max="600">auto</width>
                         <height>20</height>
                         <font>font10</font> <!-- FENLIGHT_21 -->
-                        <textcolor>FFCCCCCC</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <align>right</align>
                         <aligny>bottom</aligny>
                         <label>$INFO[ListItem.Property(info_alert)]</label>
@@ -99,7 +99,7 @@
                         <width max="1130">auto</width>
                         <height>30</height>
                         <font>font60</font> <!-- FENLIGHT_60_BOLD -->
-                        <textcolor>FFCCCCCC</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <align>center</align>
                         <aligny>bottom</aligny>
                         <label>[B]$INFO[Window.Property(title)][/B]</label>
@@ -117,7 +117,7 @@
                         <width max="1150">auto</width>
                         <height>25</height>
                         <font>font14</font> <!-- FENLIGHT_33 -->
-                        <textcolor>FFCCCCCC</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <align>center</align>
                         <label>[I]$INFO[Window.Property(genre)][/I]</label>
                     </control>
@@ -138,7 +138,7 @@
                             <width max="1026">auto</width>
                             <height>32</height>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <align>left</align>
                         </control>
                     </control>
@@ -147,7 +147,7 @@
                         <width max="1150">auto</width>
                         <height>25</height>
                         <font>font14</font> <!-- FENLIGHT_33 -->
-                        <textcolor>FFCCCCCC</textcolor>
+                        <textcolor>FF3FA9FF</textcolor>
                         <align>center</align>
                     </control>
                     <control type="grouplist">
@@ -173,7 +173,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FFCCCCCC</textcolor>
+                                <textcolor>FF3FA9FF</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -195,7 +195,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FFCCCCCC</textcolor>
+                                <textcolor>FF3FA9FF</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -217,7 +217,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FFCCCCCC</textcolor>
+                                <textcolor>FF3FA9FF</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -239,7 +239,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FFCCCCCC</textcolor>
+                                <textcolor>FF3FA9FF</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -261,7 +261,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FFCCCCCC</textcolor>
+                                <textcolor>FF3FA9FF</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -291,9 +291,9 @@
                             <ondown>14</ondown>
                             <label>$INFO[Window.Property(button10.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <focusedcolor>FF1F2020</focusedcolor>
-                            <texturefocus colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
                             <aligny>center</aligny>
@@ -308,9 +308,9 @@
                             <ondown>15</ondown>
                             <label>$INFO[Window.Property(button11.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <focusedcolor>FF1F2020</focusedcolor>
-                            <texturefocus colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
                             <aligny>center</aligny>
@@ -325,9 +325,9 @@
                             <ondown>16</ondown>
                             <label>$INFO[Window.Property(button12.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <focusedcolor>FF1F2020</focusedcolor>
-                            <texturefocus colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
                             <aligny>center</aligny>
@@ -342,9 +342,9 @@
                             <ondown>17</ondown>
                             <label>$INFO[Window.Property(button13.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <focusedcolor>FF1F2020</focusedcolor>
-                            <texturefocus colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
                             <aligny>center</aligny>
@@ -361,9 +361,9 @@
                             <ondown>2056</ondown>
                             <label>$INFO[Window.Property(button14.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <focusedcolor>FF1F2020</focusedcolor>
-                            <texturefocus colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus> 
                             <align>center</align>
                             <aligny>center</aligny>
@@ -378,9 +378,9 @@
                             <ondown>2056</ondown>
                             <label>$INFO[Window.Property(button15.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <focusedcolor>FF1F2020</focusedcolor>
-                            <texturefocus colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>                         <align>center</align>
                             <aligny>center</aligny>
                         </control>
@@ -394,9 +394,9 @@
                             <ondown>2056</ondown>
                             <label>$INFO[Window.Property(button16.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <focusedcolor>FF1F2020</focusedcolor>
-                            <texturefocus colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
                             <aligny>center</aligny>
@@ -411,9 +411,9 @@
                             <ondown>2056</ondown>
                             <label>$INFO[Window.Property(button17.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <focusedcolor>FF1F2020</focusedcolor>
-                            <texturefocus colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
                             <aligny>center</aligny>
@@ -429,7 +429,7 @@
 				            <width max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <align>left</align>
 				            <aligny>bottom</aligny>
 				            <label>[B]Reviews $INFO[Window.Property(imdb_reviews.number)][/B]</label>
@@ -457,7 +457,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FFCCCCCC</textcolor>
+				                    <textcolor>FF3FA9FF</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -466,7 +466,7 @@
 				                <control type="image">
 				                    <height>360</height>
 				                    <width>580</width>
-				                    <texture colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texture>
+				                    <texture colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texture>
 				                </control>
 				                <control type="textbox">
 				                    <top>15</top>
@@ -490,7 +490,7 @@
 				            <ondown>2060</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2056) | Control.HasFocus(4056)]</visible>
@@ -521,7 +521,7 @@
                             <width max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <align>left</align>
                             <aligny>bottom</aligny>
                             <label>[B]Parental Guide $INFO[Window.Property(imdb_parentsguide.number)][/B]</label>
@@ -546,7 +546,7 @@
                                     <width>224</width>
                                     <height>320</height>
                                     <aspectratio>scale</aspectratio>
-                                    <texture colordiffuse="FFCCCCCC" border="30">$INFO[ListItem.Property(thumbnail)]</texture>
+                                    <texture colordiffuse="FF3FA9FF" border="30">$INFO[ListItem.Property(thumbnail)]</texture>
                                 </control>
                                 <control type="textbox">
                                     <left>6</left>
@@ -556,7 +556,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FFCCCCCC</textcolor>
+                                    <textcolor>FF3FA9FF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -568,7 +568,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FFCCCCCC</textcolor>
+                                    <textcolor>FF3FA9FF</textcolor>
                                     <label>$INFO[ListItem.Property(ranking)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -577,7 +577,7 @@
                                 <control type="image">
                                     <width>230</width>
                                     <height>360</height>
-                                    <texture colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texture>
+                                    <texture colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texture>
                                 </control>
                                 <control type="image">
                                     <left>6</left>
@@ -623,7 +623,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]Cast $INFO[Window.Property(cast.number)][/B]</label>
 				            <visible>!Control.HasFocus(2051)</visible>
 				        </control>
@@ -631,7 +631,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]Cast | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2051)</visible>
 				        </control>
@@ -669,7 +669,7 @@
 				                    <top>5</top>
 				                    <height>350</height>
 				                    <width>236</width>
-				                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/poster-50.png</texture>
+				                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/poster-50.png</texture>
 				                    <visible>Control.HasFocus(2051) | Control.HasFocus(4051)</visible>
 				                </control>
 				                <control type="image">
@@ -691,7 +691,7 @@
 				            <ondown>2054</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2051) | Control.HasFocus(4051)]</visible>
@@ -722,7 +722,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]More Like This $INFO[Window.Property(more_like_this.number)][/B]</label>
 				            <visible>!Control.HasFocus(2054)</visible>
 				        </control>
@@ -730,7 +730,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]More Like This | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2054)</visible>
 				        </control>
@@ -768,7 +768,7 @@
 				                    <top>5</top>
 				                    <height>350</height>
 				                    <width>236</width>
-				                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/poster-50.png</texture>
+				                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/poster-50.png</texture>
 				                    <visible>Control.HasFocus(2054) | Control.HasFocus(4054)</visible>
 				                </control>
 				                <control type="image">
@@ -790,7 +790,7 @@
 				            <ondown>2057</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2054) | Control.HasFocus(4054)]</visible>
@@ -821,7 +821,7 @@
 				            <width max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <align>left</align>
 				            <aligny>bottom</aligny>
 				            <label>[B]Comments $INFO[Window.Property(trakt_comments.number)][/B]</label>
@@ -849,7 +849,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FFCCCCCC</textcolor>
+				                    <textcolor>FF3FA9FF</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -858,7 +858,7 @@
 				                <control type="image">
 				                    <height>360</height>
 				                    <width>580</width>
-				                    <texture colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texture>
+				                    <texture colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texture>
 				                </control>
 				                <control type="textbox">
 				                    <top>15</top>
@@ -882,7 +882,7 @@
 				            <ondown>2066</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2057) | Control.HasFocus(4057)]</visible>
@@ -913,7 +913,7 @@
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <label>[B]$INFO[Window.Property(more_from_collection.name)] $INFO[Window.Property(more_from_collection.number)][/B]</label>
                             <visible>!Control.HasFocus(2066)</visible>
                         </control>
@@ -921,7 +921,7 @@
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <label>[B]$INFO[Window.Property(more_from_collection.name)] | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
                             <visible>Control.HasFocus(2066)</visible>
                         </control>
@@ -955,7 +955,7 @@
                                 <font>font12</font> <!-- FENLIGHT_26 -->
                                 <align>center</align>
                                 <aligny>center</aligny>
-                                <textcolor>FFCCCCCC</textcolor>
+                                <textcolor>FF3FA9FF</textcolor>
                                 <label>$INFO[Window.Property(more_from_collection.overview)]</label>
                                 <autoscroll time="1500" delay="6000" repeat="3000">true</autoscroll>
                             </control>
@@ -994,7 +994,7 @@
                                     <top>5</top>
                                     <height>350</height>
                                     <width>236</width>
-                                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/poster-50.png</texture>
+                                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/poster-50.png</texture>
                                     <visible>Control.HasFocus(2066) | Control.HasFocus(4066)</visible>
                                 </control>
                                 <control type="image">
@@ -1015,7 +1015,7 @@
                             <ondown>2050</ondown>
                             <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
                             <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-                            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+                            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                             <showonepage>false</showonepage>
                             <orientation>Horizontal</orientation>
                             <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2066) | Control.HasFocus(4066)]</visible>
@@ -1046,7 +1046,7 @@
                             <width max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <align>left</align>
                             <aligny>bottom</aligny>
                             <label>[B]Plot[/B]</label>
@@ -1057,7 +1057,7 @@
                             <height>390</height>
                             <onup>2066</onup>
                             <ondown>2052</ondown>
-                            <texturefocus colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                         </control>
                         <control type="textbox">
@@ -1068,7 +1068,7 @@
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <align>center</align>
                             <aligny>center</aligny>
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <label>$INFO[Window.Property(plot)]</label>
                             <autoscroll>false</autoscroll>
                             <visible>!Control.HasFocus(2050)</visible>
@@ -1096,7 +1096,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]Recommended $INFO[Window.Property(recommended.number)][/B]</label>
 				            <visible>!Control.HasFocus(2052)</visible>
 				        </control>
@@ -1104,7 +1104,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]Recommended | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2052)</visible>
 				        </control>
@@ -1142,7 +1142,7 @@
 				                    <top>5</top>
 				                    <height>350</height>
 				                    <width>236</width>
-				                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/poster-50.png</texture>
+				                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/poster-50.png</texture>
 				                    <visible>Control.HasFocus(2052) | Control.HasFocus(4052)</visible>
 				                </control>
 				                <control type="image">
@@ -1164,7 +1164,7 @@
 				            <ondown>2053</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2052) | Control.HasFocus(4052)]</visible>
@@ -1195,7 +1195,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]Related $INFO[Window.Property(related.number)][/B]</label>
 				            <visible>!Control.HasFocus(2053)</visible>
 				        </control>
@@ -1203,7 +1203,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]Related | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2053)</visible>
 				        </control>
@@ -1241,7 +1241,7 @@
 				                    <top>5</top>
 				                    <height>350</height>
 				                    <width>236</width>
-				                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/poster-50.png</texture>
+				                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/poster-50.png</texture>
 				                    <visible>Control.HasFocus(2053) | Control.HasFocus(4053)</visible>
 				                </control>
 				                <control type="image">
@@ -1263,7 +1263,7 @@
 				            <ondown>2055</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2053) | Control.HasFocus(4053)]</visible>
@@ -1294,7 +1294,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]Similar $INFO[Window.Property(ai_similar.number)][/B]</label>
 				            <visible>!Control.HasFocus(2055)</visible>
 				        </control>
@@ -1302,7 +1302,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]Similar | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2055)</visible>
 				        </control>
@@ -1340,7 +1340,7 @@
 				                    <top>5</top>
 				                    <height>350</height>
 				                    <width>236</width>
-				                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/poster-50.png</texture>
+				                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/poster-50.png</texture>
 				                    <visible>Control.HasFocus(2055) | Control.HasFocus(4055)</visible>
 				                </control>
 				                <control type="image">
@@ -1362,7 +1362,7 @@
 				            <ondown>2058</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2055) | Control.HasFocus(4055)]</visible>
@@ -1393,7 +1393,7 @@
 				            <width max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <align>left</align>
 				            <aligny>bottom</aligny>
 				            <label>[B]Trivia $INFO[Window.Property(imdb_trivia.number)][/B]</label>
@@ -1421,7 +1421,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FFCCCCCC</textcolor>
+				                    <textcolor>FF3FA9FF</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1430,7 +1430,7 @@
 				                <control type="image">
 				                    <height>360</height>
 				                    <width>580</width>
-				                    <texture colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texture>
+				                    <texture colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texture>
 				                </control>
 				                <control type="textbox">
 				                    <top>15</top>
@@ -1454,7 +1454,7 @@
 				            <ondown>2059</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2058) | Control.HasFocus(4058)]</visible>
@@ -1485,7 +1485,7 @@
 				            <width max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <align>left</align>
 				            <aligny>bottom</aligny>
 				            <label>[B]Blunders $INFO[Window.Property(imdb_blunders.number)][/B]</label>
@@ -1513,7 +1513,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FFCCCCCC</textcolor>
+				                    <textcolor>FF3FA9FF</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1522,7 +1522,7 @@
 				                <control type="image">
 				                    <height>360</height>
 				                    <width>580</width>
-				                    <texture colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texture>
+				                    <texture colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texture>
 				                </control>
 				                <control type="textbox">
 				                    <top>15</top>
@@ -1546,7 +1546,7 @@
 				            <ondown>2061</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2059) | Control.HasFocus(4059)]</visible>
@@ -1577,7 +1577,7 @@
                             <width max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <align>left</align>
                             <aligny>bottom</aligny>
                             <label>[B]In Trakt Lists $INFO[Window.Property(trakt_in_lists.number)][/B]</label>
@@ -1619,7 +1619,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FFCCCCCC</textcolor>
+                                    <textcolor>FF3FA9FF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1636,7 +1636,7 @@
                                 <control type="image">
                                     <width>230</width>
                                     <height>360</height>
-                                    <texture colordiffuse="FFCCCCCC" border="30">fenlight_common/circle.png</texture>
+                                    <texture colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texture>
                                     <visible>Control.HasFocus(2061) | Control.HasFocus(4061)</visible>
                                     <animation effect="fade" start="100" end="60" condition="Control.HasFocus(4061)">Conditional</animation>
                                 </control>
@@ -1677,7 +1677,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FFCCCCCC</textcolor>
+                                    <textcolor>FF3FA9FF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                     <visible>![Control.HasFocus(2061) | Control.HasFocus(4061)]</visible>
@@ -1701,7 +1701,7 @@
                             <ondown>2062</ondown>
                             <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
                             <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-                            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+                            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                             <showonepage>false</showonepage>
                             <orientation>Horizontal</orientation>
                             <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2061) | Control.HasFocus(4061)]</visible>
@@ -1732,7 +1732,7 @@
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <label>[B]Videos $INFO[Window.Property(youtube_videos.number)][/B]</label>
                             <visible>!Control.HasFocus(2062)</visible>
                         </control>
@@ -1740,7 +1740,7 @@
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FFCCCCCC</textcolor>
+                            <textcolor>FF3FA9FF</textcolor>
                             <label>[B]Videos | [/B]$INFO[ListItem.Property(name)]</label>
                             <visible>Control.HasFocus(2062)</visible>
                         </control>
@@ -1777,7 +1777,7 @@
                                     <top>32</top>
                                     <height>296</height>
                                     <width>393</width>
-                                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/landscape.png</texture>
+                                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/landscape.png</texture>
                                     <visible>Control.HasFocus(2062) | Control.HasFocus(4062)</visible>
                                 </control>
                                 <control type="image">
@@ -1799,7 +1799,7 @@
                             <ondown>2063</ondown>
                             <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
                             <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-                            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+                            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                             <showonepage>false</showonepage>
                             <orientation>Horizontal</orientation>
                             <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2062) | Control.HasFocus(4062)]</visible>
@@ -1830,7 +1830,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]More from Year $INFO[Window.Property(more_from_year.number)][/B]</label>
 				            <visible>!Control.HasFocus(2063)</visible>
 				        </control>
@@ -1838,7 +1838,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]More from Year | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2063)</visible>
 				        </control>
@@ -1876,7 +1876,7 @@
 				                    <top>5</top>
 				                    <height>350</height>
 				                    <width>236</width>
-				                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/poster-50.png</texture>
+				                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/poster-50.png</texture>
 				                    <visible>Control.HasFocus(2063) | Control.HasFocus(4063)</visible>
 				                </control>
 				                <control type="image">
@@ -1898,7 +1898,7 @@
 				            <ondown>2064</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2063) | Control.HasFocus(4063)]</visible>
@@ -1929,7 +1929,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]More from Genres $INFO[Window.Property(more_from_genres.number)][/B]</label>
 				            <visible>!Control.HasFocus(2064)</visible>
 				        </control>
@@ -1937,7 +1937,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]More from Genres | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2064)</visible>
 				        </control>
@@ -1975,7 +1975,7 @@
 				                    <top>5</top>
 				                    <height>350</height>
 				                    <width>236</width>
-				                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/poster-50.png</texture>
+				                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/poster-50.png</texture>
 				                    <visible>Control.HasFocus(2064) | Control.HasFocus(4064)</visible>
 				                </control>
 				                <control type="image">
@@ -1997,7 +1997,7 @@
 				            <ondown>2065</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2064) | Control.HasFocus(4064)]</visible>
@@ -2028,7 +2028,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]More from Networks $INFO[Window.Property(more_from_networks.number)][/B]</label>
 				            <visible>!Control.HasFocus(2065)</visible>
 				        </control>
@@ -2036,7 +2036,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FFCCCCCC</textcolor>
+				            <textcolor>FF3FA9FF</textcolor>
 				            <label>[B]More from Networks | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2065)</visible>
 				        </control>
@@ -2074,7 +2074,7 @@
 				                    <top>5</top>
 				                    <height>350</height>
 				                    <width>236</width>
-				                    <texture colordiffuse="FFCCCCCC">fenlight_diffuse/poster-50.png</texture>
+				                    <texture colordiffuse="FF3FA9FF">fenlight_diffuse/poster-50.png</texture>
 				                    <visible>Control.HasFocus(2065) | Control.HasFocus(4065)</visible>
 				                </control>
 				                <control type="image">
@@ -2096,7 +2096,7 @@
 				            <ondown>10</ondown>
 				            <texturesliderbackground colordiffuse="FF1F2020">fenlight_common/white.png</texturesliderbackground>
 				            <texturesliderbar colordiffuse="FF555556">fenlight_common/white.png</texturesliderbar>
-				            <texturesliderbarfocus colordiffuse="FFCCCCCC">fenlight_common/white.png</texturesliderbarfocus>
+				            <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
 				            <showonepage>false</showonepage>
 				            <orientation>Horizontal</orientation>
 				            <visible>String.IsEqual(Window.Property(enable_scrollbars),true) + [Control.HasFocus(2065) | Control.HasFocus(4065)]</visible>
