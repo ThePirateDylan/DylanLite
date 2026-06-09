@@ -35,7 +35,7 @@
 		<defaultID />
 		<label>Settings</label>
 		<label2>Custom item</label2>
-		<icon>shortcuts/piratesettings.png</icon>
+		<icon>shortcuts/antenna.png</icon>
 		<thumb />
 		<action>RunPlugin(plugin://plugin.video.pirate/?mode=open_settings)</action>
 		</shortcut>
