@@ -32,10 +32,10 @@
 		<action>ActivateWindow(1111,return)</action>
 		</shortcut>
 	<shortcut>
-		<defaultID />
+		<defaultID>arghsettings</defaultID>
 		<label>Settings</label>
 		<label2>Custom item</label2>
-		<icon>shortcuts/antenna.png</icon>
+		<icon>shortcuts/new.png</icon>
 		<thumb />
 		<action>RunPlugin(plugin://plugin.video.pirate/?mode=open_settings)</action>
 		</shortcut>
