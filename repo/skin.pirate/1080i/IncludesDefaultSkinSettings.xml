@@ -195,11 +195,11 @@
         <onload condition="!Skin.String(FooterTextShadowColor.name)">Skin.SetString(FooterTextShadowColor.name,$LOCALIZE[231])</onload>
         <onload condition="!Skin.String(OSDPrimaryTextColor)">Skin.SetString(OSDPrimaryTextColor,ffffffff)</onload>
         <onload condition="!Skin.String(OSDPrimaryTextColor.name)">Skin.SetString(OSDPrimaryTextColor.name,$LOCALIZE[742])</onload>
-        <onload condition="!Skin.String(OSDProgressBarColor)">Skin.SetString(OSDProgressBarColor,ff3fa9ff)</onload>
+        <onload condition="!Skin.String(OSDProgressBarColor)">Skin.SetString(OSDProgressBarColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(OSDProgressBarColor.name)">Skin.SetString(OSDProgressBarColor.name,$LOCALIZE[13343])</onload>
         <onload condition="!Skin.String(OSDProgressBarBackgroundColor)">Skin.SetString(OSDProgressBarBackgroundColor,bb0f0f0f)</onload>
         <onload condition="!Skin.String(OSDProgressBarBackgroundColor.name)">Skin.SetString(OSDProgressBarBackgroundColor.name,$LOCALIZE[353])</onload>
-        <onload condition="!Skin.String(OSDProgressBarCacheColor)">Skin.SetString(OSDProgressBarCacheColor,803fa9ff)</onload>
+        <onload condition="!Skin.String(OSDProgressBarCacheColor)">Skin.SetString(OSDProgressBarCacheColor,80d8c08a)</onload>
         <onload condition="!Skin.String(OSDProgressBarCacheColor.name)">Skin.SetString(OSDProgressBarCacheColor.name,$LOCALIZE[31539])</onload>
         <onload condition="!Skin.String(OSDProgressBarBorderColor)">Skin.SetString(OSDProgressBarBorderColor,b33b3b3b)</onload>
         <onload condition="!Skin.String(OSDProgressBarBorderColor.name)">Skin.SetString(OSDProgressBarBorderColor.name,$LOCALIZE[31279])</onload>
@@ -213,13 +213,13 @@
         <onload condition="!Skin.String(OSDBingieButtonsColor.name)">Skin.SetString(OSDBingieButtonsColor.name,$LOCALIZE[742])</onload>
 		<onload condition="!Skin.String(OSDVolumeButtonColor)">Skin.SetString(OSDVolumeButtonColor,ffd4af37)</onload>
         <onload condition="!Skin.String(OSDVolumeButtonColor.name)">Skin.SetString(OSDVolumeButtonColor.name,$LOCALIZE[13343])</onload>
-        <onload condition="!Skin.String(OSDBufferingSpinnerColor)">Skin.SetString(OSDBufferingSpinnerColor,ff58c4ff)</onload>
+        <onload condition="!Skin.String(OSDBufferingSpinnerColor)">Skin.SetString(OSDBufferingSpinnerColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(OSDBufferingSpinnerColor.name)">Skin.SetString(OSDBufferingSpinnerColor.name,$LOCALIZE[13343])</onload>
 		<onload condition="!Skin.String(BingieOSDProgressBarBackgroundColor)">Skin.SetString(BingieOSDProgressBarBackgroundColor,27ffffff)</onload>
         <onload condition="!Skin.String(BingieOSDProgressBarBackgroundColor.name)">Skin.SetString(BingieOSDProgressBarBackgroundColor.name,$LOCALIZE[31279])</onload>
-		<onload condition="!Skin.String(BingieOSDProgressBarColor)">Skin.SetString(BingieOSDProgressBarColor,ff3fa9ff)</onload>
+		<onload condition="!Skin.String(BingieOSDProgressBarColor)">Skin.SetString(BingieOSDProgressBarColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(BingieOSDProgressBarColor.name)">Skin.SetString(BingieOSDProgressBarColor.name,$LOCALIZE[13343])</onload>
-		<onload condition="!Skin.String(BingieOSDProgressBarCacheColor)">Skin.SetString(BingieOSDProgressBarCacheColor,803fa9ff)</onload>
+		<onload condition="!Skin.String(BingieOSDProgressBarCacheColor)">Skin.SetString(BingieOSDProgressBarCacheColor,80d8c08a)</onload>
         <onload condition="!Skin.String(BingieOSDProgressBarCacheColor.name)">Skin.SetString(BingieOSDProgressBarCacheColor.name,$LOCALIZE[31539])</onload>
 		<onload condition="!Skin.String(BingieOSDTextColor)">Skin.SetString(BingieOSDTextColor,ffffffff)</onload>
         <onload condition="!Skin.String(BingieOSDTextColor.name)">Skin.SetString(BingieOSDTextColor.name,$LOCALIZE[742])</onload>				
@@ -257,7 +257,7 @@
         <onload condition="!Skin.String(BingieButtonTextColor.name)">Skin.SetString(BingieButtonTextColor.name,$LOCALIZE[766])</onload>
 		<onload condition="!Skin.String(BingieSecondaryButtonFocusTextColor)">Skin.SetString(BingieSecondaryButtonFocusTextColor,ff091420)</onload>
         <onload condition="!Skin.String(BingieSecondaryButtonFocusTextColor.name)">Skin.SetString(BingieSecondaryButtonFocusTextColor.name,$LOCALIZE[353])</onload>
-		<onload condition="!Skin.String(BingieProgressBarColor)">Skin.SetString(BingieProgressBarColor,ff3fa9ff)</onload>
+		<onload condition="!Skin.String(BingieProgressBarColor)">Skin.SetString(BingieProgressBarColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(BingieProgressBarColor.name)">Skin.SetString(BingieProgressBarColor.name,$LOCALIZE[13343])</onload>
 		<onload condition="!Skin.String(BingieProgressBarBackgroundColor)">Skin.SetString(BingieProgressBarBackgroundColor,ff929699)</onload>
         <onload condition="!Skin.String(BingieProgressBarBackgroundColor.name)">Skin.SetString(BingieProgressBarBackgroundColor.name,$LOCALIZE[767])</onload>
@@ -265,7 +265,7 @@
         <onload condition="!Skin.String(BingieHomeProgressBarTextColor.name)">Skin.SetString(BingieHomeProgressBarTextColor.name,$LOCALIZE[766])</onload>
 		<onload condition="!Skin.String(BackgroundColor)">Skin.SetString(BackgroundColor,ff091420)</onload>
         <onload condition="!Skin.String(BackgroundColor.name)">Skin.SetString(BackgroundColor.name,$LOCALIZE[353])</onload>
-		<onload condition="!Skin.String(SpinnerTextureColor)">Skin.SetString(SpinnerTextureColor,ff58c4ff)</onload>
+		<onload condition="!Skin.String(SpinnerTextureColor)">Skin.SetString(SpinnerTextureColor,ffd8c08a)</onload>
 		<onload condition="!Skin.String(SpinnerTexture.name)">Skin.SetString(SpinnerTextureColor.name,$LOCALIZE[13343])</onload>
 		<onload condition="!Skin.String(WidgetSpinnerTextureColor)">Skin.SetString(WidgetSpinnerTextureColor,ffffffff)</onload>
 		<onload condition="!Skin.String(WidgetSpinnerTexture.name)">Skin.SetString(WidgetSpinnerTextureColor.name,$LOCALIZE[742])</onload>
@@ -288,11 +288,11 @@
         <onload condition="!Skin.String(MainMenuFocusTextColor)">Skin.SetString(MainMenuFocusTextColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(MainMenuFocusTextColor)">Skin.SetString(MainMenuFocusTextColor,ffffffff)</onload>
         <onload condition="!Skin.String(ActiveSpinControlColor)">Skin.SetString(ActiveSpinControlColor.name,$LOCALIZE[13343])</onload>
-        <onload condition="!Skin.String(ActiveSpinControlColor)">Skin.SetString(ActiveSpinControlColor,ff3fa9ff)</onload>
+        <onload condition="!Skin.String(ActiveSpinControlColor)">Skin.SetString(ActiveSpinControlColor,ffd8c08a)</onload>
 		<onload condition="!Skin.String(ProgressBarColor)">Skin.SetString(ProgressBarColor.name,$LOCALIZE[13343])</onload>
-        <onload condition="!Skin.String(ProgressBarColor)">Skin.SetString(ProgressBarColor,ff3fa9ff)</onload>
+        <onload condition="!Skin.String(ProgressBarColor)">Skin.SetString(ProgressBarColor,ffd8c08a)</onload>
         <!-- watched indicator colors -->
-        <onload condition="!Skin.String(WatchedIndicator.Watched.Color)">Skin.SetString(WatchedIndicator.Watched.Color,e63fa9ff)</onload>
+        <onload condition="!Skin.String(WatchedIndicator.Watched.Color)">Skin.SetString(WatchedIndicator.Watched.Color,e6d8c08a)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Watched.Color.name)">Skin.SetString(WatchedIndicator.Watched.Color.name,$LOCALIZE[31539])</onload>
         <onload condition="!Skin.String(WatchedIndicator.Watched.TextColor)">Skin.SetString(WatchedIndicator.Watched.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Watched.TextColor.name)">Skin.SetString(WatchedIndicator.Watched.TextColor.name,$LOCALIZE[742])</onload>
@@ -300,11 +300,11 @@
         <onload condition="!Skin.String(WatchedIndicator.UnWatched.Color.name)">Skin.SetString(WatchedIndicator.UnWatched.Color.name,$LOCALIZE[31539])</onload>
         <onload condition="!Skin.String(WatchedIndicator.UnWatched.TextColor)">Skin.SetString(WatchedIndicator.UnWatched.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(WatchedIndicator.UnWatched.TextColor.name)">Skin.SetString(WatchedIndicator.UnWatched.TextColor.name,$LOCALIZE[742])</onload>
-        <onload condition="!Skin.String(WatchedIndicator.Progress.Color)">Skin.SetString(WatchedIndicator.Progress.Color,ff58c4ff)</onload>
+        <onload condition="!Skin.String(WatchedIndicator.Progress.Color)">Skin.SetString(WatchedIndicator.Progress.Color,ffe8d8b0)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Progress.Color.name)">Skin.SetString(WatchedIndicator.Progress.Color.name,$LOCALIZE[31539])</onload>
         <onload condition="!Skin.String(WatchedIndicator.Progress.TextColor)">Skin.SetString(WatchedIndicator.Progress.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Progress.TextColor.name)">Skin.SetString(WatchedIndicator.Progress.TextColor.name,$LOCALIZE[742])</onload>
-        <onload condition="!Skin.String(WatchedIndicator.Sets.Color)">Skin.SetString(WatchedIndicator.Sets.Color,ff3fa9ff)</onload>
+        <onload condition="!Skin.String(WatchedIndicator.Sets.Color)">Skin.SetString(WatchedIndicator.Sets.Color,ffd8c08a)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Sets.Color.name)">Skin.SetString(WatchedIndicator.Sets.Color.name,$LOCALIZE[31474])</onload>
         <onload condition="!Skin.String(WatchedIndicator.Sets.TextColor)">Skin.SetString(WatchedIndicator.Sets.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Sets.TextColor.name)">Skin.SetString(WatchedIndicator.Sets.TextColor.name,$LOCALIZE[742])</onload>
@@ -312,7 +312,7 @@
         <onload condition="!Skin.String(WatchedIndicator.Episodes.Color.name)">Skin.SetString(WatchedIndicator.Episodes.Color.name,$LOCALIZE[31539])</onload>
         <onload condition="!Skin.String(WatchedIndicator.Episodes.TextColor)">Skin.SetString(WatchedIndicator.Episodes.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Episodes.TextColor.name)">Skin.SetString(WatchedIndicator.Episodes.TextColor.name,$LOCALIZE[742])</onload>
-        <onload condition="!Skin.String(WatchedIndicator.Playing.Color)">Skin.SetString(WatchedIndicator.Playing.Color,ff58c4ff)</onload>
+        <onload condition="!Skin.String(WatchedIndicator.Playing.Color)">Skin.SetString(WatchedIndicator.Playing.Color,ffd8c08a)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Playing.Color.name)">Skin.SetString(WatchedIndicator.Playing.Color.name,$LOCALIZE[767])</onload>
         <onload condition="!Skin.String(WatchedIndicator.Playing.TextColor)">Skin.SetString(WatchedIndicator.Playing.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Playing.TextColor.name)">Skin.SetString(WatchedIndicator.Playing.TextColor.name,$LOCALIZE[742])</onload>       
