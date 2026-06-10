@@ -35,7 +35,7 @@
 		<defaultID>arghsettings</defaultID>
 		<label>Settings</label>
 		<label2>Custom item</label2>
-		<icon>shortcuts/new.png</icon>
+		<icon>shortcuts/piratesettings.png</icon>
 		<thumb />
 		<action>RunPlugin(plugin://plugin.video.pirate/?mode=open_settings)</action>
 		</shortcut>
