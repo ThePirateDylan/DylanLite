@@ -273,7 +273,7 @@
         <onload condition="!Skin.String(defaultcolorpalette)">Skin.SetString(defaultcolorpalette,basic)</onload>
         <onload condition="!Skin.String(SideBladePanelColor)">Skin.SetString(SideBladePanelColor,ff091420)</onload>
         <onload condition="!Skin.String(SideBladePanelColor.name)">Skin.SetString(SideBladePanelColor.name,$LOCALIZE[353])</onload>
-        <onload condition="!Skin.String(TagOverlaysPanelColor)">Skin.SetString(TagOverlaysPanelColor,dd000000)</onload>
+        <onload condition="!Skin.String(TagOverlaysPanelColor)">Skin.SetString(TagOverlaysPanelColor,99d8c08a)</onload>
         <onload condition="!Skin.String(TagOverlaysPanelColor.name)">Skin.SetString(TagOverlaysPanelColor.name,$LOCALIZE[353])</onload>
         <onload condition="!Skin.String(TagOverlaysTextColor)">Skin.SetString(TagOverlaysTextColor,ffffffff)</onload>
         <onload condition="!Skin.String(TagOverlaysTextColor.name)">Skin.SetString(TagOverlaysTextColor.name,$LOCALIZE[742])</onload>
@@ -308,7 +308,7 @@
         <onload condition="!Skin.String(WatchedIndicator.Sets.Color.name)">Skin.SetString(WatchedIndicator.Sets.Color.name,$LOCALIZE[31474])</onload>
         <onload condition="!Skin.String(WatchedIndicator.Sets.TextColor)">Skin.SetString(WatchedIndicator.Sets.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Sets.TextColor.name)">Skin.SetString(WatchedIndicator.Sets.TextColor.name,$LOCALIZE[742])</onload>
-        <onload condition="!Skin.String(WatchedIndicator.Episodes.Color)">Skin.SetString(WatchedIndicator.Episodes.Color,ff16263a)</onload>
+        <onload condition="!Skin.String(WatchedIndicator.Episodes.Color)">Skin.SetString(WatchedIndicator.Episodes.Color,e6d8c08a)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Episodes.Color.name)">Skin.SetString(WatchedIndicator.Episodes.Color.name,$LOCALIZE[31539])</onload>
         <onload condition="!Skin.String(WatchedIndicator.Episodes.TextColor)">Skin.SetString(WatchedIndicator.Episodes.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Episodes.TextColor.name)">Skin.SetString(WatchedIndicator.Episodes.TextColor.name,$LOCALIZE[742])</onload>
