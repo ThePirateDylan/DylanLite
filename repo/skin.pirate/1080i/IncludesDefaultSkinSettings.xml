@@ -121,7 +121,7 @@
         <!-- default color settings -->
 		<onload condition="!Skin.String(LineUnderMenuIconsColor)">Skin.SetString(LineUnderMenuIconsColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(LineUnderMenuIconsColor.name)">Skin.SetString(LineUnderMenuIconsColor.name,$LOCALIZE[13343])</onload>
-        <onload condition="!Skin.String(HeaderTextColor)">Skin.SetString(HeaderTextColor,ffffffff)</onload>
+        <onload condition="!Skin.String(HeaderTextColor)">Skin.SetString(HeaderTextColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(HeaderTextColor.name)">Skin.SetString(HeaderTextColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(HeaderTextShadowColor)">Skin.SetString(HeaderTextShadowColor,ff091420)</onload>
         <onload condition="!Skin.String(HeaderTextShadowColor.name)">Skin.SetString(HeaderTextShadowColor.name,$LOCALIZE[353])</onload>
