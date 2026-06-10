@@ -1775,7 +1775,7 @@
                      <!--Red line under sideblade icons and slim menu-->
                     <include content="Bingie_Menu_Current_Indicator">
                         <param name="visibility" value="$EXP[IsMainMenuOpened] + $EXP[IsMenuEntryActive]" />
-						<param name="left" value="70" /> 
+						<param name="left" value="90" /> 
                     </include>
                     <!-- home behavior onfocus -->
                     <include>HiddenHomeMenuButton</include>
@@ -1981,7 +1981,7 @@
     <include name="Bingie_Menu_Icon">
         <control type="group">
             <include condition="$PARAM[includeAnimCond]">Bingie_Menu_Icon_Anim</include>
-            <left>175</left>
+            <left>85</left>
             <height>100%</height>
             <top>20</top>
             <control type="image">
@@ -1993,7 +1993,7 @@
 	<include name="Bingie_Menu_IconFOCUS">
         <control type="group">
             <include condition="$PARAM[includeAnimCond]">Bingie_Menu_Icon_Anim</include>
-            <left>175</left>
+            <left>85</left>
             <height>100%</height>
             <top>20</top>
             <control type="image">
@@ -2005,7 +2005,7 @@
 	<include name="Bingie_Menu_IconFOCUS_2">
         <control type="group">
             <include condition="$PARAM[includeAnimCond]">Bingie_Menu_Icon_Anim</include>
-            <left>175</left>
+            <left>85</left>
             <height>100%</height>
             <top>20</top>
             <control type="image">
@@ -2029,7 +2029,7 @@
         <width>350</width>
         <height>92</height>
         <align>left</align>
-        <left>245</left>
+        <left>165</left>
         <aligny>center</aligny>
         <font>Reg34</font>
 		<textcolor>$INFO[Skin.String(MainMenuTextColor)]</textcolor>
@@ -2055,7 +2055,7 @@
         <width>350</width>
         <height>92</height>
         <align>left</align>
-        <left>247</left>
+        <left>167</left>
 		<aligny>center</aligny>
         <font>Bold34</font>
 		<textcolor>$INFO[Skin.String(MainMenuFocusTextColor)]</textcolor>
