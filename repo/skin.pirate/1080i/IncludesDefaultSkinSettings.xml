@@ -101,6 +101,7 @@
 	<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(bingie_osd_buttons_lyrics)</onload>
 	<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableTop250)</onload>
 	<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableSpotlightTop250)</onload>
+    <onload condition="Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableSpotlightContent)</onload>
 
         <!-- Enable Ratings on Default -->
         <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableRatings)</onload>
@@ -117,7 +118,7 @@
         <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(ratings_Emmy)</onload>
 
         <!--Disable Spotlight on Default-->
-        <onload condition="Skin.HasSetting(HomeMenuDefault46)">Skin.SetString(DisableSpotlightContent)</onload>
+        <onload condition="Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableSpotlightContent)</onload>
 
 		<!-- default splash resolution -->
         <onload condition="String.IsEmpty(Skin.String(SplashAnimationResolution))">Skin.SetString(SplashAnimationResolution,1080p)</onload>
