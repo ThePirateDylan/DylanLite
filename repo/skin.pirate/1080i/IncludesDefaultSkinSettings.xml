@@ -161,7 +161,7 @@
         <onload condition="!Skin.String(BingieSecondaryTextColor.name)">Skin.SetString(BingieSecondaryTextColor.name,$LOCALIZE[767])</onload>
 		<onload condition="!Skin.String(MainMenuButtonColor)">Skin.SetString(MainMenuButtonColor,803fa9ff)</onload>
         <onload condition="!Skin.String(MainMenuButtonColor.name)">Skin.SetString(MainMenuButtonColor.name,$LOCALIZE[767])</onload>
-        <onload condition="!Skin.String(MainMenuFocusButtonColor)">Skin.SetString(MainMenuFocusButtonColor,ffd4af37)</onload>
+        <onload condition="!Skin.String(MainMenuFocusButtonColor)">Skin.SetString(MainMenuFocusButtonColor,80b89a5a)</onload>
         <onload condition="!Skin.String(MainMenuFocusButtonColor.name)">Skin.SetString(MainMenuFocusButtonColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(BingieDetailsFlagColor)">Skin.SetString(BingieDetailsFlagColor,ff16263a)</onload>
         <onload condition="!Skin.String(BingieDetailsFlagColor.name)">Skin.SetString(BingieDetailsFlagColor.name,$LOCALIZE[31279])</onload>

@@ -2121,7 +2121,7 @@
             <width>130</width>
             <aspectratio scalediffuse="true">scale</aspectratio>
             <texture border="2" background="true">bingie/sidediffuse.png</texture>
-            <colordiffuse>black</colordiffuse>  
+            <colordiffuse>80091420</colordiffuse>  
 			<!-- Never Change or Remove / It will give everything a Grey Effect on Screen. It's very Hard to see on Smaller TV but Very Noticable on a Larger One -->
 			<visible>!$EXP[IsRecognizedVideoContent] + !$EXP[IsCurrentWidgetSpotlight]</visible>
 		</control>
