@@ -1938,8 +1938,8 @@
             <control type="image">
                 <visible>$PARAM[visibility]</visible>
                 <left>$PARAM[left]</left>
-                <width>25</width>
-                <bottom>15</bottom>
+                <width>56</width>
+                <bottom>10</bottom>
 				<height>-7</height>
                 <texture>diffuse/panel2.png</texture>
                 <colordiffuse>$INFO[Skin.String(LineUnderMenuIconsColor)]</colordiffuse>
@@ -1981,9 +1981,9 @@
     <include name="Bingie_Menu_Icon">
         <control type="group">
             <include condition="$PARAM[includeAnimCond]">Bingie_Menu_Icon_Anim</include>
-            <left>70</left>
+            <left>175</left>
             <height>100%</height>
-            <top>35</top>
+            <top>20</top>
             <control type="image">
                 <include>Bingie_Menu_Icon_Defs</include>
                 <colordiffuse>$INFO[Skin.String(MainMenuButtonColor)]</colordiffuse>
@@ -1993,9 +1993,9 @@
 	<include name="Bingie_Menu_IconFOCUS">
         <control type="group">
             <include condition="$PARAM[includeAnimCond]">Bingie_Menu_Icon_Anim</include>
-            <left>70</left>
+            <left>175</left>
             <height>100%</height>
-            <top>35</top>
+            <top>20</top>
             <control type="image">
                 <include>Bingie_Menu_Icon_Defs</include>
                 <colordiffuse>$INFO[Skin.String(MainMenuFocusButtonColor)]</colordiffuse>
@@ -2005,9 +2005,9 @@
 	<include name="Bingie_Menu_IconFOCUS_2">
         <control type="group">
             <include condition="$PARAM[includeAnimCond]">Bingie_Menu_Icon_Anim</include>
-            <left>70</left>
+            <left>175</left>
             <height>100%</height>
-            <top>35</top>
+            <top>20</top>
             <control type="image">
                 <include>Bingie_Menu_Icon_Defs</include>
                 <colordiffuse>$VAR[MenuIconColor]</colordiffuse>
@@ -2020,8 +2020,8 @@
     </include>
 
     <include name="Bingie_Menu_Icon_Defs">
-        <width>25</width>
-        <height>25</height>
+        <width>56</width>
+        <height>56</height>
         <texture background="true">$INFO[ListItem.Icon]</texture>
     </include>
 
@@ -2029,7 +2029,7 @@
         <width>350</width>
         <height>92</height>
         <align>left</align>
-        <left>150</left>
+        <left>245</left>
         <aligny>center</aligny>
         <font>Reg34</font>
 		<textcolor>$INFO[Skin.String(MainMenuTextColor)]</textcolor>
@@ -2055,7 +2055,7 @@
         <width>350</width>
         <height>92</height>
         <align>left</align>
-        <left>152</left>
+        <left>247</left>
 		<aligny>center</aligny>
         <font>Bold34</font>
 		<textcolor>$INFO[Skin.String(MainMenuFocusTextColor)]</textcolor>
