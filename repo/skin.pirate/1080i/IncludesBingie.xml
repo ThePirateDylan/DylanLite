@@ -1981,7 +1981,7 @@
     <include name="Bingie_Menu_Icon">
         <control type="group">
             <include condition="$PARAM[includeAnimCond]">Bingie_Menu_Icon_Anim</include>
-            <left>85</left>
+            <left>55</left>
             <height>100%</height>
             <top>20</top>
             <control type="image">
@@ -1993,7 +1993,7 @@
 	<include name="Bingie_Menu_IconFOCUS">
         <control type="group">
             <include condition="$PARAM[includeAnimCond]">Bingie_Menu_Icon_Anim</include>
-            <left>85</left>
+            <left>55</left>
             <height>100%</height>
             <top>20</top>
             <control type="image">
@@ -2005,7 +2005,7 @@
 	<include name="Bingie_Menu_IconFOCUS_2">
         <control type="group">
             <include condition="$PARAM[includeAnimCond]">Bingie_Menu_Icon_Anim</include>
-            <left>85</left>
+            <left>55</left>
             <height>100%</height>
             <top>20</top>
             <control type="image">
@@ -2029,7 +2029,7 @@
         <width>350</width>
         <height>92</height>
         <align>left</align>
-        <left>165</left>
+        <left>130</left>
         <aligny>center</aligny>
         <font>Reg34</font>
 		<textcolor>$INFO[Skin.String(MainMenuTextColor)]</textcolor>
@@ -2055,7 +2055,7 @@
         <width>350</width>
         <height>92</height>
         <align>left</align>
-        <left>167</left>
+        <left>132</left>
 		<aligny>center</aligny>
         <font>Bold34</font>
 		<textcolor>$INFO[Skin.String(MainMenuFocusTextColor)]</textcolor>
