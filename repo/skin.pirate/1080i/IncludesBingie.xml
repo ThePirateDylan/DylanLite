@@ -1938,7 +1938,7 @@
             <control type="image">
                 <visible>$PARAM[visibility]</visible>
                 <left>$PARAM[left]</left>
-                <width>56</width>
+                <width>38</width>
                 <bottom>10</bottom>
 				<height>-7</height>
                 <texture>diffuse/panel2.png</texture>
