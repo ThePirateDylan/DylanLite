@@ -1739,13 +1739,13 @@
                     <!--this red line just for slim menu-->
                     <include content="Bingie_Menu_Current_Indicator"> 
                          <param name="visibility" value="$EXP[IsMenuEntryActive] + !$EXP[IsMainMenuOpened]" />
-                         <param name="left" value="70" /> 
+                         <param name="left" value="65" /> 
 						 <param name="includeAnimCond" value="true" />
                      </include> 
 					 <!--added to keep the red line stationary on sideblade menu instead of moving with focus-->
 						<include content="Bingie_Menu_Current_Indicator"> 
                         <param name="visibility" value="$EXP[IsMainMenuOpened] + $EXP[IsMenuEntryActive]" />
-						<param name="left" value="70" />
+						<param name="left" value="65" />
 						</include>
                     <include content="Bingie_Menu_IconFOCUS_2">
                         <param name="includeAnimCond" value="true" />
@@ -1762,7 +1762,7 @@
                      <!--Red line under sideblade icons and slim menu-->
                     <include content="Bingie_Menu_Current_Indicator">
                         <param name="visibility" value="$EXP[IsMainMenuOpened] + $EXP[IsMenuEntryActive]" />
-						<param name="left" value="70" /> 
+						<param name="left" value="65" /> 
                     </include>
                     <!-- home behavior onfocus -->
                     <include>HiddenHomeMenuButton</include>
@@ -1775,7 +1775,7 @@
                      <!--Red line under sideblade icons and slim menu-->
                     <include content="Bingie_Menu_Current_Indicator">
                         <param name="visibility" value="$EXP[IsMainMenuOpened] + $EXP[IsMenuEntryActive]" />
-						<param name="left" value="90" /> 
+						<param name="left" value="65" /> 
                     </include>
                     <!-- home behavior onfocus -->
                     <include>HiddenHomeMenuButton</include>
@@ -1783,13 +1783,13 @@
                 <focusedlayout height="82" width="bingie_menu_width" condition="![Control.HasFocus(900) | Control.HasFocus(4444)]">
 					<include content="Bingie_Menu_Current_Indicator"> 
                          <param name="visibility" value="$EXP[IsMenuEntryActive] + !$EXP[IsMainMenuOpened]" />
-                         <param name="left" value="70" /> 
+                         <param name="left" value="65" /> 
 						 <param name="includeAnimCond" value="true" />
                      </include> 
 					 <!--added to keep the red line stationary on sideblade menu instead of moving with focus-->
 						<include content="Bingie_Menu_Current_Indicator"> 
                         <param name="visibility" value="$EXP[IsMainMenuOpened] + $EXP[IsMenuEntryActive]" />
-						<param name="left" value="70" />
+						<param name="left" value="65" />
 						</include>
                     <include content="Bingie_Menu_IconFOCUS">
                         <param name="includeAnimCond" value="true" />
