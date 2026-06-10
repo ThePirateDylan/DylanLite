@@ -141,7 +141,7 @@
         <onload condition="!Skin.String(ViewDetailsBorderUnfocusColor.name)">Skin.SetString(ViewDetailsBorderUnfocusColor.name,$LOCALIZE[31279])</onload>
         <onload condition="!Skin.String(ButtonFocusColor)">Skin.SetString(ButtonFocusColor,ff3fa9ff)</onload>
         <onload condition="!Skin.String(ButtonFocusColor.name)">Skin.SetString(ButtonFocusColor.name,$LOCALIZE[766])</onload>
-        <onload condition="!Skin.String(GeneralPanelsColor)">Skin.SetString(GeneralPanelsColor,cc0f1828)</onload>
+        <onload condition="!Skin.String(GeneralPanelsColor)">Skin.SetString(GeneralPanelsColor,cc091420)</onload>
         <onload condition="!Skin.String(GeneralPanelsColor.name)">Skin.SetString(GeneralPanelsColor.name,$LOCALIZE[353])</onload>
 		<onload condition="!Skin.String(FooterIconColor)">Skin.SetString(FooterIconColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(FooterIconColor.name)">Skin.SetString(FooterIconColor.name,$LOCALIZE[742])</onload>
@@ -187,7 +187,7 @@
         <onload condition="!Skin.String(BackgroundDiffuseColor.name)">Skin.SetString(BackgroundDiffuseColor.name,$LOCALIZE[767])</onload>
 		<onload condition="!Skin.String(BackgroundOverlayColor)">Skin.SetString(BackgroundOverlayColor,6d091420)</onload>
         <onload condition="!Skin.String(BackgroundOverlayColor.name)">Skin.SetString(BackgroundOverlayColor.name,$LOCALIZE[766])</onload>
-        <onload condition="!Skin.String(OSDPanelColor)">Skin.SetString(OSDPanelColor,cc000000)</onload>
+        <onload condition="!Skin.String(OSDPanelColor)">Skin.SetString(OSDPanelColor,cc111d2d)</onload>
         <onload condition="!Skin.String(OSDPanelColor.name)">Skin.SetString(OSDPanelColor.name,$LOCALIZE[353])</onload>
         <onload condition="!Skin.String(ButtonColor)">Skin.SetString(ButtonColor,ff141414)</onload>
         <onload condition="!Skin.String(ButtonColor.name)">Skin.SetString(ButtonColor.name,$LOCALIZE[31205])</onload>
@@ -271,7 +271,7 @@
 		<onload condition="!Skin.String(WidgetSpinnerTexture.name)">Skin.SetString(WidgetSpinnerTextureColor.name,$LOCALIZE[742])</onload>
 		<onload condition="!Skin.String(defaultcolorpalette.label)">Skin.SetString(defaultcolorpalette.label,$ADDON[script.skin.helper.colorpicker 32142])</onload>
         <onload condition="!Skin.String(defaultcolorpalette)">Skin.SetString(defaultcolorpalette,basic)</onload>
-        <onload condition="!Skin.String(SideBladePanelColor)">Skin.SetString(SideBladePanelColor,cc0f1828)</onload>
+        <onload condition="!Skin.String(SideBladePanelColor)">Skin.SetString(SideBladePanelColor,ff091420)</onload>
         <onload condition="!Skin.String(SideBladePanelColor.name)">Skin.SetString(SideBladePanelColor.name,$LOCALIZE[353])</onload>
         <onload condition="!Skin.String(TagOverlaysPanelColor)">Skin.SetString(TagOverlaysPanelColor,dd000000)</onload>
         <onload condition="!Skin.String(TagOverlaysPanelColor.name)">Skin.SetString(TagOverlaysPanelColor.name,$LOCALIZE[353])</onload>
