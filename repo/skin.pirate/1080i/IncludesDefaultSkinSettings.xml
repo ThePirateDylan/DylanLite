@@ -155,7 +155,7 @@
         <onload condition="!Skin.String(ButtonDisableTextColor.name)">Skin.SetString(ButtonDisableTextColor.name,$LOCALIZE[767])</onload>
         <onload condition="!Skin.String(GeneralTextColor)">Skin.SetString(GeneralTextColor,ffffffff)</onload>
         <onload condition="!Skin.String(GeneralTextColor.name)">Skin.SetString(GeneralTextColor.name,$LOCALIZE[742])</onload>
-        <onload condition="!Skin.String(BingiePrimaryTextColor)">Skin.SetString(BingiePrimaryTextColor,ffffffff)</onload>
+        <onload condition="!Skin.String(BingiePrimaryTextColor)">Skin.SetString(BingiePrimaryTextColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(BingiePrimaryTextColor.name)">Skin.SetString(BingiePrimaryTextColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(BingieSecondaryTextColor)">Skin.SetString(BingieSecondaryTextColor,73ffffff)</onload>
         <onload condition="!Skin.String(BingieSecondaryTextColor.name)">Skin.SetString(BingieSecondaryTextColor.name,$LOCALIZE[767])</onload>
@@ -180,7 +180,7 @@
         <onload condition="!Skin.String(BingieAdditionalInfoTextColor)">Skin.SetString(BingieAdditionalInfoTextColor,ffffffff)</onload>
         <onload condition="!Skin.String(BingieAdditionalInfoTextColor.name)">Skin.SetString(BingieAdditionalInfoTextColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(BingieLabelTextColor.name)">Skin.SetString(BingieLabelTextColor.name,$LOCALIZE[742])</onload>
-		<onload condition="!Skin.String(BingieLabelTextColor)">Skin.SetString(BingieLabelTextColor,ffffffff)</onload>
+		<onload condition="!Skin.String(BingieLabelTextColor)">Skin.SetString(BingieLabelTextColor,ffd8c08a)</onload>
 		<onload condition="!Skin.String(BingieSubLabelTextColor)">Skin.SetString(BingieSubLabelTextColor,ffffffff)</onload>
 		<onload condition="!Skin.String(BingieSubLabelTextColor.name)">Skin.SetString(BingieSubLabelTextColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(BackgroundDiffuseColor)">Skin.SetString(BackgroundDiffuseColor,26ffffff)</onload>
