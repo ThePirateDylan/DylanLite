@@ -248,7 +248,7 @@
         <onload condition="!Skin.String(BingiePlotTextColor.name)">Skin.SetString(BingiePlotTextColor.name,$LOCALIZE[766])</onload>
 		<onload condition="!Skin.String(BingieDeatailsTextColor)">Skin.SetString(BingieDeatailsTextColor,a6ffffff)</onload>
         <onload condition="!Skin.String(BingieDeatailsTextColor.name)">Skin.SetString(BingieDeatailsTextColor.name,$LOCALIZE[766])</onload>
-		<onload condition="!Skin.String(BingieHeaderTextColor)">Skin.SetString(BingieHeaderTextColor,ffffffff)</onload>
+		<onload condition="!Skin.String(BingieHeaderTextColor)">Skin.SetString(BingieHeaderTextColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(BingieHeaderTextColor.name)">Skin.SetString(BingieHeaderTextColor.name,$LOCALIZE[742])</onload>
 		<onload condition="!Skin.String(BingieSpotlightPlotTextColor)">Skin.SetString(BingieSpotlightPlotTextColor,ffffffff)</onload>
         <onload condition="!Skin.String(BingieSpotlightPlotTextColor.name)">Skin.SetString(BingieSpotlightPlotTextColor.name,$LOCALIZE[742])</onload>
