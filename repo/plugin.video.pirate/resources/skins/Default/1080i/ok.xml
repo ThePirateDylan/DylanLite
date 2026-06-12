@@ -34,7 +34,7 @@
                 <left>110</left>
                 <height>20</height>
                 <font>font12</font> <!-- FENLIGHT_26 -->
-                <textcolor>FF3FA9FF</textcolor>
+               <textcolor>FFD4AF37</textcolor>
                 <align>center</align>
                 <label>[UPPERCASE][B]$INFO[Window.Property(heading)][/B][/UPPERCASE]</label>
             </control>
@@ -44,7 +44,7 @@
                 <width>720</width>
                 <height>280</height>
                 <font>font13</font> <!-- FENLIGHT_30 -->
-                <textcolor>FF3FA9FF</textcolor>
+               <textcolor>FFD4AF37</textcolor>
                 <align>center</align>
                 <aligny>center</aligny>
                 <label>$INFO[Window.Property(text)]</label>
@@ -59,8 +59,8 @@
                 <onright>11</onright>
                 <label>$INFO[Window.Property(ok_label)]</label>
                 <font>font12</font> <!-- FENLIGHT_26 -->
-                <textcolor>FF3FA9FF</textcolor>
-                <focusedcolor>FF3FA9FF</focusedcolor>
+               <textcolor>FFD4AF37</textcolor>
+                <focusedcolor>FFF2C94C</focusedcolor>
                 <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                 <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
                 <align>center</align>

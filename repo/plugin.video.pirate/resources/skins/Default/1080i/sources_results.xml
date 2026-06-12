@@ -67,7 +67,7 @@
                     <width max="1210">auto</width>
                     <height>30</height>
                     <font>font60</font> <!-- FENLIGHT_60_BOLD -->
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <align>center</align>
                     <aligny>top</aligny>
                     <label>[B]$INFO[Window.Property(title)][/B]</label>
@@ -133,7 +133,7 @@
                                 <width max="950">auto</width>
                                 <height>12</height>
                                 <font>font10</font> <!-- FENLIGHT_21 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Size: [/B][/COLOR]$INFO[ListItem.Property(size_label)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Hoster: [/B][/COLOR]$INFO[ListItem.Property(source_type)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Site: [/B][/COLOR]$INFO[ListItem.Property(source_site)][/UPPERCASE]</label>
@@ -145,7 +145,7 @@
                                 <width max="950">auto</width>
                                 <height>12</height>
                                 <font>font10</font> <!-- FENLIGHT_21 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Info: [/B][/COLOR]$INFO[ListItem.Property(extraInfo)][/UPPERCASE]</label>
@@ -157,7 +157,7 @@
                                 <width max="950">auto</width>
                                 <height>12</height>
                                 <font>font10</font> <!-- FENLIGHT_21 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Title: [/B][/COLOR]$INFO[ListItem.Property(count)] $INFO[ListItem.Property(name)][/UPPERCASE]</label>
@@ -214,7 +214,7 @@
                                     <left>20</left>
                                     <control type="label">
                                         <font>font14</font> <!-- FENLIGHT_33 -->
-                                        <textcolor>FF3FA9FF</textcolor>
+                                       <textcolor>FFD4AF37</textcolor>
                                         <align>left</align>
                                         <aligny>bottom</aligny>
                                         <label>[B]$INFO[ListItem.Property(quality)][/B]</label>
@@ -222,7 +222,7 @@
                                     <control type="label">
                                         <top>35</top>
                                         <font>font10</font> <!-- FENLIGHT_21 -->
-                                        <textcolor>FF3FA9FF</textcolor>
+                                       <textcolor>FFD4AF37</textcolor>
                                         <align>left</align>
                                         <aligny>top</aligny>
                                         <label>[B]$INFO[ListItem.Property(provider)][/B]</label>
@@ -234,7 +234,7 @@
                                     <width max="950">auto</width>
                                     <height>12</height>
                                     <font>font10</font> <!-- FENLIGHT_21 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>left</align>
                                     <aligny>center</aligny>
                                     <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Size: [/B][/COLOR]$INFO[ListItem.Property(size_label)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Hoster: [/B][/COLOR]$INFO[ListItem.Property(source_type)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Site: [/B][/COLOR]$INFO[ListItem.Property(source_site)][/UPPERCASE]</label>
@@ -246,7 +246,7 @@
                                     <width max="950">auto</width>
                                     <height>12</height>
                                     <font>font10</font> <!-- FENLIGHT_21 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>left</align>
                                     <aligny>center</aligny>
                                     <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Info: [/B][/COLOR]$INFO[ListItem.Property(extraInfo)][/UPPERCASE]</label>
@@ -258,7 +258,7 @@
                                     <width max="950">auto</width>
                                     <height>12</height>
                                     <font>font10</font> <!-- FENLIGHT_21 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>left</align>
                                     <aligny>center</aligny>
                                     <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Title: [/B][/COLOR]$INFO[ListItem.Property(count)] $INFO[ListItem.Property(name)][/UPPERCASE]</label>
@@ -282,7 +282,7 @@
                                     <width max="860">auto</width>
                                     <height>40</height>
                                     <font>font14</font> <!-- FENLIGHT_33 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>center</align>
                                     <aligny>center</aligny>
                                     <label>[B]***START FULL SCRAPE***[/B]</label>
@@ -347,7 +347,7 @@
                     <width max="1210">auto</width>
                     <height>30</height>
                     <font>font60</font> <!-- FENLIGHT_60_BOLD -->
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <align>center</align>
                     <aligny>bottom</aligny>
                     <label>[B]$INFO[Window.Property(title)][/B]</label>
@@ -402,7 +402,7 @@
                                 <width max="725">auto</width>
                                 <height>12</height>
                                 <font>font10</font> <!-- FENLIGHT_21 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Size: [/B][/COLOR]$INFO[ListItem.Property(size_label)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Hoster: [/B][/COLOR]$INFO[ListItem.Property(source_type)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Site: [/B][/COLOR]$INFO[ListItem.Property(source_site)][/UPPERCASE]</label>
@@ -414,7 +414,7 @@
                                 <width max="725">auto</width>
                                 <height>12</height>
                                 <font>font10</font> <!-- FENLIGHT_21 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Info: [/B][/COLOR]$INFO[ListItem.Property(extraInfo)][/UPPERCASE]</label>
@@ -426,7 +426,7 @@
                                 <width max="725">auto</width>
                                 <height>12</height>
                                 <font>font10</font> <!-- FENLIGHT_21 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Title: [/B][/COLOR]$INFO[ListItem.Property(count)] $INFO[ListItem.Property(name)][/UPPERCASE]</label>
@@ -483,7 +483,7 @@
                                     <left>20</left>
                                     <control type="label">
                                         <font>font14</font> <!-- FENLIGHT_33 -->
-                                        <textcolor>FF3FA9FF</textcolor>
+                                       <textcolor>FFD4AF37</textcolor>
                                         <align>left</align>
                                         <aligny>bottom</aligny>
                                         <label>[B]$INFO[ListItem.Property(quality)][/B]</label>
@@ -491,7 +491,7 @@
                                     <control type="label">
                                         <top>35</top>
                                         <font>font10</font> <!-- FENLIGHT_21 -->
-                                        <textcolor>FF3FA9FF</textcolor>
+                                       <textcolor>FFD4AF37</textcolor>
                                         <align>left</align>
                                         <aligny>top</aligny>
                                         <label>[B]$INFO[ListItem.Property(provider)][/B]</label>
@@ -503,7 +503,7 @@
                                     <width max="725">auto</width>
                                     <height>12</height>
                                     <font>font10</font> <!-- FENLIGHT_21 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>left</align>
                                     <aligny>center</aligny>
                                     <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Size: [/B][/COLOR]$INFO[ListItem.Property(size_label)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Hoster: [/B][/COLOR]$INFO[ListItem.Property(source_type)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Site: [/B][/COLOR]$INFO[ListItem.Property(source_site)][/UPPERCASE]</label>
@@ -515,7 +515,7 @@
                                     <width max="725">auto</width>
                                     <height>12</height>
                                     <font>font10</font> <!-- FENLIGHT_21 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>left</align>
                                     <aligny>center</aligny>
                                     <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Info: [/B][/COLOR]$INFO[ListItem.Property(extraInfo)][/UPPERCASE]</label>
@@ -527,7 +527,7 @@
                                     <width max="725">auto</width>
                                     <height>12</height>
                                     <font>font10</font> <!-- FENLIGHT_21 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>left</align>
                                     <aligny>center</aligny>
                                     <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Title: [/B][/COLOR]$INFO[ListItem.Property(count)] $INFO[ListItem.Property(name)][/UPPERCASE]</label>
@@ -551,7 +551,7 @@
                                     <width max="860">auto</width>
                                     <height>40</height>
                                     <font>font14</font> <!-- FENLIGHT_33 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>center</align>
                                     <aligny>center</aligny>
                                     <label>[B]***START FULL SCRAPE***[/B]</label>
@@ -618,7 +618,7 @@
                     <width max="1210">auto</width>
                     <height>30</height>
                     <font>font60</font> <!-- FENLIGHT_60_BOLD -->
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <align>center</align>
                     <aligny>top</aligny>
                     <label>[B]$INFO[Window.Property(title)][/B]</label>
@@ -675,7 +675,7 @@
                                 <width max="1460">auto</width>
                                 <height>12</height>
                                 <font>font10</font> <!-- FENLIGHT_21 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <scroll>false</scroll>
@@ -687,7 +687,7 @@
                                 <width max="1460">auto</width>
                                 <height>12</height>
                                 <font>font12</font> <!-- FENLIGHT_26 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                                 <label>[UPPERCASE]$INFO[ListItem.Property(count)] $INFO[ListItem.Property(name)][/UPPERCASE]</label>
@@ -743,7 +743,7 @@
                                     <left>20</left>
                                     <control type="label">
                                         <font>font14</font> <!-- FENLIGHT_33 -->
-                                        <textcolor>FF3FA9FF</textcolor>
+                                       <textcolor>FFD4AF37</textcolor>
                                         <align>left</align>
                                         <aligny>bottom</aligny>
                                         <label>[B]$INFO[ListItem.Property(quality)][/B]</label>
@@ -751,7 +751,7 @@
                                     <control type="label">
                                         <top>35</top>
                                         <font>font10</font> <!-- FENLIGHT_21 -->
-                                        <textcolor>FF3FA9FF</textcolor>
+                                       <textcolor>FFD4AF37</textcolor>
                                         <align>left</align>
                                         <aligny>top</aligny>
                                         <label>[B]$INFO[ListItem.Property(provider)][/B]</label>
@@ -763,7 +763,7 @@
                                     <width max="1460">auto</width>
                                     <height>12</height>
                                     <font>font10</font> <!-- FENLIGHT_21 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>left</align>
                                     <aligny>center</aligny>
                                     <label>[UPPERCASE][COLOR $INFO[ListItem.Property(highlight)]][B]Size: [/B][/COLOR]$INFO[ListItem.Property(size_label)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Hoster: [/B][/COLOR]$INFO[ListItem.Property(source_type)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Site: [/B][/COLOR]$INFO[ListItem.Property(source_site)]     [COLOR $INFO[ListItem.Property(highlight)]][B]Info: [/B][/COLOR]$INFO[ListItem.Property(extraInfo)][/UPPERCASE]</label>
@@ -775,7 +775,7 @@
                                     <width max="1460">auto</width>
                                     <height>12</height>
                                     <font>font12</font> <!-- FENLIGHT_26 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>left</align>
                                     <aligny>center</aligny>
                                     <label>[UPPERCASE]$INFO[ListItem.Property(count)] $INFO[ListItem.Property(name)][/UPPERCASE]</label>
@@ -799,7 +799,7 @@
                                     <width max="1460">auto</width>
                                     <height>40</height>
                                     <font>font14</font> <!-- FENLIGHT_33 -->
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <align>left</align>
                                     <aligny>center</aligny>
                                     <label>[B]***START FULL SCRAPE***[/B]</label>
@@ -873,7 +873,7 @@
                 <left>110</left>
                 <height>20</height>
                 <font>font12</font> <!-- FENLIGHT_26 -->
-                <textcolor>FF3FA9FF</textcolor>
+               <textcolor>FFD4AF37</textcolor>
                 <shadowcolor>FF0F1828</shadowcolor>
                 <align>center</align>
                 <label>[UPPERCASE][B]actions[/B][/UPPERCASE]</label>
@@ -917,7 +917,7 @@
                         <top>45</top>
                         <height>5</height>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <aligny>center</aligny>
                         <label>[UPPERCASE]$INFO[ListItem.Property(label)][/UPPERCASE]</label>
                     </control>
@@ -934,7 +934,7 @@
                         <height>5</height>
                         <width max="610">auto</width>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <aligny>center</aligny>
                         <label>[UPPERCASE]$INFO[ListItem.Property(label)][/UPPERCASE]</label>
                     </control>

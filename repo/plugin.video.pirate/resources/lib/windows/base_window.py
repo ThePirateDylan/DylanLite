@@ -424,7 +424,7 @@ class ExtrasUtils:
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				            <textcolor>FFD4AF37</textcolor>
 				            <label>{heading_label}</label>
 				            <visible>!Control.HasFocus({container_no})</visible>
 				        </control>
@@ -432,7 +432,7 @@ class ExtrasUtils:
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				            <textcolor>FFF2C94C</textcolor>
 				            <label>{highlight_label}</label>
 				            <visible>Control.HasFocus({container_no})</visible>
 				        </control>
@@ -527,7 +527,7 @@ class ExtrasUtils:
 				            <width max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				            <textcolor>FFD4AF37</textcolor>
 				            <align>left</align>
 				            <aligny>bottom</aligny>
 				            <label>{heading_label}</label>
@@ -555,7 +555,7 @@ class ExtrasUtils:
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -574,7 +574,7 @@ class ExtrasUtils:
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -623,7 +623,7 @@ class ExtrasUtils:
                             <width max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <align>left</align>
                             <aligny>bottom</aligny>
                             <label>{heading_label}</label>
@@ -645,7 +645,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <align>center</align>
                             <aligny>center</aligny>
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>$INFO[Window.Property({content_lookup})]</label>
                             <autoscroll>false</autoscroll>
                             <visible>!Control.HasFocus({container_no})</visible>
@@ -658,7 +658,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <align>center</align>
                             <aligny>center</aligny>
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>$INFO[Window.Property(plot)]</label>
                             <autoscroll>false</autoscroll>
                             <visible>Control.HasFocus({container_no})</visible>
@@ -703,7 +703,7 @@ class ExtrasUtils:
                         <width max="300">auto</width>
                         <height>20</height>
                         <font>font37</font> <!-- FENLIGHT_38 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>right</align>
                         <aligny>center</aligny>
                         <label>[B]$INFO[System.Time][/B]</label>
@@ -714,7 +714,7 @@ class ExtrasUtils:
                         <width max="350">auto</width>
                         <height>20</height>
                         <font>font10</font> <!-- FENLIGHT_21 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>right</align>
                         <aligny>center</aligny>
                         <label>$INFO[System.Date]</label>
@@ -736,7 +736,7 @@ class ExtrasUtils:
                         <width max="600">auto</width>
                         <height>20</height>
                         <font>font10</font> <!-- FENLIGHT_21 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>right</align>
                         <aligny>bottom</aligny>
                         <label>$INFO[ListItem.Property(info_alert)]</label>
@@ -769,7 +769,7 @@ class ExtrasUtils:
                         <width max="1130">auto</width>
                         <height>30</height>
                         <font>font60</font> <!-- FENLIGHT_60_BOLD -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>center</align>
                         <aligny>bottom</aligny>
                         <label>[B]$INFO[Window.Property(title)][/B]</label>
@@ -787,7 +787,7 @@ class ExtrasUtils:
                         <width max="1150">auto</width>
                         <height>25</height>
                         <font>font14</font> <!-- FENLIGHT_33 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>center</align>
                         <label>[I]$INFO[Window.Property(genre)][/I]</label>
                     </control>
@@ -808,7 +808,7 @@ class ExtrasUtils:
                             <width max="1026">auto</width>
                             <height>32</height>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <align>left</align>
                         </control>
                     </control>
@@ -817,7 +817,7 @@ class ExtrasUtils:
                         <width max="1150">auto</width>
                         <height>25</height>
                         <font>font14</font> <!-- FENLIGHT_33 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>center</align>
                     </control>
                     <control type="grouplist">
@@ -843,7 +843,7 @@ class ExtrasUtils:
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -865,7 +865,7 @@ class ExtrasUtils:
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -887,7 +887,7 @@ class ExtrasUtils:
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -909,7 +909,7 @@ class ExtrasUtils:
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -931,7 +931,7 @@ class ExtrasUtils:
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -961,8 +961,8 @@ class ExtrasUtils:
                             <ondown>14</ondown>
                             <label>$INFO[Window.Property(button10.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
@@ -978,8 +978,8 @@ class ExtrasUtils:
                             <ondown>15</ondown>
                             <label>$INFO[Window.Property(button11.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
@@ -995,8 +995,8 @@ class ExtrasUtils:
                             <ondown>16</ondown>
                             <label>$INFO[Window.Property(button12.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
@@ -1012,8 +1012,8 @@ class ExtrasUtils:
                             <ondown>17</ondown>
                             <label>$INFO[Window.Property(button13.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
@@ -1031,8 +1031,8 @@ class ExtrasUtils:
                             <ondown>{first_container}</ondown>
                             <label>$INFO[Window.Property(button14.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus> 
                             <align>center</align>
@@ -1048,8 +1048,8 @@ class ExtrasUtils:
                             <ondown>{first_container}</ondown>
                             <label>$INFO[Window.Property(button15.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>                         <align>center</align>
                             <aligny>center</aligny>
@@ -1064,8 +1064,8 @@ class ExtrasUtils:
                             <ondown>{first_container}</ondown>
                             <label>$INFO[Window.Property(button16.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
@@ -1081,8 +1081,8 @@ class ExtrasUtils:
                             <ondown>{first_container}</ondown>
                             <label>$INFO[Window.Property(button17.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
@@ -1112,7 +1112,7 @@ class ExtrasUtils:
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>[B]$INFO[Window.Property(more_from_collection.name)] $INFO[Window.Property(more_from_collection.number)][/B]</label>
                             <visible>!Control.HasFocus({container_no})</visible>
                         </control>
@@ -1120,7 +1120,7 @@ class ExtrasUtils:
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>[B]$INFO[Window.Property(more_from_collection.name)] | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
                             <visible>Control.HasFocus({container_no})</visible>
                         </control>
@@ -1154,7 +1154,7 @@ class ExtrasUtils:
                                 <font>font12</font> <!-- FENLIGHT_26 -->
                                 <align>center</align>
                                 <aligny>center</aligny>
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <label>$INFO[Window.Property(more_from_collection.overview)]</label>
                                 <autoscroll time="1500" delay="6000" repeat="3000">true</autoscroll>
                             </control>
@@ -1249,7 +1249,7 @@ class ExtrasUtils:
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>{heading_label}</label>
                             <visible>!Control.HasFocus({container_no})</visible>
                         </control>
@@ -1257,7 +1257,7 @@ class ExtrasUtils:
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>{highlight_label}</label>
                             <visible>Control.HasFocus({container_no})</visible>
                         </control>
@@ -1351,7 +1351,7 @@ class ExtrasUtils:
                             <width max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <align>left</align>
                             <aligny>bottom</aligny>
                             <label>{heading_label}</label>
@@ -1393,7 +1393,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1438,7 +1438,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                     <visible>Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})</visible>
@@ -1451,7 +1451,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                     <visible>![Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})]</visible>
@@ -1510,7 +1510,7 @@ class ExtrasUtils:
                             <width max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <align>left</align>
                             <aligny>bottom</aligny>
                             <label>[B]Parental Guide $INFO[Window.Property(imdb_parentsguide.number)][/B]</label>
@@ -1545,7 +1545,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1557,7 +1557,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(ranking)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1584,7 +1584,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1596,7 +1596,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(ranking)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>

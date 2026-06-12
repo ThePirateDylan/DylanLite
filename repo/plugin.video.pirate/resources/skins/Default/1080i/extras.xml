@@ -32,7 +32,7 @@
                         <width max="300">auto</width>
                         <height>20</height>
                         <font>font37</font> <!-- FENLIGHT_38 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>right</align>
                         <aligny>center</aligny>
                         <label>[B]$INFO[System.Time][/B]</label>
@@ -43,7 +43,7 @@
                         <width max="350">auto</width>
                         <height>20</height>
                         <font>font10</font> <!-- FENLIGHT_21 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>right</align>
                         <aligny>center</aligny>
                         <label>$INFO[System.Date]</label>
@@ -65,7 +65,7 @@
                         <width max="600">auto</width>
                         <height>20</height>
                         <font>font10</font> <!-- FENLIGHT_21 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>right</align>
                         <aligny>bottom</aligny>
                         <label>$INFO[ListItem.Property(info_alert)]</label>
@@ -98,7 +98,7 @@
                         <width max="1130">auto</width>
                         <height>30</height>
                         <font>font60</font> <!-- FENLIGHT_60_BOLD -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>center</align>
                         <aligny>bottom</aligny>
                         <label>[B]$INFO[Window.Property(title)][/B]</label>
@@ -116,7 +116,7 @@
                         <width max="1150">auto</width>
                         <height>25</height>
                         <font>font14</font> <!-- FENLIGHT_33 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>center</align>
                         <label>[I]$INFO[Window.Property(genre)][/I]</label>
                     </control>
@@ -137,7 +137,7 @@
                             <width max="1026">auto</width>
                             <height>32</height>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <align>left</align>
                         </control>
                     </control>
@@ -146,7 +146,7 @@
                         <width max="1150">auto</width>
                         <height>25</height>
                         <font>font14</font> <!-- FENLIGHT_33 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>center</align>
                     </control>
                     <control type="grouplist">
@@ -172,7 +172,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -194,7 +194,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -216,7 +216,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -238,7 +238,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -260,7 +260,7 @@
                                 <width max="75">auto</width>
                                 <height>32</height>
                                 <font>font13</font> <!-- FENLIGHT_30 -->
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <align>left</align>
                                 <aligny>center</aligny>
                             </control>
@@ -290,8 +290,8 @@
                             <ondown>14</ondown>
                             <label>$INFO[Window.Property(button10.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
@@ -307,8 +307,8 @@
                             <ondown>15</ondown>
                             <label>$INFO[Window.Property(button11.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
@@ -324,8 +324,8 @@
                             <ondown>16</ondown>
                             <label>$INFO[Window.Property(button12.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
@@ -341,8 +341,8 @@
                             <ondown>17</ondown>
                             <label>$INFO[Window.Property(button13.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
@@ -360,8 +360,8 @@
                             <ondown>2050</ondown>
                             <label>$INFO[Window.Property(button14.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus> 
                             <align>center</align>
@@ -377,8 +377,8 @@
                             <ondown>2050</ondown>
                             <label>$INFO[Window.Property(button15.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>                         <align>center</align>
                             <aligny>center</aligny>
@@ -393,8 +393,8 @@
                             <ondown>2050</ondown>
                             <label>$INFO[Window.Property(button16.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
@@ -410,8 +410,8 @@
                             <ondown>2050</ondown>
                             <label>$INFO[Window.Property(button17.label)]</label>
                             <font>font13</font> <!-- FENLIGHT_30 -->
-                            <textcolor>FF3FA9FF</textcolor>
-                            <focusedcolor>FF3FA9FF</focusedcolor>
+                           <textcolor>FFD4AF37</textcolor>
+                            <focusedcolor>FFF2C94C</focusedcolor>
                             <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
@@ -428,7 +428,7 @@
                             <width max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <align>left</align>
                             <aligny>bottom</aligny>
                             <label>[B]Plot[/B]</label>
@@ -450,7 +450,7 @@
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <align>center</align>
                             <aligny>center</aligny>
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>$INFO[Window.Property(plot)]</label>
                             <autoscroll>false</autoscroll>
                             <visible>!Control.HasFocus(2050)</visible>
@@ -463,7 +463,7 @@
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <align>center</align>
                             <aligny>center</aligny>
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>$INFO[Window.Property(plot)]</label>
                             <autoscroll>false</autoscroll>
                             <visible>Control.HasFocus(2050)</visible>
@@ -478,7 +478,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]Cast $INFO[Window.Property(cast.number)][/B]</label>
 				            <visible>!Control.HasFocus(2051)</visible>
 				        </control>
@@ -486,7 +486,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]Cast | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2051)</visible>
 				        </control>
@@ -577,7 +577,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]Recommended $INFO[Window.Property(recommended.number)][/B]</label>
 				            <visible>!Control.HasFocus(2052)</visible>
 				        </control>
@@ -585,7 +585,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]Recommended | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2052)</visible>
 				        </control>
@@ -676,7 +676,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]Related $INFO[Window.Property(related.number)][/B]</label>
 				            <visible>!Control.HasFocus(2053)</visible>
 				        </control>
@@ -684,7 +684,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]Related | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2053)</visible>
 				        </control>
@@ -775,7 +775,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]More Like This $INFO[Window.Property(more_like_this.number)][/B]</label>
 				            <visible>!Control.HasFocus(2054)</visible>
 				        </control>
@@ -783,7 +783,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]More Like This | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2054)</visible>
 				        </control>
@@ -874,7 +874,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]Similar $INFO[Window.Property(ai_similar.number)][/B]</label>
 				            <visible>!Control.HasFocus(2055)</visible>
 				        </control>
@@ -882,7 +882,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]Similar | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2055)</visible>
 				        </control>
@@ -973,7 +973,7 @@
 				            <width max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <align>left</align>
 				            <aligny>bottom</aligny>
 				            <label>[B]Reviews $INFO[Window.Property(imdb_reviews.number)][/B]</label>
@@ -1001,7 +1001,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1020,7 +1020,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1065,7 +1065,7 @@
 				            <width max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <align>left</align>
 				            <aligny>bottom</aligny>
 				            <label>[B]Comments $INFO[Window.Property(trakt_comments.number)][/B]</label>
@@ -1093,7 +1093,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1112,7 +1112,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1157,7 +1157,7 @@
 				            <width max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <align>left</align>
 				            <aligny>bottom</aligny>
 				            <label>[B]Trivia $INFO[Window.Property(imdb_trivia.number)][/B]</label>
@@ -1185,7 +1185,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1204,7 +1204,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1249,7 +1249,7 @@
 				            <width max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <align>left</align>
 				            <aligny>bottom</aligny>
 				            <label>[B]Blunders $INFO[Window.Property(imdb_blunders.number)][/B]</label>
@@ -1277,7 +1277,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1296,7 +1296,7 @@
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                    <textcolor>FF3FA9FF</textcolor>
+				                   <textcolor>FFD4AF37</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -1341,7 +1341,7 @@
                             <width max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <align>left</align>
                             <aligny>bottom</aligny>
                             <label>[B]Parental Guide $INFO[Window.Property(imdb_parentsguide.number)][/B]</label>
@@ -1376,7 +1376,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1388,7 +1388,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(ranking)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1415,7 +1415,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1427,7 +1427,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(ranking)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1443,7 +1443,7 @@
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>[B]Videos $INFO[Window.Property(youtube_videos.number)][/B]</label>
                             <visible>!Control.HasFocus(2062)</visible>
                         </control>
@@ -1451,7 +1451,7 @@
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>[B]Videos | [/B]$INFO[ListItem.Property(name)]</label>
                             <visible>Control.HasFocus(2062)</visible>
                         </control>
@@ -1541,7 +1541,7 @@
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>[B]$INFO[Window.Property(more_from_collection.name)] $INFO[Window.Property(more_from_collection.number)][/B]</label>
                             <visible>!Control.HasFocus(2066)</visible>
                         </control>
@@ -1549,7 +1549,7 @@
                             <width min="30" max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <label>[B]$INFO[Window.Property(more_from_collection.name)] | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
                             <visible>Control.HasFocus(2066)</visible>
                         </control>
@@ -1583,7 +1583,7 @@
                                 <font>font12</font> <!-- FENLIGHT_26 -->
                                 <align>center</align>
                                 <aligny>center</aligny>
-                                <textcolor>FF3FA9FF</textcolor>
+                               <textcolor>FFD4AF37</textcolor>
                                 <label>$INFO[Window.Property(more_from_collection.overview)]</label>
                                 <autoscroll time="1500" delay="6000" repeat="3000">true</autoscroll>
                             </control>
@@ -1674,7 +1674,7 @@
                             <width max="1160">auto</width>
                             <height>20</height>
                             <font>font14</font> <!-- FENLIGHT_33 -->
-                            <textcolor>FF3FA9FF</textcolor>
+                           <textcolor>FFD4AF37</textcolor>
                             <align>left</align>
                             <aligny>bottom</aligny>
                             <label>[B]In Trakt Lists $INFO[Window.Property(trakt_in_lists.number)][/B]</label>
@@ -1716,7 +1716,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1761,7 +1761,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                     <visible>Control.HasFocus(2061) | Control.HasFocus(4061)</visible>
@@ -1774,7 +1774,7 @@
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                    <textcolor>FF3FA9FF</textcolor>
+                                   <textcolor>FFD4AF37</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                     <visible>![Control.HasFocus(2061) | Control.HasFocus(4061)]</visible>
@@ -1829,7 +1829,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]More from Year $INFO[Window.Property(more_from_year.number)][/B]</label>
 				            <visible>!Control.HasFocus(2063)</visible>
 				        </control>
@@ -1837,7 +1837,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]More from Year | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2063)</visible>
 				        </control>
@@ -1928,7 +1928,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]More from Genres $INFO[Window.Property(more_from_genres.number)][/B]</label>
 				            <visible>!Control.HasFocus(2064)</visible>
 				        </control>
@@ -1936,7 +1936,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]More from Genres | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2064)</visible>
 				        </control>
@@ -2027,7 +2027,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]More from Networks $INFO[Window.Property(more_from_networks.number)][/B]</label>
 				            <visible>!Control.HasFocus(2065)</visible>
 				        </control>
@@ -2035,7 +2035,7 @@
 				            <width min="30" max="1160">auto</width>
 				            <height>20</height>
 				            <font>font14</font> <!-- FENLIGHT_33 -->
-				            <textcolor>FF3FA9FF</textcolor>
+				           <textcolor>FFD4AF37</textcolor>
 				            <label>[B]More from Networks | [/B]$INFO[ListItem.Property(name)]$INFO[ListItem.Property(release_date), • ]$INFO[ListItem.Property(vote_average), • ]</label>
 				            <visible>Control.HasFocus(2065)</visible>
 				        </control>

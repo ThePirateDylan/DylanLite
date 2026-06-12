@@ -37,7 +37,7 @@
                     <left>110</left>
                     <height>20</height>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <shadowcolor>FF0F1828</shadowcolor>
                     <align>center</align>
                     <label>[UPPERCASE][B]Active Downloads:  [COLOR FFB40025]$INFO[Window.Property(active)][/COLOR]     |     Queued Downloads:  [COLOR FFB40025]$INFO[Window.Property(queued)][/B][/COLOR][/UPPERCASE]</label>
@@ -49,7 +49,7 @@
                     <left>110</left>
                     <height>20</height>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <shadowcolor>FF0F1828</shadowcolor>
                     <align>center</align>
                     <label>[UPPERCASE][I](select download for options)[/I][/UPPERCASE]</label>
@@ -73,7 +73,7 @@
                         <top>25</top>
                         <height>5</height>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <aligny>center</aligny>
                         <scroll>false</scroll>
                         <label>[UPPERCASE][B]$INFO[ListItem.Property(name)][/B][/UPPERCASE]</label>
@@ -430,7 +430,7 @@
                         <top>25</top>
                         <height>5</height>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <aligny>center</aligny>
                         <scroll>false</scroll>
                         <label>[UPPERCASE][B]$INFO[ListItem.Property(name)][/B][/UPPERCASE]</label>

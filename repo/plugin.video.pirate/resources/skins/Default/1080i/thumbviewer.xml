@@ -35,7 +35,7 @@
                     <width max="300">auto</width>
                     <height>20</height>
                     <font>font37</font> <!-- FENLIGHT_38 -->
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <align>right</align>
                     <aligny>center</aligny>
                     <label>[B]$INFO[System.Time][/B]</label>
@@ -46,7 +46,7 @@
                     <width max="350">auto</width>
                     <height>20</height>
                     <font>font10</font> <!-- FENLIGHT_21 -->
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <align>right</align>
                     <aligny>center</aligny>
                     <label>$INFO[System.Date]</label>

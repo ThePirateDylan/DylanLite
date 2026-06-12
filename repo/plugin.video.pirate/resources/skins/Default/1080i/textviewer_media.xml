@@ -45,7 +45,7 @@
                     <font>font14</font> <!-- FENLIGHT_33 -->
                     <align>center</align>
                     <aligny>center</aligny>
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <pagecontrol>2099</pagecontrol>
                     <autoscroll>false</autoscroll>
                 </control>

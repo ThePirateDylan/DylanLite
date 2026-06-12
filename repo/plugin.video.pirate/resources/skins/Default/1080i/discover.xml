@@ -35,7 +35,7 @@
                 <left>30</left>
                 <height>20</height>
                 <font>font12</font> <!-- FENLIGHT_26 -->
-                <textcolor>FF3FA9FF</textcolor>
+               <textcolor>FFD4AF37</textcolor>
                 <shadowcolor>FF0F1828</shadowcolor>
                 <align>center</align>
                 <label>[UPPERCASE][B]DISCOVER[/B][/UPPERCASE]</label>
@@ -72,7 +72,7 @@
                         <top>45</top>
                         <height>5</height>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>left</align>
                         <aligny>center</aligny>
                         <label>[UPPERCASE]$INFO[ListItem.Property(label1)][/UPPERCASE]</label>
@@ -101,7 +101,7 @@
                         <height>5</height>
                         <width max="360">auto</width>
                         <font>font12</font> <!-- FENLIGHT_26 -->
-                        <textcolor>FF3FA9FF</textcolor>
+                       <textcolor>FFD4AF37</textcolor>
                         <align>left</align>
                         <aligny>center</aligny>
                         <label>[UPPERCASE]$INFO[ListItem.Property(label1)][/UPPERCASE]</label>
@@ -144,7 +144,7 @@
                     <width>1635</width>
                     <height>20</height>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <label>[UPPERCASE]$INFO[Window.Property(list_label)][/UPPERCASE]</label>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -156,7 +156,7 @@
                     <width>1635</width>
                     <height>20</height>
                     <font>font10</font> <!-- FENLIGHT_21 -->
-                    <textcolor>FF3FA9FF</textcolor>
+                   <textcolor>FFD4AF37</textcolor>
                     <label>[UPPERCASE][I]$INFO[Window.Property(url_label)][/I][/UPPERCASE]</label>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -176,8 +176,8 @@
                     <onright>2100</onright>
                     <label>Save and Exit</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FF3FA9FF</textcolor>
-                    <focusedcolor>FF3FA9FF</focusedcolor>
+                   <textcolor>FFD4AF37</textcolor>
+                    <focusedcolor>FFF2C94C</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
                     <align>center</align>
@@ -196,8 +196,8 @@
                     <onright>2100</onright>
                     <label>Exit</label>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                    <textcolor>FF3FA9FF</textcolor>
-                    <focusedcolor>FF3FA9FF</focusedcolor>
+                   <textcolor>FFD4AF37</textcolor>
+                    <focusedcolor>FFF2C94C</focusedcolor>
                     <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
                     <align>center</align>
