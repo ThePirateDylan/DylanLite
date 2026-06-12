@@ -194,7 +194,7 @@
             <group id="1" label="32092">
                 <setting id="widgets_nextpage" type="boolean" label="32081" help="">
                     <level>0</level>
-                    <default>false</default>
+                    <default>true</default>
                     <control type="toggle"/>
                 </setting>
                 <setting id="widgets_hidewatched" type="boolean" label="32142" help="">
