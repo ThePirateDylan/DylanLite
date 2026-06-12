@@ -143,12 +143,12 @@
             <group id="2" label="32090">
                 <setting id="hide_unaired_movies" type="boolean" label="32073" help="">
                     <level>0</level>
-                    <default>true</default>
+                    <default>false</default>
                     <control type="toggle"/>
                 </setting>
                 <setting id="hide_unaired_episodes" type="boolean" label="32084" help="">
                     <level>0</level>
-                    <default>true</default>
+                    <default>false</default>
                     <control type="toggle"/>
                 </setting>
                 <setting id="nodate_is_unaired" type="boolean" label="32366" help="">
