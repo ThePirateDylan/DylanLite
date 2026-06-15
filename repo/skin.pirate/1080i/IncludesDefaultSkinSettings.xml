@@ -102,6 +102,7 @@
 	<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableTop250)</onload>
 	<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableSpotlightTop250)</onload>
     <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableSpotlightContent)</onload>
+    <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableAllSubmenus)</onload>
 
         <!-- Enable Ratings on Default -->
         <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableRatings)</onload>
@@ -120,7 +121,9 @@
         <!--Disable SpotLight on Default-->
         <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableSpotlightContent)</onload>
 
-
+        <!--Disable Submenus on Defualt-->
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableAllSubmenus)</onload>
+        
 		<!-- default splash resolution -->
         <onload condition="String.IsEmpty(Skin.String(SplashAnimationResolution))">Skin.SetString(SplashAnimationResolution,1080p)</onload>
         <!-- default color settings -->
