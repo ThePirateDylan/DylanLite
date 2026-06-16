@@ -1941,7 +1941,7 @@
                 <width>38</width>
                 <bottom>10</bottom>
 				<height>-7</height>
-                <texture>diffuse/panel2.png</texture>
+                <texture>indication/sword.png</texture>
                 <colordiffuse>$INFO[Skin.String(LineUnderMenuIconsColor)]</colordiffuse>
                 <aspectratio>stretch</aspectratio>
                 <animation effect="fade" start="0" end="100" delay="200" time="150">Visible</animation>				
