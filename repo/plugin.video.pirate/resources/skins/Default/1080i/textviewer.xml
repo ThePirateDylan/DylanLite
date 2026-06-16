@@ -47,7 +47,7 @@
                     <width>1254</width>
                     <height>816</height>
                     <font>font12</font> <!-- FENLIGHT_26 -->
-                   <textcolor>FFD4AF37</textcolor>
+                   <textcolor>FFFFFFFF</textcolor>
                     <label>$INFO[Window.Property(text)]</label>
                     <pagecontrol>2060</pagecontrol>
                     <autoscroll>false</autoscroll>
@@ -59,7 +59,7 @@
                     <width>1254</width>
                     <height>826</height>
                     <font>font14</font> <!-- FENLIGHT_33 -->
-                   <textcolor>FFD4AF37</textcolor>
+                   <textcolor>FFFFFFFF</textcolor>
                     <label>$INFO[Window.Property(text)]</label>
                     <pagecontrol>2061</pagecontrol>
                     <autoscroll>false</autoscroll>

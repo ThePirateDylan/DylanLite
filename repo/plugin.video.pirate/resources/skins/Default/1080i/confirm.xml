@@ -44,7 +44,7 @@
                 <width>720</width>
                 <height>280</height>
                 <font>font13</font> <!-- FENLIGHT_30 -->
-               <textcolor>FFD4AF37</textcolor>
+               <textcolor>FFFFFFFF</textcolor>
                 <align>center</align>
                 <aligny>center</aligny>
                 <label>$INFO[Window.Property(text)]</label>
@@ -61,7 +61,7 @@
                 <font>font12</font> <!-- FENLIGHT_26 -->
                <textcolor>FFD4AF37</textcolor>
                 <focusedcolor>FFF2C94C</focusedcolor>
-                <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
                 <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
                 <align>center</align>
                 <aligny>center</aligny>
@@ -78,7 +78,7 @@
                 <font>font12</font> <!-- FENLIGHT_26 -->
                <textcolor>FFD4AF37</textcolor>
                 <focusedcolor>FFF2C94C</focusedcolor>
-                <texturefocus colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texturefocus>
+                <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
                 <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
                 <align>center</align>
                 <aligny>center</aligny>

@@ -150,8 +150,8 @@
                         <font>font10</font> <!-- FENLIGHT_21 -->
                        <textcolor>FFD4AF37</textcolor>
                         <focusedcolor>FFF2C94C</focusedcolor>
-                        <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
-                        <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
+                       <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
+                        <texturenofocus colordiffuse="FF091420" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
                         <aligny>center</aligny>
                     </control>
@@ -165,8 +165,8 @@
                         <font>font10</font> <!-- FENLIGHT_21 -->
                        <textcolor>FFD4AF37</textcolor>
                         <focusedcolor>FFF2C94C</focusedcolor>
-                        <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
-                        <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
+                       <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
+                        <texturenofocus colordiffuse="FF091420" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
                         <aligny>center</aligny>
                     </control>
@@ -180,8 +180,8 @@
                         <font>font10</font> <!-- FENLIGHT_21 -->
                        <textcolor>FFD4AF37</textcolor>
                         <focusedcolor>FFF2C94C</focusedcolor>
-                        <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
-                        <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
+                       <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
+                        <texturenofocus colordiffuse="FF091420" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
                         <aligny>center</aligny>
                     </control>
@@ -221,8 +221,8 @@
                         <font>font10</font> <!-- FENLIGHT_21 -->
                        <textcolor>FFD4AF37</textcolor>
                         <focusedcolor>FFF2C94C</focusedcolor>
-                        <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
-                        <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
+                       <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
+                        <texturenofocus colordiffuse="FF091420" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
                         <aligny>center</aligny>
                     </control>
@@ -236,8 +236,8 @@
                         <font>font10</font> <!-- FENLIGHT_21 -->
                        <textcolor>FFD4AF37</textcolor>
                         <focusedcolor>FFF2C94C</focusedcolor>
-                        <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
-                        <texturenofocus colordiffuse="FF4a4347" border="30">fenlight_common/circle.png</texturenofocus>
+                       <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
+                        <texturenofocus colordiffuse="FF091420" border="30">fenlight_common/circle.png</texturenofocus>
                         <align>center</align>
                         <aligny>center</aligny>
                     </control>

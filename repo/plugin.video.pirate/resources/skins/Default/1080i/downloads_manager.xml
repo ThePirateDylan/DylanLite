@@ -422,7 +422,7 @@
                     <control type="image">
                         <animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(2500)">Conditional</animation>
                         <width>890</width>
-                        <texture colordiffuse="CCCCCCCC" border="30">fenlight_common/circle.png</texture>
+                        <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texture>
                     </control>
                     <control type="label">
                         <width max="820">auto</width>

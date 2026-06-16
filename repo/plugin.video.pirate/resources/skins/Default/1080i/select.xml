@@ -224,7 +224,7 @@
                     <font>font12</font> <!-- FENLIGHT_26 -->
                    <textcolor>FFD4AF37</textcolor>
                     <focusedcolor>FFF2C94C</focusedcolor>
-                    <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                   <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -242,7 +242,7 @@
                     <font>font12</font> <!-- FENLIGHT_26 -->
                    <textcolor>FFD4AF37</textcolor>
                     <focusedcolor>FFF2C94C</focusedcolor>
-                    <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                   <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -260,7 +260,7 @@
                     <font>font12</font> <!-- FENLIGHT_26 -->
                    <textcolor>FFD4AF37</textcolor>
                     <focusedcolor>FFF2C94C</focusedcolor>
-                    <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                   <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
                     <align>center</align>
                     <aligny>center</aligny>
@@ -279,7 +279,7 @@
                     <font>font12</font> <!-- FENLIGHT_26 -->
                    <textcolor>FFD4AF37</textcolor>
                     <focusedcolor>FFF2C94C</focusedcolor>
-                    <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                   <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme_contrast)]" border="30">fenlight_common/circle.png</texturenofocus>
                     <align>center</align>
                     <aligny>center</aligny>

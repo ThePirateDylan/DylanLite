@@ -865,7 +865,7 @@
                 <align>left</align>
                 <aligny>top</aligny>
                 <aspectratio aligny="top">keep</aspectratio>
-                <texture colordiffuse="CCCCCCCC">$INFO[Window(10000).Property(fenlight.addon_icon_mini)]</texture>
+                <texturefocus colordiffuse="80D4AF37">$INFO[Window(10000).Property(fenlight.addon_icon_mini)]</texture>
             </control>
             <control type="label">
                 <width max="580">auto</width>

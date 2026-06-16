@@ -2948,7 +2948,7 @@
                         <font>font12</font> <!-- FENLIGHT_26 -->
                         <align>left</align>
                         <aligny>center</aligny>
-                       <textcolor>FFD4AF37</textcolor>
+                       <textcolor>FFFFFFFF</textcolor>
                         <label>$INFO[Container(2100).ListItem.Property(setting_description)]</label>
                         <autoscroll time="7000" delay="15000" repeat="7000">true</autoscroll>
                         <visible>Control.HasFocus(2100)</visible>
@@ -2957,7 +2957,7 @@
                         <font>font12</font> <!-- FENLIGHT_26 -->
                         <align>left</align>
                         <aligny>center</aligny>
-                       <textcolor>FFD4AF37</textcolor>
+                       <textcolor>FFFFFFFF</textcolor>
                         <label>$INFO[Container(2000).ListItem.Property(setting_label),All settings related to [UPPERCASE][B],[/B][/UPPERCASE] settings]</label>
                         <autoscroll time="7000" delay="15000" repeat="7000">true</autoscroll>
                         <visible>Control.HasFocus(2000)</visible>
@@ -2969,9 +2969,9 @@
                 <left>1700</left>
                 <width>10</width>
                 <height>760</height>
-                <texturesliderbackground colordiffuse="FF14263A">fenlight_common/white.png</texturesliderbackground>
-                <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
-                <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
+                <texturesliderbackground colordiffuse="FFD8C08A">fenlight_common/white.png</texturesliderbackground>
+                <texturesliderbar colordiffuse="FFF2C94C">fenlight_common/white.png</texturesliderbar>
+                <texturesliderbarfocus colordiffuse="FFD4AF37">fenlight_common/white.png</texturesliderbarfocus>
                 <onleft>2100</onleft>
                 <onright>2000</onright>
                 <showonepage>false</showonepage>

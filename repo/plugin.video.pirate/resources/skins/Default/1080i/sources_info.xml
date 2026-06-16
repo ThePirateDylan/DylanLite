@@ -127,7 +127,7 @@
                     <width max="1275">auto</width>
                     <height>140</height>
                     <font>font14</font> <!-- FENLIGHT_33 -->
-                   <textcolor>FFD4AF37</textcolor>
+                   <textcolor>FFFFFFFF</textcolor>
                     <align>left</align>
                     <aligny>top</aligny>
                     <label>[UPPERCASE][COLOR $INFO[Window.Property(highlight)]][B]Title: [/B][/COLOR]$INFO[Window.Property(name)][/UPPERCASE]</label>

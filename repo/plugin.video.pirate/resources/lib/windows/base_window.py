@@ -502,7 +502,7 @@ class ExtrasUtils:
 				            <left>20</left>
 				            <width>25</width>
 				            <height>25</height>
-				            <texture colordiffuse="CCCCCCCC" background="true">fenlight_common/arrow_left.png</texture>
+				            <texturefocus colordiffuse="80D4AF37" background="true">fenlight_common/arrow_left.png</texture>
 				            <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasPrevious</visible>
 				        </control>
 				        <control type="image">
@@ -510,7 +510,7 @@ class ExtrasUtils:
 				            <left>1135</left>
 				            <width>25</width>
 				            <height>25</height>
-				            <texture colordiffuse="CCCCCCCC" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
+				            <texturefocus colordiffuse="80D4AF37" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
 				            <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasNext</visible>
 				        </control>
 				    </control>
@@ -555,7 +555,7 @@ class ExtrasUtils:
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                   <textcolor>FFD4AF37</textcolor>
+				                   <textcolor>FFFFFFFF</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -574,7 +574,7 @@ class ExtrasUtils:
 				                    <font>font12</font> <!-- FENLIGHT_26 -->
 				                    <align>center</align>
 				                    <aligny>top</aligny>
-				                   <textcolor>FFD4AF37</textcolor>
+				                   <textcolor>FFFFFFFF</textcolor>
 				                    <label>$INFO[ListItem.Property(text)]</label>
 				                    <autoscroll>false</autoscroll>
 				                </control>
@@ -598,7 +598,7 @@ class ExtrasUtils:
 				            <left>20</left>
 				            <width>25</width>
 				            <height>25</height>
-				            <texture colordiffuse="CCCCCCCC" background="true">fenlight_common/arrow_left.png</texture>
+				            <texturefocus colordiffuse="80D4AF37" background="true">fenlight_common/arrow_left.png</texture>
 				            <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasPrevious</visible>
 				        </control>
 				        <control type="image">
@@ -606,7 +606,7 @@ class ExtrasUtils:
 				            <left>1125</left>
 				            <width>25</width>
 				            <height>25</height>
-				            <texture colordiffuse="CCCCCCCC" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
+				            <texturefocus colordiffuse="80D4AF37" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
 				            <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasNext</visible>
 				        </control>
 				    </control>
@@ -634,7 +634,7 @@ class ExtrasUtils:
                             <height>390</height>
                             <onup>{p_container_no}</onup>
                             <ondown>{n_container_no}</ondown>
-                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                           <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                         </control>
                         <control type="textbox">
@@ -645,7 +645,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <align>center</align>
                             <aligny>center</aligny>
-                           <textcolor>FFD4AF37</textcolor>
+                           <textcolor>FFFFFFFF</textcolor>
                             <label>$INFO[Window.Property({content_lookup})]</label>
                             <autoscroll>false</autoscroll>
                             <visible>!Control.HasFocus({container_no})</visible>
@@ -658,7 +658,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                             <align>center</align>
                             <aligny>center</aligny>
-                           <textcolor>FFD4AF37</textcolor>
+                           <textcolor>FFFFFFFF</textcolor>
                             <label>$INFO[Window.Property(plot)]</label>
                             <autoscroll>false</autoscroll>
                             <visible>Control.HasFocus({container_no})</visible>
@@ -963,7 +963,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                            <textcolor>FFD4AF37</textcolor>
                             <focusedcolor>FFF2C94C</focusedcolor>
-                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                           <texturefocus colordiffuse="80D4AF37" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
                             <aligny>center</aligny>
@@ -980,7 +980,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                            <textcolor>FFD4AF37</textcolor>
                             <focusedcolor>FFF2C94C</focusedcolor>
-                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FFD8C08A" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
                             <aligny>center</aligny>
@@ -997,7 +997,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                            <textcolor>FFD4AF37</textcolor>
                             <focusedcolor>FFF2C94C</focusedcolor>
-                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FFD8C08A" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
                             <aligny>center</aligny>
@@ -1014,7 +1014,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                            <textcolor>FFD4AF37</textcolor>
                             <focusedcolor>FFF2C94C</focusedcolor>
-                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FFD8C08A" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>  
                             <align>center</align>
                             <aligny>center</aligny>
@@ -1033,7 +1033,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                            <textcolor>FFD4AF37</textcolor>
                             <focusedcolor>FFF2C94C</focusedcolor>
-                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FFD8C08A" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus> 
                             <align>center</align>
                             <aligny>center</aligny>
@@ -1050,7 +1050,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                            <textcolor>FFD4AF37</textcolor>
                             <focusedcolor>FFF2C94C</focusedcolor>
-                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FFD8C08A" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>                         <align>center</align>
                             <aligny>center</aligny>
                         </control>
@@ -1066,7 +1066,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                            <textcolor>FFD4AF37</textcolor>
                             <focusedcolor>FFF2C94C</focusedcolor>
-                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FFD8C08A" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
                             <aligny>center</aligny>
@@ -1083,7 +1083,7 @@ class ExtrasUtils:
                             <font>font13</font> <!-- FENLIGHT_30 -->
                            <textcolor>FFD4AF37</textcolor>
                             <focusedcolor>FFF2C94C</focusedcolor>
-                            <texturefocus colordiffuse="FF3FA9FF" border="30">fenlight_common/circle.png</texturefocus>
+                            <texturefocus colordiffuse="FFD8C08A" border="30">fenlight_common/circle.png</texturefocus>
                             <texturenofocus colordiffuse="$INFO[Window(10000).Property(fenlight.window_theme.extras)]" border="30">fenlight_common/circle.png</texturenofocus>
                             <align>center</align>
                             <aligny>center</aligny>
@@ -1154,7 +1154,7 @@ class ExtrasUtils:
                                 <font>font12</font> <!-- FENLIGHT_26 -->
                                 <align>center</align>
                                 <aligny>center</aligny>
-                               <textcolor>FFD4AF37</textcolor>
+                               <textcolor>FFFFFFFF</textcolor>
                                 <label>$INFO[Window.Property(more_from_collection.overview)]</label>
                                 <autoscroll time="1500" delay="6000" repeat="3000">true</autoscroll>
                             </control>
@@ -1224,7 +1224,7 @@ class ExtrasUtils:
                             <left>480</left>
                             <width>25</width>
                             <height>25</height>
-                            <texture colordiffuse="CCCCCCCC" background="true">fenlight_common/arrow_left.png</texture>
+                            <texturefocus colordiffuse="80D4AF37" background="true">fenlight_common/arrow_left.png</texture>
                             <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasPrevious</visible>
                         </control>
                         <control type="image">
@@ -1232,7 +1232,7 @@ class ExtrasUtils:
                             <left>1120</left>
                             <width>25</width>
                             <height>25</height>
-                            <texture colordiffuse="CCCCCCCC" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
+                            <texturefocus colordiffuse="80D4AF37" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
                             <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasNext</visible>
                         </control>
                     </control>
@@ -1326,7 +1326,7 @@ class ExtrasUtils:
                             <left>20</left>
                             <width>25</width>
                             <height>25</height>
-                            <texture colordiffuse="CCCCCCCC" background="true">fenlight_common/arrow_left.png</texture>
+                            <texturefocus colordiffuse="80D4AF37" background="true">fenlight_common/arrow_left.png</texture>
                             <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasPrevious</visible>
                         </control>
                         <control type="image">
@@ -1334,7 +1334,7 @@ class ExtrasUtils:
                             <left>1125</left>
                             <width>25</width>
                             <height>25</height>
-                            <texture colordiffuse="CCCCCCCC" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
+                            <texturefocus colordiffuse="80D4AF37" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
                             <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasNext</visible>
                         </control>
                     </control>
@@ -1393,7 +1393,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                   <textcolor>FFD4AF37</textcolor>
+                                   <textcolor>FFFFFFFF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1438,7 +1438,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                   <textcolor>FFD4AF37</textcolor>
+                                   <textcolor>FFFFFFFF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                     <visible>Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})</visible>
@@ -1451,7 +1451,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                   <textcolor>FFD4AF37</textcolor>
+                                   <textcolor>FFFFFFFF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                     <visible>![Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})]</visible>
@@ -1485,7 +1485,7 @@ class ExtrasUtils:
                             <left>20</left>
                             <width>25</width>
                             <height>25</height>
-                            <texture colordiffuse="CCCCCCCC" background="true">fenlight_common/arrow_left.png</texture>
+                            <texturefocus colordiffuse="80D4AF37" background="true">fenlight_common/arrow_left.png</texture>
                             <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasPrevious</visible>
                         </control>
                         <control type="image">
@@ -1493,7 +1493,7 @@ class ExtrasUtils:
                             <left>1135</left>
                             <width>25</width>
                             <height>25</height>
-                            <texture colordiffuse="CCCCCCCC" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
+                            <texturefocus colordiffuse="80D4AF37" background="true" flipx="true">fenlight_common/arrow_left.png</texture>
                             <visible>[Control.HasFocus({container_no}) | Control.HasFocus({scrollbar_no})] + Container({container_no}).HasNext</visible>
                         </control>
                     </control>
@@ -1545,7 +1545,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                   <textcolor>FFD4AF37</textcolor>
+                                   <textcolor>FFFFFFFF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1557,7 +1557,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                   <textcolor>FFD4AF37</textcolor>
+                                   <textcolor>FFFFFFFF</textcolor>
                                     <label>$INFO[ListItem.Property(ranking)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1584,7 +1584,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                   <textcolor>FFD4AF37</textcolor>
+                                   <textcolor>FFFFFFFF</textcolor>
                                     <label>$INFO[ListItem.Property(name)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
@@ -1596,7 +1596,7 @@ class ExtrasUtils:
                                     <font>font12</font> <!-- FENLIGHT_26 -->
                                     <align>center</align>
                                     <aligny>center</aligny>
-                                   <textcolor>FFD4AF37</textcolor>
+                                   <textcolor>FFFFFFFF</textcolor>
                                     <label>$INFO[ListItem.Property(ranking)]</label>
                                     <autoscroll>false</autoscroll>
                                 </control>
