@@ -1939,8 +1939,8 @@
                 <visible>$PARAM[visibility]</visible>
                 <left>$PARAM[left]</left>
                 <width>38</width>
-                <bottom>6</bottom>
-				<height>22</height>
+                <bottom>18</bottom>
+				<height>44</height>
                 <texture>indication/sword.png</texture>
                 <colordiffuse>$INFO[Skin.String(LineUnderMenuIconsColor)]</colordiffuse>
                 <aspectratio>stretch</aspectratio>
