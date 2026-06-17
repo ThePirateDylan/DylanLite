@@ -127,7 +127,7 @@
 		<!-- default splash resolution -->
         <onload condition="String.IsEmpty(Skin.String(SplashAnimationResolution))">Skin.SetString(SplashAnimationResolution,1080p)</onload>
         <!-- default color settings -->
-		<onload condition="!Skin.String(LineUnderMenuIconsColor)">Skin.SetString(LineUnderMenuIconsColor,ffd8c08a)</onload>
+		<onload condition="!Skin.String(LineUnderMenuIconsColor)">Skin.SetString(LineUnderMenuIconsColor,ffffffff)</onload>
         <onload condition="!Skin.String(LineUnderMenuIconsColor.name)">Skin.SetString(LineUnderMenuIconsColor.name,$LOCALIZE[13343])</onload>
         <onload condition="!Skin.String(HeaderTextColor)">Skin.SetString(HeaderTextColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(HeaderTextColor.name)">Skin.SetString(HeaderTextColor.name,$LOCALIZE[742])</onload>
@@ -141,13 +141,13 @@
         <onload condition="!Skin.String(ViewDetailsListItemTextColor.name)">Skin.SetString(ViewDetailsListItemTextColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(ViewDetailsListItemTextFocusColor)">Skin.SetString(ViewDetailsListItemTextFocusColor,ff091420)</onload>
         <onload condition="!Skin.String(ViewDetailsListItemTextFocusColor.name)">Skin.SetString(ViewDetailsListItemTextFocusColor.name,$LOCALIZE[353])</onload>
-        <onload condition="!Skin.String(ViewDetailsFocusColor)">Skin.SetString(ViewDetailsFocusColor,ff3fa9ff)</onload>
+        <onload condition="!Skin.String(ViewDetailsFocusColor)">Skin.SetString(ViewDetailsFocusColor,ffd4af37)</onload>
         <onload condition="!Skin.String(ViewDetailsFocusColor.name)">Skin.SetString(ViewDetailsFocusColor.name,$LOCALIZE[766])</onload>
         <onload condition="!Skin.String(ViewDetailsBorderFocusColor)">Skin.SetString(ViewDetailsBorderFocusColor,ffffffff)</onload>
         <onload condition="!Skin.String(ViewDetailsBorderFocusColor.name)">Skin.SetString(ViewDetailsBorderFocusColor.name,$LOCALIZE[742])</onload>
 		<onload condition="!Skin.String(ViewDetailsBorderUnfocusColor)">Skin.SetString(ViewDetailsBorderUnfocusColor,ff16263a)</onload>
         <onload condition="!Skin.String(ViewDetailsBorderUnfocusColor.name)">Skin.SetString(ViewDetailsBorderUnfocusColor.name,$LOCALIZE[31279])</onload>
-        <onload condition="!Skin.String(ButtonFocusColor)">Skin.SetString(ButtonFocusColor,ff3fa9ff)</onload>
+        <onload condition="!Skin.String(ButtonFocusColor)">Skin.SetString(ButtonFocusColor,ffd4af37)</onload>
         <onload condition="!Skin.String(ButtonFocusColor.name)">Skin.SetString(ButtonFocusColor.name,$LOCALIZE[766])</onload>
         <onload condition="!Skin.String(GeneralPanelsColor)">Skin.SetString(GeneralPanelsColor,cc091420)</onload>
         <onload condition="!Skin.String(GeneralPanelsColor.name)">Skin.SetString(GeneralPanelsColor.name,$LOCALIZE[353])</onload>
@@ -189,7 +189,7 @@
         <onload condition="!Skin.String(BingieAdditionalInfoTextColor.name)">Skin.SetString(BingieAdditionalInfoTextColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(BingieLabelTextColor.name)">Skin.SetString(BingieLabelTextColor.name,$LOCALIZE[742])</onload>
 		<onload condition="!Skin.String(BingieLabelTextColor)">Skin.SetString(BingieLabelTextColor,ffd8c08a)</onload>
-		<onload condition="!Skin.String(BingieSubLabelTextColor)">Skin.SetString(BingieSubLabelTextColor,ffffffff)</onload>
+		<onload condition="!Skin.String(BingieSubLabelTextColor)">Skin.SetString(BingieSubLabelTextColor,ffd8c08a)</onload>
 		<onload condition="!Skin.String(BingieSubLabelTextColor.name)">Skin.SetString(BingieSubLabelTextColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(BackgroundDiffuseColor)">Skin.SetString(BackgroundDiffuseColor,26ffffff)</onload>
         <onload condition="!Skin.String(BackgroundDiffuseColor.name)">Skin.SetString(BackgroundDiffuseColor.name,$LOCALIZE[767])</onload>
@@ -404,7 +404,7 @@
         <onload condition="!Skin.String(home_header.label)">Skin.SetString(home_header.label,$LOCALIZE[1223])</onload>
 		<onload condition="!Skin.String(MusicBackground)">Skin.SetString(MusicBackground,special://skin/resources/fanart.jpg)</onload>
         <onload condition="!Skin.String(MusicBackground.label)">Skin.SetString(MusicBackground.label,$LOCALIZE[571])</onload>
-		<onload condition="!Skin.String(mpaa_style)">Skin.SetString(mpaa_style,default)</onload>
+		<onload condition="!Skin.String(mpaa_style)">Skin.SetString(mpaa_style,color_fixed_mpaa)</onload>
         <onload condition="!Skin.String(mpaa_style.label)">Skin.SetString(mpaa_style.label,$LOCALIZE[571])</onload>
 		<onload condition="!Skin.String(skin.forcedview.movies)">Skin.SetString(skin.forcedview.movies,$LOCALIZE[31027])</onload>
 		<onload condition="!Skin.String(skin.forcedview.sets)">Skin.SetString(skin.forcedview.sets,$LOCALIZE[31027])</onload>
