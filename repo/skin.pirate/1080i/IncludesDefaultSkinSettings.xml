@@ -357,7 +357,7 @@
         <onload condition="!Skin.String(widgetstyle.label)">Skin.SetString(widgetstyle.label,$LOCALIZE[20021])</onload>
 		<onload condition="!Skin.String(layout)">Skin.SetString(layout,PosterPanelBingie)</onload>
         <onload condition="!Skin.String(layout.label)">Skin.SetString(layout.label,$LOCALIZE[20021])</onload>
-		<onload condition="!Skin.String(mediaflagsstyle)">Skin.SetString(mediaflagsstyle,disabled)</onload>
+		<onload condition="!Skin.String(mediaflagsstyle)">Skin.SetString(mediaflagsstyle,large_color)</onload>
         <onload condition="!Skin.String(mediaflagsstyle.label)">Skin.SetString(mediaflagsstyle.label,$LOCALIZE[1223])</onload>
 		<onload condition="!Skin.String(osdmediaflagsstyle)">Skin.SetString(osdmediaflagsstyle,large_color)</onload>
         <onload condition="!Skin.String(osdmediaflagsstyle.label)">Skin.SetString(osdmediaflagsstyle.label,$LOCALIZE[31090])</onload>
