@@ -103,6 +103,10 @@
 	<onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableSpotlightTop250)</onload>
     <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableSpotlightContent)</onload>
     <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableAllSubmenus)</onload>
+    <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableStudioLogo)</onload>
+
+        <!--Enable Studio Logos on Default-->
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableStudioLogo)</onload>
 
         <!-- Enable Ratings on Default -->
         <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableRatings)</onload>
@@ -167,7 +171,7 @@
         <onload condition="!Skin.String(BingiePrimaryTextColor.name)">Skin.SetString(BingiePrimaryTextColor.name,$LOCALIZE[742])</onload>
         <onload condition="!Skin.String(BingieSecondaryTextColor)">Skin.SetString(BingieSecondaryTextColor,73ffffff)</onload>
         <onload condition="!Skin.String(BingieSecondaryTextColor.name)">Skin.SetString(BingieSecondaryTextColor.name,$LOCALIZE[767])</onload>
-		<onload condition="!Skin.String(MainMenuButtonColor)">Skin.SetString(MainMenuButtonColor,803fa9ff)</onload>
+		<onload condition="!Skin.String(MainMenuButtonColor)">Skin.SetString(MainMenuButtonColor,80d8c08a)</onload>
         <onload condition="!Skin.String(MainMenuButtonColor.name)">Skin.SetString(MainMenuButtonColor.name,$LOCALIZE[767])</onload>
         <onload condition="!Skin.String(MainMenuFocusButtonColor)">Skin.SetString(MainMenuFocusButtonColor,80b89a5a)</onload>
         <onload condition="!Skin.String(MainMenuFocusButtonColor.name)">Skin.SetString(MainMenuFocusButtonColor.name,$LOCALIZE[742])</onload>
@@ -181,7 +185,7 @@
         <onload condition="!Skin.String(BingieNewEpisodesTagColor.name)">Skin.SetString(BingieNewEpisodesTagColor.name,$LOCALIZE[13343])</onload>
 		<onload condition="!Skin.String(NewEpisodes.TextColor)">Skin.SetString(NewEpisodes.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(NewEpisodes.TextColor.name)">Skin.SetString(NewEpisodes.TextColor.name,$LOCALIZE[742])</onload>
-		<onload condition="!Skin.String(BingieTop250IconColor)">Skin.SetString(BingieTop250IconColor,ff58c4ff)</onload>
+		<onload condition="!Skin.String(BingieTop250IconColor)">Skin.SetString(BingieTop250IconColor,ffd4af37)</onload>
         <onload condition="!Skin.String(BingieTop250IconColor.name)">Skin.SetString(BingieTop250IconColor.name,$LOCALIZE[742])</onload>
 		<onload condition="!Skin.String(BingieAdditionalInfoIconsColor)">Skin.SetString(BingieAdditionalInfoIconsColor,ffffffff)</onload>
         <onload condition="!Skin.String(BingieAdditionalInfoIconsColor.name)">Skin.SetString(BingieAdditionalInfoIconsColor.name,$LOCALIZE[742])</onload>
@@ -213,7 +217,7 @@
         <onload condition="!Skin.String(OSDProgressBarBorderColor.name)">Skin.SetString(OSDProgressBarBorderColor.name,$LOCALIZE[31279])</onload>
         <onload condition="!Skin.String(OSDButtonsFocusColor)">Skin.SetString(OSDButtonsFocusColor,ffffffff)</onload>
         <onload condition="!Skin.String(OSDButtonsFocusColor.name)">Skin.SetString(OSDButtonsFocusColor.name,$LOCALIZE[742])</onload>
-        <onload condition="!Skin.String(OSDButtonsColor)">Skin.SetString(OSDButtonsColor,ff58c4ff)</onload>
+        <onload condition="!Skin.String(OSDButtonsColor)">Skin.SetString(OSDButtonsColor,ffd8c08a)</onload>
         <onload condition="!Skin.String(OSDButtonsColor.name)">Skin.SetString(OSDButtonsColor.name,$LOCALIZE[767])</onload>
 		<onload condition="!Skin.String(OSDBingieButtonsFocusColor)">Skin.SetString(OSDBingieButtonsFocusColor,ffffffff)</onload>
         <onload condition="!Skin.String(OSDBingieButtonsFocusColor.name)">Skin.SetString(OSDBingieButtonsFocusColor.name,$LOCALIZE[742])</onload>
@@ -325,17 +329,17 @@
         <onload condition="!Skin.String(WatchedIndicator.Playing.TextColor)">Skin.SetString(WatchedIndicator.Playing.TextColor,ffffffff)</onload>
         <onload condition="!Skin.String(WatchedIndicator.Playing.TextColor.name)">Skin.SetString(WatchedIndicator.Playing.TextColor.name,$LOCALIZE[742])</onload>       
 		<!-- MPAA colors -->
-		<onload condition="!Skin.String(GPanelColor)">Skin.SetString(GPanelColor,ff1f3a2a)</onload>
+		<onload condition="!Skin.String(GPanelColor)">Skin.SetString(GPanelColor,ff3d7a57)</onload>
         <onload condition="!Skin.String(GPanelColor.name)">Skin.SetString(GPanelColor.name,$LOCALIZE[13341])</onload>
-        <onload condition="!Skin.String(PGPanelColor)">Skin.SetString(PGPanelColor,ff3a351f)</onload>
+        <onload condition="!Skin.String(PGPanelColor)">Skin.SetString(PGPanelColor,ff9c7a2f)</onload>
         <onload condition="!Skin.String(PGPanelColor.name)">Skin.SetString(PGPanelColor.name,$LOCALIZE[743])</onload>
-        <onload condition="!Skin.String(PG13PanelColor)">Skin.SetString(PG13PanelColor,ff3a2f22)</onload>
+        <onload condition="!Skin.String(PG13PanelColor)">Skin.SetString(PG13PanelColor,ffb06b2d)</onload>
         <onload condition="!Skin.String(PG13PanelColor.name)">Skin.SetString(PG13PanelColor.name,$LOCALIZE[13342])</onload>
-		<onload condition="!Skin.String(RPanelColor)">Skin.SetString(RPanelColor,ff3b2f2f)</onload>
+		<onload condition="!Skin.String(RPanelColor)">Skin.SetString(RPanelColor,ff9c4040)</onload>
         <onload condition="!Skin.String(RPanelColor)">Skin.SetString(RPanelColor.name,$LOCALIZE[13343])</onload>
-		<onload condition="!Skin.String(NC17PanelColor)">Skin.SetString(NC17PanelColor,ff3a2a33)</onload>
+		<onload condition="!Skin.String(NC17PanelColor)">Skin.SetString(NC17PanelColor,ff8a4f7d)</onload>
         <onload condition="!Skin.String(NC17PanelColor)">Skin.SetString(NC17PanelColor.name,$LOCALIZE[31029])</onload>
-		<onload condition="!Skin.String(NRPanelColor)">Skin.SetString(NRPanelColor,ff2b4a6a)</onload>
+		<onload condition="!Skin.String(NRPanelColor)">Skin.SetString(NRPanelColor,ff4b82c3)</onload>
         <onload condition="!Skin.String(NRPanelColor)">Skin.SetString(NRPanelColor.name,$LOCALIZE[762])</onload>
 		<onload condition="!Skin.String(PanelBorderColor)">Skin.SetString(PanelBorderColor,33ffffff)</onload>
 		<onload condition="!Skin.String(PanelBorderColor)">Skin.SetString(PanelBorderColor.name,$LOCALIZE[742])</onload>
