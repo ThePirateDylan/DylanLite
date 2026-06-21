@@ -37,15 +37,6 @@
                 <label>SEARCH</label>
 				<visible>!$EXP[IsActualKeyboardActive]</visible>				
             </control>
-            <control type="label">
-				<top>70</top>
-				<left>135</left>
-                <width>600</width>
-				<font>Reg24</font>
-                <textcolor>$INFO[Skin.String(BingieSecondaryTextColor)]</textcolor>
-                <label>Type to search for Movies, Shows or People</label>
-				<visible>!$EXP[IsActualKeyboardActive]</visible>				
-            </control>
 		</control>
         <!-- Pseudo-Keyboard Layout -->
         <control type="grouplist" id="9000">
@@ -126,7 +117,7 @@
             <control type="image">
                 <width>280</width>
                 <height>42</height>
-                <texture border="20" colordiffuse="ff1b1b1b">dialogs/keyboard/key-nf.png</texture>
+                <texture border="20" colordiffuse="cc9a6a2e">dialogs/keyboard/key-nf.png</texture>
             </control>
             <control type="label">
                 <left>22</left>
@@ -136,7 +127,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <font>Reg24</font>
-                <textcolor>ffffffff</textcolor>
+                <textcolor>ffffd28a</textcolor>
                 <label>EXPLORE</label>
             </control>
         </control>
