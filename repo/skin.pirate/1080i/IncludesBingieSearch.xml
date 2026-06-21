@@ -425,17 +425,6 @@
     </include>
 
     <include name="SearchKeyboardRow_BackspaceAndSpace_Row">
-        <!-- Space -->
-        <include content="SearchRadioKey">
-            <param name="id" value="10" />
-            <param name="radioposx" value="60" />
-            <param name="radioposy" value="20" />
-            <param name="radiowidth" value="100" />
-            <param name="radioheight" value="40" />
-            <param name="texture" value="bingie/keyboard/space.png" />
-            <param name="ondown" value="1001" />
-            <param name="onclick" value="SetProperty(SpaceSearchTerm,1,Home)" />
-        </include>
         <!-- Backspace -->
         <include content="SearchRadioKey">
             <param name="id" value="11" />
@@ -444,9 +433,20 @@
             <param name="radiowidth" value="160" />
             <param name="radioheight" value="40" />
             <param name="texture" value="bingie/keyboard/backspace.png" />
-            <param name="ondown" value="1001" />
+            <param name="ondown" value="1007" />
             <param name="onclick" value="SetProperty(BackspaceSearchTerm,1,Home)" />
             <param name="force_refresh" value="true"/>
+        </include>
+        <!-- Space -->
+        <include content="SearchRadioKey">
+            <param name="id" value="10" />
+            <param name="radioposx" value="60" />
+            <param name="radioposy" value="20" />
+            <param name="radiowidth" value="100" />
+            <param name="radioheight" value="40" />
+            <param name="texture" value="bingie/keyboard/space.png" />
+            <param name="ondown" value="1007" />
+            <param name="onclick" value="SetProperty(SpaceSearchTerm,1,Home)" />
         </include>
     </include>
 
@@ -454,42 +454,42 @@
         <!-- A -->
         <include content="SearchKey">
             <param name="id" value="101" />
-            <param name="onup" value="10" />
+            <param name="onup" value="9900" />
             <param name="ondown" value="107" />
             <param name="key" value="a" />
         </include>
         <!-- B -->
         <include content="SearchKey">
             <param name="id" value="102" />
-            <param name="onup" value="10" />
+            <param name="onup" value="9900" />
             <param name="ondown" value="108" />
             <param name="key" value="b" />
         </include>
         <!-- C -->
         <include content="SearchKey">
             <param name="id" value="103" />
-            <param name="onup" value="10" />
+            <param name="onup" value="9900" />
             <param name="ondown" value="109" />
             <param name="key" value="c" />
         </include>
         <!-- D -->
         <include content="SearchKey">
             <param name="id" value="104" />
-            <param name="onup" value="11" />
+            <param name="onup" value="9900" />
             <param name="ondown" value="110" />
             <param name="key" value="d" />
         </include>
         <!-- E -->
         <include content="SearchKey">
             <param name="id" value="105" />
-            <param name="onup" value="11" />
+            <param name="onup" value="9900" />
             <param name="ondown" value="111" />
             <param name="key" value="e" />
         </include>
         <!-- F -->
         <include content="SearchKey">
             <param name="id" value="106" />
-            <param name="onup" value="11" />
+            <param name="onup" value="9900" />
             <param name="ondown" value="112" />
             <param name="key" value="f" />
         </include>
@@ -680,42 +680,42 @@
         <include content="SearchKey">
             <param name="id" value="131" />
             <param name="onup" value="125" />
-            <param name="ondown" value="1007" />
+            <param name="ondown" value="11" />
             <param name="key" value="$NUMBER[5]" />
         </include>
         <!-- 6 -->
         <include content="SearchKey">
             <param name="id" value="132" />
             <param name="onup" value="126" />
-            <param name="ondown" value="1007" />
+            <param name="ondown" value="11" />
             <param name="key" value="$NUMBER[6]" />
         </include>
         <!-- 7 -->
         <include content="SearchKey">
             <param name="id" value="133" />
             <param name="onup" value="127" />
-            <param name="ondown" value="1007" />
+            <param name="ondown" value="11" />
             <param name="key" value="$NUMBER[7]" />
         </include>
         <!-- 8 -->
         <include content="SearchKey">
             <param name="id" value="134" />
             <param name="onup" value="128" />
-            <param name="ondown" value="1007" />
+            <param name="ondown" value="10" />
             <param name="key" value="$NUMBER[8]" />
         </include>
         <!-- 9 -->
         <include content="SearchKey">
             <param name="id" value="135" />
             <param name="onup" value="129" />
-            <param name="ondown" value="1007" />
+            <param name="ondown" value="10" />
             <param name="key" value="$NUMBER[9]" />
         </include>
         <!-- 0 -->
         <include content="SearchKey">
             <param name="id" value="136" />
             <param name="onup" value="130" />
-            <param name="ondown" value="1007" />
+            <param name="ondown" value="10" />
             <param name="key" value="$NUMBER[0]" />
         </include>
     </include>

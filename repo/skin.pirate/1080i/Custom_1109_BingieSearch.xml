@@ -34,7 +34,7 @@
 				<left>135</left>
                 <width>auto</width>
 				<font>Reg42</font>
-                <label>$LOCALIZE[31230]</label>
+                <label>SEARCH</label>
 				<visible>!$EXP[IsActualKeyboardActive]</visible>				
             </control>
             <control type="label">
@@ -51,10 +51,10 @@
         <control type="grouplist" id="9000">
             <include>SearchSuggestionsAnim</include>
             <visible>!$EXP[IsActualKeyboardActive]</visible>
-            <top>185</top>
+            <top>175</top>
             <include>No_Circular_Left</include>
             <left>135</left>
-            <height>370</height>
+            <height>520</height>
             <orientation>vertical</orientation>
             <itemgap>-4</itemgap>
             <defaultcontrol>101</defaultcontrol>
@@ -64,13 +64,6 @@
             <onright condition="!Integer.IsGreater(Container(77777).NumItems,0)">9900</onright>
 			<onback>900</onback>
             <onback>SetFocus(900,$INFO[Window(Home).Property(menupos)])</onback>
-            <!-- Space / Backspace Row -->
-            <include content="SearchKeyboardRow">
-                <param name="id" value="1000" />
-                <param name="onleft" value="SetFocus(900,$INFO[Window(Home).Property(menupos)])" />
-                <param name="onright" value="77777" />
-                <param name="row_include" value="SearchKeyboardRow_BackspaceAndSpace_Row" />
-            </include>
             <!-- First Row -->
             <include content="SearchKeyboardRow">
                 <param name="id" value="1001" />
@@ -113,6 +106,37 @@
                 <param name="onright" value="77777" />
                 <param name="row_include" value="SearchKeyboardRow_Sixth_Row" />
             </include>
+            <!-- Backspace / Space Row -->
+            <include content="SearchKeyboardRow">
+                <param name="id" value="1000" />
+                <param name="onleft" value="SetFocus(900,$INFO[Window(Home).Property(menupos)])" />
+                <param name="onright" value="77777" />
+                <param name="row_include" value="SearchKeyboardRow_BackspaceAndSpace_Row" />
+            </include>
+        </control>
+
+        <!-- Explore Header -->
+        <control type="group">
+            <include>SearchSuggestionsAnim</include>
+            <visible>!$EXP[IsActualKeyboardActive]</visible>
+            <top>710</top>
+            <left>135</left>
+            <width>595</width>
+            <height>42</height>
+            <control type="image">
+                <width>280</width>
+                <height>42</height>
+                <texture border="20" colordiffuse="$INFO[Skin.String(ViewDetailsBorderFocusColor)]">dialogs/keyboard/key-nf.png</texture>
+            </control>
+            <control type="label">
+                <left>22</left>
+                <width>230</width>
+                <height>42</height>
+                <aligny>center</aligny>
+                <font>Reg24</font>
+                <textcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</textcolor>
+                <label>EXPLORE</label>
+            </control>
         </control>
 
         <!-- Auto-Complete & Static Suggestions List -->
@@ -121,9 +145,9 @@
             <include>SearchSuggestionsAnim</include>
             <param name="id" value="1007" />
             <param name="left" value="135" />
-            <param name="top" value="575" />
+            <param name="top" value="765" />
             <param name="width" value="595" />
-            <param name="height" value="440" />
+            <param name="height" value="250" />
             <param name="onitemfocus" value="SetProperty(SuggestionPath,$ESCINFO[ListItem.Property(path)])" />
             <param name="onitemfocus2" value="SetProperty(CustomSearch,1,home)" />
             <onleft>SetProperty(KeepSuggestions,1)</onleft>
