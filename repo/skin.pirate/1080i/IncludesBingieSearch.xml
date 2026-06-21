@@ -414,10 +414,10 @@
     <!-- Search Keyboard Row -->
     <include name="SearchKeyboardRow">
         <control type="grouplist" id="$PARAM[id]">
-            <width>455</width>
+            <width>595</width>
             <height>search_key_size</height>
             <orientation>horizontal</orientation>
-            <itemgap>-10</itemgap>
+            <itemgap>4</itemgap>
             <onleft>$PARAM[onleft]</onleft>
             <onright>$PARAM[onright]</onright>
             <include>$PARAM[row_include]</include>
@@ -744,20 +744,20 @@
                 <onright condition="!Container(500).IsUpdating | !String.IsEmpty(Skin.String(CustomSearchTerm))">$PARAM[onright]</onright>
                 <onleft>$PARAM[onleft]</onleft>
                 <align>left</align>
-                <itemlayout width="$PARAM[width]" height="65">
+                <itemlayout width="$PARAM[width]" height="55">
                     <control type="label">
                         <left>25</left>
-                        <width>380</width>
+                        <width>540</width>
                         <height>100%</height>
                         <aligny>center</aligny>
                         <align>left</align>
-                        <font>Reg30</font>
+                        <font>Reg26</font>
                         <textcolor>$INFO[Skin.String(BingieButtonTextColor)]</textcolor>
                         <scroll>false</scroll>
                         <label>$INFO[ListItem.Label]</label>
                     </control>
                 </itemlayout>
-                <focusedlayout width="$PARAM[width]" height="65" condition="Control.HasFocus($PARAM[id])">
+                <focusedlayout width="$PARAM[width]" height="55" condition="Control.HasFocus($PARAM[id])">
                     <control type="group">
                         <left>9</left>
                         <control type="image">
@@ -772,11 +772,11 @@
                         </control>
                         <control type="label">
                             <left>16</left>
-                            <width>380</width>
+                            <width>540</width>
                             <height>100%</height>
                             <aligny>center</aligny>
                             <align>left</align>
-                            <font>Reg30</font>
+                            <font>Reg26</font>
                             <textcolor>$INFO[Skin.String(BingieSecondaryButtonFocusTextColor)]</textcolor>
                             <scroll>true</scroll>
                             <label>$INFO[ListItem.Label]</label>
@@ -789,7 +789,7 @@
                         </control>
                     </control>
                 </focusedlayout>
-				<focusedlayout width="$PARAM[width]" height="65" condition="!Control.HasFocus($PARAM[id])">
+				<focusedlayout width="$PARAM[width]" height="55" condition="!Control.HasFocus($PARAM[id])">
                     <control type="group">
                         <left>9</left>
                         <control type="image">
@@ -804,11 +804,11 @@
                         </control>
                         <control type="label">
                             <left>16</left>
-                            <width>380</width>
+                            <width>540</width>
                             <height>100%</height>
                             <aligny>center</aligny>
                             <align>left</align>
-                            <font>Reg30</font>
+                            <font>Reg26</font>
                             <textcolor>$INFO[Skin.String(BingieButtonTextColor)]</textcolor>
                             <label>$INFO[ListItem.Label]</label>
                         </control>

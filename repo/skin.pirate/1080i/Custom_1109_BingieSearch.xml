@@ -30,24 +30,33 @@
 		<control type="group">
 			<include>SearchSuggestionsAnim</include>		
             <control type="label">
-				<top>11</top>
-				<left>137</left>
+				<top>18</top>
+				<left>135</left>
                 <width>auto</width>
-				<font>Reg32</font>
+				<font>Reg42</font>
                 <label>$LOCALIZE[31230]</label>
-				<visible>Skin.HasSetting(EnableBingieSearchFullKeyboard) + !$EXP[IsActualKeyboardActive]</visible>				
+				<visible>!$EXP[IsActualKeyboardActive]</visible>				
+            </control>
+            <control type="label">
+				<top>70</top>
+				<left>135</left>
+                <width>600</width>
+				<font>Reg24</font>
+                <textcolor>$INFO[Skin.String(BingieSecondaryTextColor)]</textcolor>
+                <label>Type to search for Movies, Shows or People</label>
+				<visible>!$EXP[IsActualKeyboardActive]</visible>				
             </control>
 		</control>
         <!-- Pseudo-Keyboard Layout -->
         <control type="grouplist" id="9000">
             <include>SearchSuggestionsAnim</include>
             <visible>!$EXP[IsActualKeyboardActive]</visible>
-            <top>80</top>
+            <top>185</top>
             <include>No_Circular_Left</include>
-            <left>65</left>
-            <height>500</height>
+            <left>135</left>
+            <height>370</height>
             <orientation>vertical</orientation>
-            <itemgap>-10</itemgap>
+            <itemgap>-4</itemgap>
             <defaultcontrol>101</defaultcontrol>
             <onup condition="Skin.HasSetting(EnableBingieSearchFullKeyboard)">Skin.SetString(CustomSearchTerm)</onup>
 			<onup condition="Skin.HasSetting(EnableBingieSearchFullKeyboard)">SetProperty(CustomSearch,1,home)</onup>
@@ -111,9 +120,10 @@
             <include>No_Circular_Left</include>
             <include>SearchSuggestionsAnim</include>
             <param name="id" value="1007" />
-            <param name="top" value="605" />
-            <param name="width" value="421" />
-            <param name="height" value="910" />
+            <param name="left" value="135" />
+            <param name="top" value="575" />
+            <param name="width" value="595" />
+            <param name="height" value="440" />
             <param name="onitemfocus" value="SetProperty(SuggestionPath,$ESCINFO[ListItem.Property(path)])" />
             <param name="onitemfocus2" value="SetProperty(CustomSearch,1,home)" />
             <onleft>SetProperty(KeepSuggestions,1)</onleft>
@@ -128,10 +138,10 @@
 
         <!--- ########## Right Layout ########## -->
         <control type="group" id="9900">
-            <left>652</left>
-            <top>32</top>
+            <left>135</left>
+            <top>105</top>
             <height>70</height>
-            <width>1215</width>
+            <width>620</width>
             <onleft>9000</onleft>
             <onback>9000</onback>
             <ondown condition="Integer.IsGreater(Container(77777).NumItems,0)">77777</ondown>
@@ -167,9 +177,9 @@
             <control type="label" id="987">
                 <visible>!$EXP[IsActualKeyboardActive]</visible>
                 <top>5</top>
-                <width>1130</width>
+                <width>560</width>
                 <height>70</height>
-                <font>Reg42</font>
+                <font>Reg32</font>
                 <align>left</align>
                 <aligny>top</aligny>
                 <textcolor>$INFO[Skin.String(ViewDetailsTextColor)]</textcolor>
@@ -181,9 +191,9 @@
 		
         <!-- Initial Msg / No Results Label -->
         <control type="label">
-            <top>280</top>
-            <left>620</left>
-            <width>1220</width>
+            <top>370</top>
+            <left>820</left>
+            <width>850</width>
             <height>auto</height>
             <font>Reg42</font>
             <align>center</align>
@@ -196,8 +206,8 @@
 		
 		<!-- Results -->
 		<control type="grouplist" id="77777">
-            <top>107</top>
-            <left>645</left>
+            <top>145</top>
+            <left>785</left>
 			<include>Fixed_Focus_Bottom</include>
             <itemgap>1</itemgap>
             <orientation>vertical</orientation>
