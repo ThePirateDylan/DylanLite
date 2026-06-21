@@ -127,7 +127,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <font>Reg24</font>
-                <textcolor>ffffd28a</textcolor>
+                <textcolor>ffffffff</textcolor>
                 <label>EXPLORE</label>
             </control>
         </control>
