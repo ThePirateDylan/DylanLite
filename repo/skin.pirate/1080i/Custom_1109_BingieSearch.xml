@@ -27,17 +27,31 @@
 		
         <!-- ########## Left Layout ########## -->
 		<!-- VirtualKeyboardLabel -->
-		<control type="group">
-			<include>SearchSuggestionsAnim</include>		
-            <control type="label">
-				<top>18</top>
-				<left>135</left>
-                <width>auto</width>
-				<font>Reg42</font>
-                <label>SEARCH</label>
-				<visible>!$EXP[IsActualKeyboardActive]</visible>				
+        <control type="group">
+        <include>SearchSuggestionsAnim</include>
+
+        <!-- Search Icon -->
+        <control type="image">
+        <top>14</top>
+        <left>75</left>
+        <width>48</width>
+        <height>48</height>
+        <texture>shortcuts/search.png</texture>
+        <colordiffuse>$INFO[Skin.String(BingieHeaderTextColor)]</colordiffuse>
+        <visible>!$EXP[IsActualKeyboardActive]</visible>
+        </control>
+
+        <control type="label">
+        <top>18</top>
+        <left>140</left>
+        <width>auto</width>
+        <font>Reg42</font>
+        <label>SEARCH</label>
+        <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
+        <visible>!$EXP[IsActualKeyboardActive]</visible>
             </control>
 		</control>
+
         <!-- Pseudo-Keyboard Layout -->
         <control type="grouplist" id="9000">
             <include>SearchSuggestionsAnim</include>
