@@ -32,11 +32,11 @@
 
         <!-- Search Icon -->
         <control type="image">
-        <top>18</top>
+        <top>20</top>
         <left>75</left>
         <width>48</width>
         <height>48</height>
-        <texture>shortcuts/search.png</texture>
+        <texture>shortcuts/search2.png</texture>
         <colordiffuse>$INFO[Skin.String(BingieHeaderTextColor)]</colordiffuse>
         <visible>!$EXP[IsActualKeyboardActive]</visible>
         </control>
