@@ -32,7 +32,7 @@
 
         <!-- Search Icon -->
         <control type="image">
-        <top>14</top>
+        <top>18</top>
         <left>75</left>
         <width>48</width>
         <height>48</height>
