@@ -255,39 +255,34 @@
             <label>$VAR[EmptySearchResultsString]</label>
             <visible>!Container(77777).IsUpdating + !Integer.IsGreater(Container(77777).NumItems,0)</visible>
         </control>
-
-        <!--Attempting to Add Ornament with Msg-->
         <!-- Left ornament line -->
         <control type="image">
             <top>445</top>
-            <left>955</left>
+            <left>1005</left>
             <width>180</width>
             <height>2</height>
             <texture colordiffuse="$INFO[Skin.String(BingiePrimaryTextColor)]">colors/color_white.png</texture>
             <visible>!Container(77777).IsUpdating + !Integer.IsGreater(Container(77777).NumItems,0)</visible>
         </control>
-
         <!-- Skull ornament -->
         <control type="image">
             <top>425</top>
-            <left>1190</left>
+            <left>1240</left>
             <width>40</width>
             <height>40</height>
             <texture>indication/skull.png</texture>
             <colordiffuse>$INFO[Skin.String(BingiePrimaryTextColor)]</colordiffuse>
             <visible>!Container(77777).IsUpdating + !Integer.IsGreater(Container(77777).NumItems,0)</visible>
         </control>
-
         <!-- Right ornament line -->
         <control type="image">
             <top>445</top>
-            <left>1285</left>
+            <left>1335</left>
             <width>180</width>
             <height>2</height>
             <texture colordiffuse="$INFO[Skin.String(BingiePrimaryTextColor)]">colors/color_white.png</texture>
             <visible>!Container(77777).IsUpdating + !Integer.IsGreater(Container(77777).NumItems,0)</visible>
         </control>
-		<!--I hope it worked-->
 
 		<!-- Results -->
 		<control type="grouplist" id="77777">
