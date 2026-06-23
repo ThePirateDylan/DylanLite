@@ -258,7 +258,7 @@
         <!-- Left ornament line -->
         <control type="image">
             <top>445</top>
-            <left>1005</left>
+            <left>995</left>
             <width>180</width>
             <height>2</height>
             <texture colordiffuse="$INFO[Skin.String(BingiePrimaryTextColor)]">colors/color_white.png</texture>
@@ -267,7 +267,7 @@
         <!-- Skull ornament -->
         <control type="image">
             <top>425</top>
-            <left>1240</left>
+            <left>1230</left>
             <width>40</width>
             <height>40</height>
             <texture>indication/skull.png</texture>
@@ -277,7 +277,7 @@
         <!-- Right ornament line -->
         <control type="image">
             <top>445</top>
-            <left>1335</left>
+            <left>1325</left>
             <width>180</width>
             <height>2</height>
             <texture colordiffuse="$INFO[Skin.String(BingiePrimaryTextColor)]">colors/color_white.png</texture>
