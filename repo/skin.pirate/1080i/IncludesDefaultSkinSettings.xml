@@ -104,9 +104,13 @@
     <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableSpotlightContent)</onload>
     <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(DisableAllSubmenus)</onload>
     <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableStudioLogo)</onload>
+    <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(UseBingieOSD)</onload>
 
         <!--Enable Studio Logos on Default-->
         <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableStudioLogo)</onload>
+
+        <!--Enable Alternative OSD Display on Default-->
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(UseBingieOSD)</onload>
 
         <!-- Enable Ratings on Default -->
         <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableRatings)</onload>
