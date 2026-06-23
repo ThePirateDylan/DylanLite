@@ -343,8 +343,8 @@
                 <radioheight>$PARAM[radioheight]</radioheight>
                 <textureradioonfocus colordiffuse="$INFO[Skin.String(BingieButtonFocusTextColor)]">$PARAM[texture]</textureradioonfocus>
                 <textureradioofffocus colordiffuse="$INFO[Skin.String(BingieButtonFocusTextColor)]">$PARAM[texture]</textureradioofffocus>
-                <textureradioonnofocus colordiffuse="$INFO[Skin.String(BingieButtonTextColor)]">$PARAM[texture]</textureradioonnofocus>
-                <textureradiooffnofocus colordiffuse="$INFO[Skin.String(BingieButtonTextColor)]">$PARAM[texture]</textureradiooffnofocus>
+                <textureradioonnofocus colordiffuse="ffd8c08a">$PARAM[texture]</textureradioonnofocus>
+                <textureradiooffnofocus colordiffuse="ffd8c08a">$PARAM[texture]</textureradiooffnofocus>
                 <ondown>$PARAM[ondown]</ondown>
                 <onclick condition="$PARAM[force_refresh]">SetProperty(CustomSearch,1,home)</onclick>
                 <onclick>$PARAM[onclick]</onclick>
@@ -391,7 +391,7 @@
         <font>Reg34</font>
         <textoffsetx>0</textoffsetx>
         <selectedcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</selectedcolor>
-        <textcolor>$INFO[Skin.String(BingieButtonTextColor)]</textcolor>
+        <textcolor>ffd8c08a</textcolor>
 		<focusedcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</focusedcolor>
         <pulseonselect>false</pulseonselect>
         <texturefocus border="20">dialogs/keyboard/key-nf2.png</texturefocus>
@@ -404,7 +404,7 @@
         <textoffsetx>0</textoffsetx>
 		<textwidth>254</textwidth>
         <selectedcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</selectedcolor>
-        <textcolor>$INFO[Skin.String(BingieButtonTextColor)]</textcolor>
+        <textcolor>ffd8c08a</textcolor>
 		<focusedcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</focusedcolor>
         <pulseonselect>false</pulseonselect>
         <texturefocus border="20">dialogs/keyboard/key-nf2.png</texturefocus>
