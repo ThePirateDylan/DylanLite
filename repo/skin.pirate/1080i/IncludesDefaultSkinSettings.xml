@@ -111,6 +111,8 @@
 
         <!--Enable Alternative OSD Display on Default-->
         <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(UseBingieOSD)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.Reset(UseBingieOSD)</onload>
+        <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.ToggleSetting(UseBingieOSD)</onload>
 
         <!-- Enable Ratings on Default -->
         <onload condition="!Skin.HasSetting(HomeMenuDefaults46)">Skin.SetBool(EnableRatings)</onload>
