@@ -435,7 +435,7 @@ def default_settings():
 {'setting_id': 'rescrape.with_all.order', 'setting_type': 'action', 'setting_default': '2', 'min_value': '1', 'max_value': '5'},
 {'setting_id': 'rescrape.episode_group', 'setting_type': 'action', 'setting_default': '0', 'settings_options': {'0': 'Off', '1': 'Auto', '2': 'Prompt'}},
 {'setting_id': 'rescrape.episode_group.order', 'setting_type': 'action', 'setting_default': '3', 'min_value': '1', 'max_value': '5'},
-{'setting_id': 'rescrape.ignore_filters', 'setting_type': 'action', 'setting_default': '0', 'settings_options': {'0': 'Off', '1': 'Auto', '2': 'Prompt'}},
+{'setting_id': 'rescrape.ignore_filters', 'setting_type': 'action', 'setting_default': '1', 'settings_options': {'0': 'Off', '1': 'Auto', '2': 'Prompt'}},
 {'setting_id': 'rescrape.ignore_filters.order', 'setting_type': 'action', 'setting_default': '4', 'min_value': '1', 'max_value': '5'},
 #==================== Sorting and Filtering
 {'setting_id': 'results.sort_order_display', 'setting_type': 'string', 'setting_default': 'Quality, Size, Provider'},
