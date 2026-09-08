@@ -65,33 +65,40 @@ class SourcesResults(BaseDialog):
 			self.select_item(self.filter_window_id, 0)
 			self.setFocusId(self.window_id)
 		if action in self.selection_actions:
-			chosen_listitem = self.get_listitem(self.filter_window_id)
-			filter_type, filter_value = chosen_listitem.getProperty('filter_type'), chosen_listitem.getProperty('filter_value')
-			if filter_type in ('quality', 'provider'):
-				if filter_value == self.prerelease_key: filtered_list = [i for i in self.item_list if i.getProperty(filter_type) in self.prerelease_values]
-				else: filtered_list = [i for i in self.item_list if i.getProperty(filter_type) == filter_value]
-			elif filter_type == 'special':
-				if filter_value == 'title':
-					keywords = kodi_dialog().input('Enter Keyword (Comma Separated for Multiple)')
-					if not keywords: return
-					keywords.replace(' ', '')
-					keywords = keywords.split(',')
-					choice = [i.upper() for i in keywords]
-					filtered_list = [i for i in self.item_list if all(x in i.getProperty('name') for x in choice)]
-				elif filter_value == 'extraInfo':
-					filters = source_filters()
-					list_items = [{'line1': item[0], 'icon': self.poster} for item in filters]
-					kwargs = {'items': json.dumps(list_items), 'heading': 'Filter Results', 'multi_choice': 'true'}
-					choice = select_dialog(filters, **kwargs)
-					if choice == None: return
-					choice = [i[1] for i in choice]
-					filtered_list = [i for i in self.item_list if all(x in i.getProperty('extraInfo') for x in choice)]
-				elif filter_value == 'showuncached': filtered_list = self.make_items(self.uncached_results)
-				else: #cache_check_rescrape
-					self.selected = ('cache_change_rescrape', 'false' if self.external_cache_check else 'true')
-					return self.close()
-			if not filtered_list: return ok_dialog(text='No Results')
-			self.set_filter(filtered_list)
+			return self.apply_filter()
+
+	def onClick(self, control_id):
+		if control_id == self.filter_window_id: return self.apply_filter()
+		if control_id == self.window_id: return self.select_source()
+
+	def apply_filter(self):
+		chosen_listitem = self.get_listitem(self.filter_window_id)
+		filter_type, filter_value = chosen_listitem.getProperty('filter_type'), chosen_listitem.getProperty('filter_value')
+		if filter_type in ('quality', 'provider'):
+			if filter_value == self.prerelease_key: filtered_list = [i for i in self.item_list if i.getProperty(filter_type) in self.prerelease_values]
+			else: filtered_list = [i for i in self.item_list if i.getProperty(filter_type) == filter_value]
+		elif filter_type == 'special':
+			if filter_value == 'title':
+				keywords = kodi_dialog().input('Enter Keyword (Comma Separated for Multiple)')
+				if not keywords: return
+				keywords.replace(' ', '')
+				keywords = keywords.split(',')
+				choice = [i.upper() for i in keywords]
+				filtered_list = [i for i in self.item_list if all(x in i.getProperty('name') for x in choice)]
+			elif filter_value == 'extraInfo':
+				filters = source_filters()
+				list_items = [{'line1': item[0], 'icon': self.poster} for item in filters]
+				kwargs = {'items': json.dumps(list_items), 'heading': 'Filter Results', 'multi_choice': 'true'}
+				choice = select_dialog(filters, **kwargs)
+				if choice == None: return
+				choice = [i[1] for i in choice]
+				filtered_list = [i for i in self.item_list if all(x in i.getProperty('extraInfo') for x in choice)]
+			elif filter_value == 'showuncached': filtered_list = self.make_items(self.uncached_results)
+			else: #cache_check_rescrape
+				self.selected = ('cache_change_rescrape', 'false' if self.external_cache_check else 'true')
+				return self.close()
+		if not filtered_list: return ok_dialog(text='No Results')
+		self.set_filter(filtered_list)
 
 	def onAction(self, action):
 		if self.get_visibility('Control.HasFocus(%s)' % self.filter_window_id): return self.filter_action(action)
@@ -103,15 +110,7 @@ class SourcesResults(BaseDialog):
 		if action == self.info_action:
 			self.open_window(('windows.sources', 'SourcesInfo'), 'sources_info.xml', item=chosen_listitem)
 		elif action in self.selection_actions:
-			if self.prescrape and chosen_listitem.getProperty('perform_full_search') == 'true':
-				self.selected = ('perform_full_search', '')
-				return self.close()
-			chosen_source = json.loads(chosen_listitem.getProperty('source'))
-			if 'Uncached' in chosen_source.get('cache_provider', ''):
-				from modules.debrid import manual_add_magnet_to_cloud
-				return manual_add_magnet_to_cloud({'mode': 'manual_add_magnet_to_cloud', 'provider': chosen_source['debrid'], 'magnet_url': chosen_source['url']})
-			self.selected = ('play', chosen_source)
-			return self.close()
+			return self.select_source()
 		elif action in self.context_actions:
 			source = json.loads(chosen_listitem.getProperty('source'))
 			choice = self.context_menu(source)
@@ -126,6 +125,18 @@ class SourcesResults(BaseDialog):
 					if result.status_code in (401, 403, 404): return notification('Error', 1200)
 					rd_api.clear_cache()
 					self.delete_single_source(source)
+
+	def select_source(self):
+		chosen_listitem = self.get_listitem(self.window_id)
+		if self.prescrape and chosen_listitem.getProperty('perform_full_search') == 'true':
+			self.selected = ('perform_full_search', '')
+			return self.close()
+		chosen_source = json.loads(chosen_listitem.getProperty('source'))
+		if 'Uncached' in chosen_source.get('cache_provider', ''):
+			from modules.debrid import manual_add_magnet_to_cloud
+			return manual_add_magnet_to_cloud({'mode': 'manual_add_magnet_to_cloud', 'provider': chosen_source['debrid'], 'magnet_url': chosen_source['url']})
+		self.selected = ('play', chosen_source)
+		return self.close()
 
 	def delete_single_source(self, single_source):
 		self.results.remove(single_source)
@@ -404,6 +415,9 @@ class SourcesInfo(BaseDialog):
 		self.doModal()
 
 	def onAction(self, action):
+		self.close()
+
+	def onClick(self, control_id):
 		self.close()
 
 	def set_properties(self):

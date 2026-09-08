@@ -135,7 +135,9 @@ def window_player(obj):
 
 class BaseDialog(xbmcgui.WindowXMLDialog):
 	def __init__(self, *args):
-		xbmcgui.WindowXMLDialog.__init__(self, args)
+		# WindowXMLDialog expects each window argument separately. Passing the
+		# tuple itself prevents Kodi from resolving the requested XML window.
+		xbmcgui.WindowXMLDialog.__init__(self, *args)
 		self.args = args
 		self.player = kodi_utils.kodi_player()
 		self.left_action = 1

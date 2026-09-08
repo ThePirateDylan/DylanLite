@@ -87,7 +87,7 @@
 						<onclick>SetProperty(finishBingieStartup1,1,Home)</onclick>
 						<onclick>ClearProperty(StartupMask,Home)</onclick>
 						<onclick condition="System.GetBool(filelists.showparentdiritems)">RunScript(script.pirate.toolbox,action=togglekodisetting,setting=filelists.showparentdiritems)</onclick>
-						<onclick condition="System.GetBool(input.enablemouse)">RunScript(script.pirate.toolbox,action=togglekodisetting,setting=input.enablemouse)</onclick>
+						<onclick condition="!System.GetBool(input.enablemouse)">RunScript(script.pirate.toolbox,action=togglekodisetting,setting=input.enablemouse)</onclick>
 						<onclick>RunScript(script.pirate.toolbox,action=setkodisetting,setting=videolibrary.tvshowsselectfirstunwatcheditem,value=2)</onclick>
 						<onclick>RunScript(script.pirate.toolbox,action=setkodisetting,setting=videolibrary.flattentvshows,value=2)</onclick>
 						<onclick>RunScript(script.pirate.toolbox,action=setkodisetting,setting=myvideos.selectaction,value=2)</onclick>

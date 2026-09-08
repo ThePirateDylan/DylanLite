@@ -40,7 +40,6 @@ class Select(BaseDialog):
 		return self.selected
 
 	def onClick(self, controlID):
-		self.control_id = None
 		if controlID in (10, 11, 12, 13):
 			if controlID == 10:
 				self.selected = sorted(self.chosen_indexes)
@@ -55,24 +54,29 @@ class Select(BaseDialog):
 				self.setProperty('select_button', select_property)
 				try: self.setFocusId(10)
 				except: pass
-		else: self.control_id = controlID
+		elif controlID == self.window_id:
+			return self.select_current_item()
 
 	def onAction(self, action):
-		chosen_listitem = self.get_listitem(self.window_id)
 		if action in self.selection_actions:
-			if not self.control_id: return
-			position = self.get_position(self.window_id)
-			if self.multi_choice == 'true':
-				if chosen_listitem.getProperty('check_status') == 'checked':
-					chosen_listitem.setProperty('check_status', '')
-					self.chosen_indexes.remove(position)
-				else:
-					chosen_listitem.setProperty('check_status', 'checked')
-					self.chosen_indexes.append(position)
-			else:
-				self.selected = position
-				return self.close()
+			if self.getFocusId() != self.window_id: return
+			return self.select_current_item()
 		elif action in self.context_actions or action in self.closing_actions: return self.close()
+
+	def select_current_item(self):
+		"""Handle both controller select actions and mouse clicks on the list."""
+		chosen_listitem = self.get_listitem(self.window_id)
+		position = self.get_position(self.window_id)
+		if self.multi_choice == 'true':
+			if chosen_listitem.getProperty('check_status') == 'checked':
+				chosen_listitem.setProperty('check_status', '')
+				self.chosen_indexes.remove(position)
+			else:
+				chosen_listitem.setProperty('check_status', 'checked')
+				self.chosen_indexes.append(position)
+			return
+		self.selected = position
+		return self.close()
 
 	def make_menu(self):
 		def builder():
