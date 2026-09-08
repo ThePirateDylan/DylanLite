@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Match the fullscreen ENTER/select path so VideoOSD owns pause and focus. -->
+<keymap>
+    <FullscreenVideo>
+        <keyboard>
+            <space>OSD</space>
+            <pause>OSD</pause>
+            <play_pause>OSD</play_pause>
+        </keyboard>
+        <remote>
+            <pause>OSD</pause>
+            <play>OSD</play>
+        </remote>
+        <gamepad>
+            <A>OSD</A>
+        </gamepad>
+    </FullscreenVideo>
+    <FullscreenLiveTV>
+        <keyboard>
+            <space>OSD</space>
+            <pause>OSD</pause>
+            <play_pause>OSD</play_pause>
+        </keyboard>
+        <remote>
+            <pause>OSD</pause>
+            <play>OSD</play>
+        </remote>
+        <gamepad>
+            <A>OSD</A>
+        </gamepad>
+    </FullscreenLiveTV>
+</keymap>

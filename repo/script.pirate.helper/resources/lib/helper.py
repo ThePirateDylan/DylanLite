@@ -4,6 +4,8 @@
 import xbmc
 import xbmcaddon
 import xbmcgui              
+import xbmcvfs
+import os
 import simplejson
 
 ADDON = xbmcaddon.Addon()
@@ -39,6 +41,52 @@ def log(txt,loglevel=INFO,force=False):
 
 def visible(condition):
     return xbmc.getCondVisibility(condition)
+
+def _escape_builtin_parameter(value):
+    return value.replace('\\', '\\\\').replace(',', '\\,').replace(')', '\\)')
+
+def _set_custom_search_term(value):
+    if value:
+        xbmc.executebuiltin('Skin.SetString(CustomSearchTerm,%s)' % _escape_builtin_parameter(value))
+    else:
+        xbmc.executebuiltin('Skin.Reset(CustomSearchTerm)')
+    xbmcgui.Window(10000).setProperty('CustomSearch', '1')
+
+def searchbackspace(params):
+    """Update the skin keyboard directly instead of depending on VirtualKeyboard."""
+    _set_custom_search_term(xbmc.getInfoLabel('Skin.String(CustomSearchTerm)')[:-1])
+
+def searchspace(params):
+    """Update the skin keyboard directly instead of depending on VirtualKeyboard."""
+    _set_custom_search_term(xbmc.getInfoLabel('Skin.String(CustomSearchTerm)') + ' ')
+
+def _read_vfs_file(path):
+    file_handle = xbmcvfs.File(path, 'r')
+    try:
+        return file_handle.read()
+    finally:
+        file_handle.close()
+
+def installpauseosdkeymap(params):
+    """Install the skin-owned fullscreen keymap and reload it when it changes."""
+    installation_property = 'PiratePauseOSDKeymapInstalled'
+    home_window = xbmcgui.Window(10000)
+    try:
+        source = xbmcvfs.translatePath(os.path.join(ADDON.getAddonInfo('path'), 'resources', 'keymaps', 'script.pirate.helper.pause-osd.xml'))
+        keymaps_directory = xbmcvfs.translatePath('special://profile/keymaps/')
+        destination = os.path.join(keymaps_directory, 'script.pirate.helper.pause-osd.xml')
+        if not xbmcvfs.exists(keymaps_directory):
+            xbmcvfs.mkdirs(keymaps_directory)
+        if not xbmcvfs.exists(source):
+            raise RuntimeError('Bundled pause/OSD keymap is missing')
+        if not xbmcvfs.exists(destination) or _read_vfs_file(source) != _read_vfs_file(destination):
+            with xbmcvfs.File(destination, 'w') as destination_file:
+                destination_file.write(_read_vfs_file(source))
+            xbmc.executebuiltin('Action(reloadkeymaps)')
+    except Exception as error:
+        log('Unable to install pause/OSD keymap: %s' % error, WARNING, True)
+    finally:
+        home_window.setProperty(installation_property, 'true')
 
 def get_first_youtube_video(query):
     for media in get_youtube_listing('%s' % query, limit=5):

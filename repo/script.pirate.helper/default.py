@@ -33,7 +33,10 @@ class Main:
                             'togglemylist': togglemylist,
                             'ratetitle': ratetitle,
                             'gettvshowid': gettvshowid,
-                            'playtrailer': playtrailer}
+                            'playtrailer': playtrailer,
+                            'searchbackspace': searchbackspace,
+                            'searchspace': searchspace,
+                            'installpauseosdkeymap': installpauseosdkeymap}
         for action in self.action:
             action_inventory[action](self.params)
 

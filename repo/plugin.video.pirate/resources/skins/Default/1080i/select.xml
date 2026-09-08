@@ -99,7 +99,9 @@
                 <height>720</height>
                 <onup>2025</onup>
                 <ondown>2025</ondown>
-                <onright>2065</onright>
+                <onleft>noop</onleft>
+                <onright condition="String.IsEqual(Window().Property(multi_choice),true)">10</onright>
+                <onright condition="!String.IsEqual(Window().Property(multi_choice),true)">noop</onright>
                 <orientation>Vertical</orientation>
                 <focusposition>3</focusposition>
                 <movement>4</movement>
@@ -295,7 +297,8 @@
                 <texturesliderbar colordiffuse="FF1C2F44">fenlight_common/white.png</texturesliderbar>
                 <texturesliderbarfocus colordiffuse="FF3FA9FF">fenlight_common/white.png</texturesliderbarfocus>
                 <onleft>2025</onleft>
-                <onright>10</onright>
+                <onright condition="String.IsEqual(Window().Property(multi_choice),true)">10</onright>
+                <onright condition="!String.IsEqual(Window().Property(multi_choice),true)">2025</onright>
                 <showonepage>false</showonepage>
                 <orientation>vertical</orientation>
                 <visible>Control.IsVisible(2025)</visible>

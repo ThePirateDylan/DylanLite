@@ -1663,9 +1663,13 @@
                         <onup>noop</onup>
                         <ondown>900</ondown>
                         <onback>ClearProperty(ShowViewSubMenu,Home)</onback>
-                        <onback>77777</onback>
+                        <onback condition="!Window.IsActive(1109)">77777</onback>
+						<onback condition="Window.IsActive(1109) + String.IsEmpty(Window.Property(KeepSuggestions))">9000</onback>
+						<onback condition="Window.IsActive(1109) + !String.IsEmpty(Window.Property(KeepSuggestions))">1007</onback>
                         <onright>ClearProperty(ShowViewSubMenu,Home)</onright>
-                        <onright>77777</onright>
+                        <onright condition="!Window.IsActive(1109)">77777</onright>
+						<onright condition="Window.IsActive(1109) + String.IsEmpty(Window.Property(KeepSuggestions))">9000</onright>
+						<onright condition="Window.IsActive(1109) + !String.IsEmpty(Window.Property(KeepSuggestions))">1007</onright>
                         <onclick>System.LogOff</onclick>
 					</control>
 					<!-- Profile Name --> 
@@ -1733,7 +1737,7 @@
                 <onback condition="!Window.IsActive(1109)">77777</onback>
 				<onback condition="Window.IsActive(1109) + String.IsEmpty(Window.Property(KeepSuggestions))">9000</onback>
 				<onback condition="Window.IsActive(1109) + !String.IsEmpty(Window.Property(KeepSuggestions))">1007</onback>
-				<onup>40000</onup>
+                <onup>40000</onup>
                 <ondown>40003</ondown>
 				<itemlayout height="82" width="bingie_menu_width" condition="![Control.HasFocus(900) | Control.HasFocus(4444) | Control.HasFocus(40000) | Control.HasFocus(40003)]">
                     <!--this red line just for slim menu-->
@@ -1816,9 +1820,13 @@
                 <onup>900</onup>
                 <ondown>noop</ondown>
                 <onright>ClearProperty(ShowViewSubMenu,Home)</onright>
-                <onright>77777</onright>
+                <onright condition="!Window.IsActive(1109)">77777</onright>
+				<onright condition="Window.IsActive(1109) + String.IsEmpty(Window.Property(KeepSuggestions))">9000</onright>
+				<onright condition="Window.IsActive(1109) + !String.IsEmpty(Window.Property(KeepSuggestions))">1007</onright>
                 <onback>ClearProperty(ShowViewSubMenu,Home)</onback>
-                <onback>77777</onback>
+                <onback condition="!Window.IsActive(1109)">77777</onback>
+				<onback condition="Window.IsActive(1109) + String.IsEmpty(Window.Property(KeepSuggestions))">9000</onback>
+				<onback condition="Window.IsActive(1109) + !String.IsEmpty(Window.Property(KeepSuggestions))">1007</onback>
                 <itemlayout width="384" height="55">
                     <include content="BingiePowerMenuItemLabel"></include>
                 </itemlayout>
@@ -1899,7 +1907,7 @@
                 <onleft condition="!Skin.HasSetting(AutoShowSubmenu)">ClearProperty(submenu,Home)</onleft>
                 <onright>ClearProperty(submenu,Home)</onright>
                 <onright condition="Window.IsActive(1109)">9000</onright>
-                <onright condition="!Window.IsActive(1109) | !Window.IsActive(1119)">77777</onright>
+                <onright condition="!Window.IsActive(1109)">77777</onright>
                 <onright>ClearProperty(ShowViewSubMenu,Home)</onright>
                 <onup>4444</onup>
                 <ondown>4444</ondown>

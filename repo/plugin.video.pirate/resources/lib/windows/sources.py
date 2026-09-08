@@ -15,6 +15,7 @@ class SourcesResults(BaseDialog):
 		self.window_format = kwargs.get('window_format', 'list')
 		self.window_id = kwargs.get('window_id', 2000)
 		self.filter_window_id = 2100
+		self.selected = (None, '')
 		self.results = kwargs.get('results')
 		self.uncached_results = kwargs.get('uncached_results', [])
 		self.info_highlights_dict = kwargs.get('scraper_settings')

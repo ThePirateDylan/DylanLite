@@ -124,13 +124,5 @@
 				<visible>!Skin.HasSetting(UseBingieOSD)</visible>
 			</control>
 		</control>
-
-		<!-- Keep the full OSD available after any pause action, including the
-		     keyboard or media-key pause action that does not open VideoOSD. -->
-		<control type="group">
-			<visible>Player.Paused + !Window.IsVisible(videoosd)</visible>
-			<include>OSDButtonsModern</include>
-			<include>HideOsdConditions</include>
-		</control>
 	</controls>
 </window>

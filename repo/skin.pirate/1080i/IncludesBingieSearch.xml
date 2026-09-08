@@ -434,8 +434,8 @@
             <param name="radioheight" value="40" />
             <param name="texture" value="bingie/keyboard/backspace.png" />
             <param name="ondown" value="1007" />
-            <param name="onclick" value="SetProperty(BackspaceSearchTerm,1,Home)" />
-            <param name="force_refresh" value="true"/>
+            <param name="onclick" value="RunScript(script.pirate.helper,action=searchbackspace)" />
+            <param name="onclick2Cond" value="false" />
         </include>
         <!-- Space -->
         <include content="SearchRadioKey">
@@ -446,7 +446,8 @@
             <param name="radioheight" value="40" />
             <param name="texture" value="bingie/keyboard/space.png" />
             <param name="ondown" value="1007" />
-            <param name="onclick" value="SetProperty(SpaceSearchTerm,1,Home)" />
+            <param name="onclick" value="RunScript(script.pirate.helper,action=searchspace)" />
+            <param name="onclick2Cond" value="false" />
         </include>
     </include>
 
