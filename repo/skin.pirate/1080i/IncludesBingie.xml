@@ -1728,11 +1728,11 @@
                 <itemgap>0</itemgap>
 				<onfocus>ClearProperty(StartupMask,Home)</onfocus>
 				<onunfocus>AlarmClock(CancelTrailerAlarm,CancelAlarm(preview_delay,silent),00:01,silent)</onunfocus>
-                <onright condition="Integer.IsGreater(Container(4445).NumItems,0)">4444</onright>
-                <onright condition="Integer.IsEqual(Container(4445).NumItems,0)">ClearProperty(ShowViewSubMenu,Home)</onright>
-                <onright condition="Integer.IsEqual(Container(4445).NumItems,0) + !Window.IsActive(1109)">77777</onright>
-                <onright condition="Integer.IsEqual(Container(4445).NumItems,0) + Window.IsActive(1109) + String.IsEmpty(Window.Property(KeepSuggestions))">9000</onright>
-				<onright condition="Integer.IsEqual(Container(4445).NumItems,0) + Window.IsActive(1109) + !String.IsEmpty(Window.Property(KeepSuggestions))">1007</onright>
+                <onright condition="Integer.IsGreater(Container(4445).NumItems,0) + Control.IsVisible(4444)">4444</onright>
+                <onright condition="!Control.IsVisible(4444)">ClearProperty(ShowViewSubMenu,Home)</onright>
+                <onright condition="!Control.IsVisible(4444) + !Window.IsActive(1109)">77777</onright>
+                <onright condition="!Control.IsVisible(4444) + Window.IsActive(1109) + String.IsEmpty(Window.Property(KeepSuggestions))">9000</onright>
+				<onright condition="!Control.IsVisible(4444) + Window.IsActive(1109) + !String.IsEmpty(Window.Property(KeepSuggestions))">1007</onright>
                 <onback>ClearProperty(ShowViewSubMenu,Home)</onback>
                 <onback condition="!Window.IsActive(1109)">77777</onback>
 				<onback condition="Window.IsActive(1109) + String.IsEmpty(Window.Property(KeepSuggestions))">9000</onback>
@@ -1896,7 +1896,7 @@
             <control type="list" id="4444">
                 <posx>110</posx>
 				<posy>72</posy>
-                <visible allowhiddenfocus="true">[String.IsEqual(Window(Home).Property(submenu),show) | Control.HasFocus(4444)] + Integer.IsGreater(Container(4445).NumItems,0)</visible>
+                <visible>[String.IsEqual(Window(Home).Property(submenu),show) | Control.HasFocus(4444)] + Integer.IsGreater(Container(4445).NumItems,0)</visible>
                 <width>450</width>
                 <height>250</height>
                 <itemgap>3</itemgap>

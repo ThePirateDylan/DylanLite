@@ -56,9 +56,8 @@ class Extras(BaseDialog):
 		if self.selected: self.execute_code(self.selected)
 
 	def onClick(self, controlID):
-		self.control_id = None
 		if controlID in self.button_ids: return exec('self.%s()' % self.button_action_dict[controlID])
-		else: self.control_id = controlID
+		return self.select_current_item(controlID)
 
 	def onAction(self, action):
 		if action in self.closing_actions: return window_manager(self)
@@ -89,39 +88,40 @@ class Extras(BaseDialog):
 				except: return self.notification('Error with Trakt List')
 				kodi_utils.hide_busy_dialog()
 			else: return
-		if not self.control_id: return
 		if action in self.selection_actions:
-			try: chosen_var = self.get_listitem(self.control_id).getProperty(self.item_action_dict[self.control_id])
+			return self.select_current_item(self.getFocusId())
+
+	def select_current_item(self, control_id):
+		selectable_controls = self.items_list_ids + (self.cast_id, self.videos_id) + self.text_list_ids + self.open_folder_list_ids
+		if control_id not in selectable_controls: return
+		self.control_id = control_id
+		try: chosen_var = self.get_listitem(control_id).getProperty(self.item_action_dict[control_id])
+		except: return
+		if not chosen_var: return
+		position = self.get_position(control_id)
+		if control_id in self.items_list_ids:
+			self.set_current_params()
+			self.new_params = {'mode': 'extras_menu_choice', 'tmdb_id': chosen_var, 'media_type': self.media_type, 'is_external': self.is_external, 'stacked': 'true'}
+			return window_manager(self)
+		elif control_id == self.cast_id:
+			self.set_current_params()
+			self.new_params = {'mode': 'person_data_dialog', 'key_id': chosen_var, 'reference_tmdb_id': self.tmdb_id, 'is_external': self.is_external, 'stacked': 'true'}
+			return window_manager(self)
+		elif control_id == self.videos_id:
+			self.set_current_params(set_starting_position=False)
+			self.window_player_url = 'plugin://plugin.video.youtube/play/?video_id=%s' % chosen_var
+			return window_player(self)
+		elif control_id in self.text_list_ids:
+			if control_id == self.parentsguide_id: return self.show_text_media(text=chosen_var)
+			return self.select_item(control_id, self.show_text_media(text=self.get_attribute(self, chosen_var), current_index=position))
+		elif control_id in self.open_folder_list_ids:
+			try:
+				self.close_all()
+				chosen = self.get_attribute(self, chosen_var)[position]
+				list_name, user, slug = chosen['name'], chosen['user']['ids']['slug'], chosen['ids']['slug']
+				self.selected = self.folder_runner({'mode': 'trakt.list.build_trakt_list', 'user': user, 'slug': slug, 'list_type': 'user_lists', 'list_name': list_name})
+				self.close()
 			except: return
-			if not chosen_var: return
-			position = self.get_position(self.control_id)
-			if self.control_id in self.items_list_ids:
-				self.set_current_params()
-				self.new_params = {'mode': 'extras_menu_choice', 'tmdb_id': chosen_var, 'media_type': self.media_type, 'is_external': self.is_external, 'stacked': 'true'}
-				return window_manager(self)
-			elif self.control_id == self.cast_id:
-				self.set_current_params()
-				self.new_params = {'mode': 'person_data_dialog', 'key_id': chosen_var, 'reference_tmdb_id': self.tmdb_id, 'is_external': self.is_external, 'stacked': 'true'}
-				return window_manager(self)
-			elif self.control_id == self.videos_id:
-				self.set_current_params(set_starting_position=False)
-				self.window_player_url = 'plugin://plugin.video.youtube/play/?video_id=%s' % chosen_var
-				return window_player(self)
-			elif self.control_id in self.text_list_ids:
-				if self.control_id == self.parentsguide_id: return self.show_text_media(text=chosen_var)
-				else: return self.select_item(self.control_id, self.show_text_media(text=self.get_attribute(self, chosen_var), current_index=position))
-			elif self.control_id in self.open_folder_list_ids:
-				try: chosen_var = self.get_listitem(self.control_id).getProperty(self.item_action_dict[self.control_id])
-				except: return
-				if not chosen_var: return
-				try:
-					self.close_all()
-					chosen = self.get_attribute(self, chosen_var)[position]
-					list_name, user, slug = chosen['name'], chosen['user']['ids']['slug'], chosen['ids']['slug']
-					self.selected = self.folder_runner({'mode': 'trakt.list.build_trakt_list', 'user': user, 'slug': slug, 'list_type': 'user_lists', 'list_name': list_name})
-					self.close()
-				except: return
-			else: return
 
 	def make_ratings(self, win_prop=4000):
 		data, current_settings = self.get_omdb_ratings()

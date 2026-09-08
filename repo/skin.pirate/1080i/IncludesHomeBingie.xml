@@ -758,7 +758,6 @@
                 <itemgap>2</itemgap>
                 <pagecontrol>317</pagecontrol>
                 <width>2070</width>
-				<onback condition="$EXP[IsBingieViewsActive]">900</onback>
 				<onleft condition="$EXP[IsBingieViewsActive]">SetFocus(900,$INFO[Window(Home).Property(menupos)])</onleft>
 				<onback condition="$EXP[IsBingieViewsActive]">SetFocus(900,$INFO[Window(Home).Property(menupos)])</onback>
                 <onback condition="$EXP[IsPlayingRecognizedContent]">SetFocus(509)</onback>

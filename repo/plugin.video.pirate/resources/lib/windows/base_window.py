@@ -13,13 +13,19 @@ def open_window(import_info, skin_xml, **kwargs):
 	'''
 	import_info: ('module', 'function')
 	'''
+	xml_window = None
 	try:
 		xml_window = create_window(import_info, skin_xml, **kwargs)
-		choice = xml_window.run()
-		del xml_window
-		return choice
+		if not xml_window: return None
+		return xml_window.run()
 	except Exception as e:
 		kodi_utils.logger('error in open_window', str(e))
+		try: xml_window.close()
+		except: pass
+		return None
+	finally:
+		try: del xml_window
+		except: pass
 
 def create_window(import_info, skin_xml, **kwargs):
 	'''
@@ -32,7 +38,8 @@ def create_window(import_info, skin_xml, **kwargs):
 		return xml_window
 	except Exception as e:
 		kodi_utils.logger('error in create_window', str(e))
-		return kodi_utils.notification('Error')
+		kodi_utils.notification('Unable to open menu')
+		return None
 
 def window_manager(obj):
 	def close():
